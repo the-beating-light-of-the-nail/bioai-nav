@@ -59,8 +59,8 @@ const catTexts = computed(() => catText(meta!, loc.value))
 /* ---------- 子类目聚合页模式 ---------- */
 const subList = isSubPage ? byCategory(catSlug).filter((r) => r.subcategory === slugParam) : []
 const subLabelForPage = isSubPage ? subcategoryLabel(meta!, slugParam, loc.value) : ''
-const subSeo = isSubPage ? subcategorySeo(catSlug, subLabelForPage, subCount, loc.value) : null
-const subSeoEn = isSubPage ? subcategorySeo(catSlug, subcategoryLabel(meta!, slugParam, 'en'), subCount, 'en') : null
+const subSeo = isSubPage ? subcategorySeo(catSlug, slugParam, subCount, loc.value) : null
+const subSeoEn = isSubPage ? subcategorySeo(catSlug, slugParam, subCount, 'en') : null
 
 const pageTitle = resource
   ? loc.value === 'zh'

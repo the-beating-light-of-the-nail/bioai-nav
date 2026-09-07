@@ -341,6 +341,72 @@ export function tagLabel(slug: string, locale: Locale = 'en'): string {
     .join(' ')
 }
 
+// 高价值标签页的专属 SEO 文案（关键词布局层）：命中则覆盖通用标签页模板，
+// 未命中回落「{label} — BioAI Resources, Tools & Agents」。
+// phrase 用于拼进 meta description（{n} curated {phrase} …）。
+export const TAG_SEO: Record<string, { title: string; titleZh: string; phrase: string; phraseZh: string }> = {
+  'drug-discovery': {
+    title: 'AI Drug Discovery Tools & Agents — Curated List | BioAI Nav',
+    titleZh: 'AI 药物发现工具与智能体导航 | BioAI Nav',
+    phrase: 'AI drug discovery tools, agents, platforms and datasets',
+    phraseZh: 'AI 药物发现工具、智能体、平台与数据集',
+  },
+  bioinformatics: {
+    title: 'AI Tools for Bioinformatics — Curated List | BioAI Nav',
+    titleZh: '生物信息学 AI 工具导航 | BioAI Nav',
+    phrase: 'AI tools for bioinformatics — plus agents, skill libraries and datasets',
+    phraseZh: '生物信息学 AI 工具、智能体、技能库与数据集',
+  },
+  genomics: {
+    title: 'AI Tools for Genomics — Curated List | BioAI Nav',
+    titleZh: '基因组学 AI 工具导航 | BioAI Nav',
+    phrase: 'AI tools for genomics — plus models, agents and datasets',
+    phraseZh: '基因组学 AI 工具、模型、智能体与数据集',
+  },
+  'protein-design': {
+    title: 'AI Tools for Protein Design — Curated List | BioAI Nav',
+    titleZh: '蛋白质设计 AI 工具导航 | BioAI Nav',
+    phrase: 'AI tools for protein design — plus models and benchmarks',
+    phraseZh: '蛋白质设计 AI 工具、模型与基准',
+  },
+  'single-cell': {
+    title: 'AI for Single-Cell Analysis — Tools & Models | BioAI Nav',
+    titleZh: '单细胞分析 AI 工具与模型 | BioAI Nav',
+    phrase: 'AI single-cell analysis tools, models and datasets',
+    phraseZh: '单细胞分析 AI 工具、模型与数据集',
+  },
+  'structure-prediction': {
+    title: 'AI Protein Structure Prediction Tools | BioAI Nav',
+    titleZh: '蛋白质结构预测 AI 工具 | BioAI Nav',
+    phrase: 'AI protein structure prediction tools — AlphaFold, ESMFold and beyond',
+    phraseZh: '蛋白质结构预测 AI 工具——AlphaFold、ESMFold 等',
+  },
+  mcp: {
+    title: 'Biology MCP Servers — Bio Agent Skills | BioAI Nav',
+    titleZh: '生物学 MCP 服务器导航 | BioAI Nav',
+    phrase: 'MCP servers for biology, bioinformatics and drug discovery agents',
+    phraseZh: '面向生物学、生物信息学与药物发现智能体的 MCP 服务器',
+  },
+  'scrna-seq': {
+    title: 'AI for scRNA-seq — Single-Cell RNA Analysis Tools | BioAI Nav',
+    titleZh: 'scRNA-seq 单细胞 RNA 分析 AI 工具 | BioAI Nav',
+    phrase: 'scRNA-seq analysis tools, models and resources',
+    phraseZh: 'scRNA-seq 分析工具、模型与资源',
+  },
+  docking: {
+    title: 'AI Molecular Docking Tools — Curated List | BioAI Nav',
+    titleZh: 'AI 分子对接工具导航 | BioAI Nav',
+    phrase: 'molecular docking tools and AI drug discovery resources',
+    phraseZh: '分子对接工具与 AI 药物发现资源',
+  },
+  alphafold: {
+    title: 'AlphaFold — AI Protein Structure Prediction | BioAI Nav',
+    titleZh: 'AlphaFold——AI 蛋白质结构预测 | BioAI Nav',
+    phrase: 'AlphaFold ecosystem and AI protein structure prediction resources',
+    phraseZh: 'AlphaFold 生态与 AI 蛋白质结构预测资源',
+  },
+}
+
 export function formatStars(stars?: number | null): string | null {
   if (!stars) return null
   if (stars >= 1000) return `${(stars / 1000).toFixed(1).replace(/\.0$/, '')}k`

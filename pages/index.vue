@@ -9,7 +9,9 @@ const loc = computed(() => locale.value as 'en' | 'zh')
 
 const isZh = loc.value === 'zh'
 usePageSeo({
-  title: isZh ? 'BioAI Nav——AI 生物学与生物科技领域的导航中心' : 'BioAI Nav — The Navigation Hub for AI in Biology & Biotech',
+  title: isZh
+    ? '生物学与生物科技 AI 工具与智能体导航 | BioAI Nav'
+    : 'AI Tools & Agents for Biology, Biotech & Drug Discovery | BioAI Nav',
   description: isZh ? SITE.zh.description : SITE.description,
 })
 useJsonLd(websiteJsonLd())

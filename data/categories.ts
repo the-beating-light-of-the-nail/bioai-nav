@@ -40,11 +40,11 @@ export const SITE = {
   url: 'https://bioainav.aiworkagent.org',
   tagline: 'The Navigation Hub for AI in Biology & Biotech',
   description:
-    'BioAI Nav is the discovery layer of the BioAI ecosystem. Find AI tools, agents, skills, awesome lists, models, platforms, GitHub projects, datasets and learning resources for biology and biotech — all in one place.',
+    'BioAI Nav is the BioAI tools directory: a curated map of AI tools for biology and biotech, AI agents for bioinformatics and drug discovery, agent skills, awesome lists, foundation models, datasets and learning resources — all in one place.',
   zh: {
     tagline: 'AI 生物学与生物科技领域的导航中心',
     description:
-      'BioAI Nav 是 BioAI 生态的发现层：一站式找到 AI 工具、智能体、技能、Awesome 清单、模型、平台、GitHub 项目、数据集与学习资源。',
+      'BioAI Nav 是 BioAI 工具目录与发现层：一站式找到生物学与生物科技 AI 工具、生物信息学与药物发现 AI 智能体、智能体技能、Awesome 清单、基础模型、数据集与学习资源。',
   },
   githubRepo: 'the-beating-light-of-the-nail/bioai-nav',
 }
@@ -83,9 +83,9 @@ export const CATEGORIES: CategoryMeta[] = [
     blurb: 'Skill libraries and MCP servers that give coding agents real bio capabilities.',
     headline: 'Agent Skills & MCP Servers for Biology',
     tagline: 'OpenClaw · Claude Code · Codex · Gemini CLI · MCP',
-    seoTitle: 'Bio Agent Skills — OpenClaw, Claude Code, MCP for Biology | BioAI Nav',
+    seoTitle: 'AI Agent Skills for Biology & Bioinformatics | BioAI Nav',
     seoDescription:
-      'Agent skill libraries, skill packs and MCP servers for biology, bioinformatics and medicine. Power OpenClaw, Claude Code, Codex and Gemini CLI agents with real bio capabilities.',
+      'Bioinformatics AI agent skills, skill libraries and MCP servers for OpenClaw, Claude Code, Codex and Gemini CLI — give coding agents real biology and drug discovery capabilities.',
     intro: [
       'Coding agents are becoming the fastest way to automate bioinformatics work — if they have the right skills. Skill libraries and MCP servers teach OpenClaw, Claude Code, Codex, Gemini CLI and Cursor agents how to run pipelines, query sequence databases, parse structures and reason about experiments.',
       'This section catalogs bio agent skills: framework-specific skill packs, MCP servers for biology data sources, and general scientific skill collections. Every entry notes which agent framework it targets.',
@@ -103,9 +103,9 @@ export const CATEGORIES: CategoryMeta[] = [
       blurb: '给编码智能体装上真正生物能力的技能库与 MCP 服务器。',
       headline: '生物学智能体技能与 MCP 服务器',
       tagline: 'OpenClaw · Claude Code · Codex · Gemini CLI · MCP',
-      seoTitle: '生物智能体技能——OpenClaw / Claude Code / 生物学 MCP 服务器 | BioAI Nav',
+      seoTitle: '生物学与生物信息学 AI 智能体技能——技能库与 MCP | BioAI Nav',
       seoDescription:
-        '面向生物学、生物信息学与医学的智能体技能库、技能包与 MCP 服务器。为 OpenClaw、Claude Code、Codex、Gemini CLI 装上真正的生物领域能力。',
+        '生物信息学 AI 智能体技能、技能库与 MCP 服务器：为 OpenClaw、Claude Code、Codex、Gemini CLI 装上真正的生物学与药物发现能力。',
       intro: [
         '编码智能体正在成为生物信息学工作流最快的自动化方式——前提是它有对的技能。技能库与 MCP 服务器能教会 OpenClaw、Claude Code、Codex、Gemini CLI 和 Cursor 这些智能体跑管线、查序列数据库、解析结构、推理实验。',
         '本板块收录生物智能体技能：按框架划分的技能包、面向生物学数据源的 MCP 服务器，以及通用科研技能合集。每个条目都标注了适配的智能体框架。',
@@ -175,7 +175,7 @@ export const CATEGORIES: CategoryMeta[] = [
     tagline: 'Autonomous science: from literature review to wet-lab design',
     seoTitle: 'AI Agents for Biology & Drug Discovery | BioAI Nav',
     seoDescription:
-      'Open-source AI agents for bioinformatics, genomics, drug discovery, protein design and literature review. Autonomous scientific agents doing real biology work.',
+      'Open-source AI agents for bioinformatics, genomics, drug discovery, protein design and literature review — autonomous biological AI agents doing real science.',
     intro: [
       'The newest layer of the BioAI stack is agentic: LLM-driven agents that plan experiments, orchestrate tools, read the literature and even co-design biomolecules. These projects move fast and the signal-to-noise ratio is low — so we track the ones with real code, real results and active maintenance.',
       'Browse by domain: drug discovery, bioinformatics, genomics, protein design, literature, clinical research and lab automation.',
@@ -187,7 +187,7 @@ export const CATEGORIES: CategoryMeta[] = [
       { slug: 'protein-design', label: 'Protein Design' },
       { slug: 'literature', label: 'Literature' },
       { slug: 'clinical-research', label: 'Clinical Research' },
-      { slug: 'scientific', label: 'Scientific (General)' },
+      { slug: 'scientific', label: 'Scientific Research' },
       { slug: 'lab-automation', label: 'Lab Automation' },
     ],
     zh: {
@@ -197,7 +197,7 @@ export const CATEGORIES: CategoryMeta[] = [
       tagline: '自主科研：从文献调研到湿实验设计',
       seoTitle: '生物学与药物发现 AI 智能体 | BioAI Nav',
       seoDescription:
-        '面向生物信息学、基因组学、药物发现、蛋白质设计与文献调研的开源 AI 智能体。真正在干生物学活的自主科研智能体。',
+        '面向生物信息学、基因组学、药物发现、蛋白质设计与文献调研的开源 AI 智能体——真正在做科研的生物智能体。',
       intro: [
         'BioAI 技术栈的最新一层是智能体（agentic）：由大模型驱动的智能体能规划实验、编排工具、读文献，甚至协同设计生物分子。这个方向迭代极快、信噪比极低——所以我们只跟踪有真实代码、真实结果、持续维护的项目。',
         '按领域浏览：药物发现、生物信息学、基因组学、蛋白质设计、文献、临床研究与实验室自动化。',
@@ -209,7 +209,7 @@ export const CATEGORIES: CategoryMeta[] = [
         'protein-design': '蛋白质设计',
         literature: '文献',
         'clinical-research': '临床研究',
-        scientific: '科研（通用）',
+        scientific: '科研',
         'lab-automation': '实验室自动化',
       },
     },
@@ -222,7 +222,7 @@ export const CATEGORIES: CategoryMeta[] = [
     tagline: 'The software layer of the BioAI stack',
     seoTitle: 'AI Tools for Biology & Biotech — Verified Directory | BioAI Nav',
     seoDescription:
-      'A curated directory of AI tools for biology: protein design, drug discovery, genomics, bioinformatics, single-cell, cheminformatics and structural biology.',
+      'A curated directory of the best AI tools for biology and biotech: AI drug discovery tools, protein design, genomics, bioinformatics, single-cell, cheminformatics and structural biology.',
     intro: [
       'This is the working toolkit: molecular docking, protein structure prediction, single-cell analysis, variant calling, cheminformatics libraries. Every entry is a tool you can actually run today — web server, Python library or command line — with its official site and, where available, open-source repository.',
       'Filter by domain, license and agent-readiness. If a tool exposes an API or an MCP server, we flag it: agent-ready tools are the ones your AI agents can drive directly.',
@@ -246,9 +246,9 @@ export const CATEGORIES: CategoryMeta[] = [
       blurb: '蛋白质设计、基因组学、化学信息学等领域的具体软件。',
       headline: '生物学与生物科技 AI 工具',
       tagline: 'BioAI 技术栈的软件层',
-      seoTitle: 'AI 生物学工具导航——人工核实的精选目录 | BioAI Nav',
+      seoTitle: 'AI 生物学工具导航——最佳生物科技工具精选 | BioAI Nav',
       seoDescription:
-        '人工核实的 AI 生物学工具目录：蛋白质设计、药物发现、基因组学、生物信息学、单细胞、化学信息学与结构生物学。',
+        '人工核实的最佳 AI 生物学工具目录：AI 药物发现工具、蛋白质设计、基因组学、生物信息学、单细胞、化学信息学与结构生物学。',
       intro: [
         '这是真正干活的工具箱：分子对接、蛋白质结构预测、单细胞分析、变异检测、化学信息学库。每个条目都是今天就能上手的软件——网页服务、Python 库或命令行——附官方站点与开源仓库（如有）。',
         '按领域、许可证和智能体友好度筛选。如果某个工具开放 API 或提供 MCP 服务器，我们会标注出来——智能体友好的工具，你的 AI 智能体可以直接调用。',
@@ -285,9 +285,9 @@ export const CATEGORIES: CategoryMeta[] = [
     subcategories: [
       { slug: 'structure-prediction', label: 'Structure Prediction' },
       { slug: 'protein-language', label: 'Protein Language Models' },
-      { slug: 'molecular', label: 'Molecular Models' },
-      { slug: 'genomics', label: 'Genomics Models' },
-      { slug: 'single-cell', label: 'Single-Cell Models' },
+      { slug: 'molecular', label: 'Molecular' },
+      { slug: 'genomics', label: 'Genomics' },
+      { slug: 'single-cell', label: 'Single-Cell' },
       { slug: 'biomedical-lm', label: 'Biomedical Language Models' },
     ],
     zh: {
@@ -305,9 +305,9 @@ export const CATEGORIES: CategoryMeta[] = [
       subcategoryLabels: {
         'structure-prediction': '结构预测',
         'protein-language': '蛋白质语言模型',
-        molecular: '分子模型',
-        genomics: '基因组模型',
-        'single-cell': '单细胞模型',
+        molecular: '分子',
+        genomics: '基因组',
+        'single-cell': '单细胞',
         'biomedical-lm': '生物医学语言模型',
       },
     },
@@ -318,9 +318,9 @@ export const CATEGORIES: CategoryMeta[] = [
     blurb: 'Commercial BioAI platforms: BioNeMo, Insilico, Recursion, Benchling.',
     headline: 'BioAI Platforms & Infrastructure',
     tagline: 'Industrial-grade AI for drug discovery and the lab',
-    seoTitle: 'BioAI Platforms — Drug Discovery & Lab Infrastructure | BioAI Nav',
+    seoTitle: 'AI Drug Discovery Platforms & BioAI Infrastructure | BioAI Nav',
     seoDescription:
-      'Commercial BioAI platforms and infrastructure: NVIDIA BioNeMo, Insilico Medicine, Recursion, Isomorphic Labs, Benchling and other AI-driven biotech platforms.',
+      'Commercial AI drug discovery platforms and BioAI infrastructure: NVIDIA BioNeMo, Insilico Medicine, Recursion, Isomorphic Labs, Benchling and other AI-driven biotech platforms.',
     intro: [
       'Platforms are where BioAI meets production: cloud services that train and serve foundation models, end-to-end drug discovery engines, and the informatics backbone of modern labs. They range from open cloud services you can call today to partnership-driven pharma AI engines.',
       'We profile each platform by what it actually ships — services, models, integrations — and note what is publicly accessible versus enterprise-only.',
@@ -335,9 +335,9 @@ export const CATEGORIES: CategoryMeta[] = [
       blurb: '商业 BioAI 平台：BioNeMo、英矽智能、Recursion、Benchling。',
       headline: 'BioAI 平台与基础设施',
       tagline: '工业级的药物发现与实验室 AI',
-      seoTitle: 'BioAI 平台导航——药物发现与实验室基础设施 | BioAI Nav',
+      seoTitle: 'AI 药物发现平台与 BioAI 基础设施 | BioAI Nav',
       seoDescription:
-        '商业 BioAI 平台与基础设施：NVIDIA BioNeMo、英矽智能、Recursion、Isomorphic Labs、Benchling 等 AI 驱动的生物科技平台。',
+        '商业 AI 药物发现平台与 BioAI 基础设施：NVIDIA BioNeMo、英矽智能、Recursion、Isomorphic Labs、Benchling 等 AI 驱动的生物科技平台。',
       intro: [
         '平台层是 BioAI 走向生产的地方：训练和服务基础模型的云服务、端到端药物发现引擎、现代实验室的信息化骨干。它们有的开放云服务今天就能调用，有的走企业合作模式。',
         '我们按「实际交付什么」给每个平台建档案——服务、模型、集成方式——并注明哪些公开可用、哪些仅企业可用。',
@@ -498,11 +498,14 @@ export function subcategoryLabel(meta: CategoryMeta, subSlug: string, locale: Lo
   return meta.subcategories?.find((s) => s.slug === subSlug)?.label || subSlug
 }
 
-// 子类目聚合页 SEO 标题/描述模板（程序化 SEO 的文案层，中英两套）
-const SUB_SEO_EN: Record<string, (label: string, count: number) => { title: string; description: string; headline: string }> = {
+// 子类目聚合页 SEO 标题/描述模板（程序化 SEO 的文案层，中英两套）。
+// 模板签名 (label, count, subSlug)：label 是本地化展示名，subSlug 用于按具体子类目定制（如 skills/mcp）。
+type SubSeoFn = (label: string, count: number, subSlug: string) => { title: string; description: string; headline: string }
+
+const SUB_SEO_EN: Record<string, SubSeoFn> = {
   tools: (l, n) => ({
-    title: `AI Tools for ${l} — ${n}+ Curated Tools | BioAI Nav`,
-    description: `A hand-curated list of ${n}+ AI tools for ${l.toLowerCase()} in biology and biotech, with open-source status, GitHub repos and agent-readiness.`,
+    title: `Best AI Tools for ${l} — Curated List | BioAI Nav`,
+    description: `${n} hand-curated AI tools for ${l.toLowerCase()} in biology and biotech — open-source status, GitHub repositories and agent-readiness, verified by BioAI Nav.`,
     headline: `AI Tools for ${l}`,
   }),
   agents: (l, n) => ({
@@ -511,41 +514,54 @@ const SUB_SEO_EN: Record<string, (label: string, count: number) => { title: stri
     headline: `AI Agents for ${l}`,
   }),
   models: (l, n) => ({
-    title: `${l} — BioAI Foundation Models | BioAI Nav`,
-    description: `${n}+ ${l.toLowerCase()} for biology and biotech: weights, papers, APIs and repositories, curated and verified by BioAI Nav.`,
-    headline: l,
+    title: `${l} AI Models — BioAI Foundation Models | BioAI Nav`,
+    description: `${n} ${l.toLowerCase()} AI models for biology and biotech: weights, papers, APIs and repositories, curated and verified by BioAI Nav.`,
+    headline: `${l} AI Models`,
   }),
   platforms: (l, n) => ({
-    title: `${l} — BioAI Platform Directory | BioAI Nav`,
-    description: `${n}+ ${l.toLowerCase()} in the BioAI ecosystem: what each platform ships, what is public and what is enterprise-only.`,
-    headline: l,
+    title: `AI ${l} Platforms — BioAI Directory | BioAI Nav`,
+    description: `${n} AI ${l.toLowerCase()} platforms and infrastructure in the BioAI ecosystem: what each ships, what is public and what is enterprise-only.`,
+    headline: `AI ${l} Platforms`,
   }),
   datasets: (l, n) => ({
     title: `${l} Datasets for BioAI — Curated Data Resources | BioAI Nav`,
     description: `Key ${l.toLowerCase()} datasets for AI in biology: contents, licensing and access points, curated by BioAI Nav.`,
     headline: `${l} Datasets & Data Resources`,
   }),
-  skills: (l, n) => ({
-    title: `${l} Bio Agent Skills — Libraries & MCP Servers | BioAI Nav`,
-    description: `Bio agent skills and MCP servers for ${l}: give your coding agents real biology, bioinformatics and medicine capabilities.`,
-    headline: `Bio Agent Skills for ${l}`,
-  }),
-  awesome: (l, n) => ({
+  skills: (l, n, sub) =>
+    sub === 'mcp'
+      ? {
+          title: 'Biology MCP Servers — AI Agent Skills & Tools | BioAI Nav',
+          description: `${n} MCP servers that give AI agents hands-on access to sequences, structures and bioinformatics tools — compatible with Claude Code, OpenClaw, Codex and Gemini CLI.`,
+          headline: 'Biology MCP Servers',
+        }
+      : sub === 'general'
+        ? {
+            title: 'Bio Agent Skills — Libraries & Skill Packs | BioAI Nav',
+            description: `${n} bio agent skill libraries and packs that give coding agents real biology and bioinformatics capabilities — across OpenClaw, Claude Code, Codex and more.`,
+            headline: 'Bio Agent Skills',
+          }
+        : {
+            title: `${l} Bio Skills — AI Agent Skills for Biology | BioAI Nav`,
+            description: `Bio agent skills and MCP servers for ${l}: give your coding agents real biology, bioinformatics and medicine capabilities.`,
+            headline: `Bio Agent Skills for ${l}`,
+          },
+  awesome: (l) => ({
     title: `Awesome ${l} — Curated GitHub Lists | BioAI Nav`,
     description: `The awesome lists that map ${l.toLowerCase()} on GitHub — curated, community-maintained and worth starring.`,
     headline: `Awesome ${l}`,
   }),
-  learning: (l, n) => ({
+  learning: (l) => ({
     title: `AI for Biology ${l} — Learn BioAI | BioAI Nav`,
     description: `Curated ${l.toLowerCase()} for learning AI in biology and biotech — from first principles to frontier methods.`,
     headline: `AI for Biology — ${l}`,
   }),
 }
 
-const SUB_SEO_ZH: Record<string, (label: string, count: number) => { title: string; description: string; headline: string }> = {
+const SUB_SEO_ZH: Record<string, SubSeoFn> = {
   tools: (l, n) => ({
-    title: `${l} AI 工具——精选 ${n}+ 款 | BioAI Nav`,
-    description: `人工核实的 ${n}+ 款${l} AI 工具：开源状态、GitHub 仓库与智能体友好度一目了然。`,
+    title: `最佳${l} AI 工具——精选 ${n} 款 | BioAI Nav`,
+    description: `${n} 款人工核实的${l} AI 工具：开源状态、GitHub 仓库与智能体友好度一目了然。`,
     headline: `${l} AI 工具`,
   }),
   agents: (l, n) => ({
@@ -554,40 +570,55 @@ const SUB_SEO_ZH: Record<string, (label: string, count: number) => { title: stri
     headline: `${l} AI 智能体`,
   }),
   models: (l, n) => ({
-    title: `${l}——BioAI 基础模型 | BioAI Nav`,
-    description: `${n}+ 个${l}：权重、论文、API 与仓库，BioAI Nav 人工核实。`,
-    headline: l,
+    title: `${l} AI 模型——BioAI 基础模型 | BioAI Nav`,
+    description: `${n} 个${l} AI 模型：权重、论文、API 与仓库，BioAI Nav 人工核实。`,
+    headline: `${l} AI 模型`,
   }),
   platforms: (l, n) => ({
-    title: `${l}——BioAI 平台导航 | BioAI Nav`,
-    description: `BioAI 生态中的 ${n}+ 个${l}：每个平台实际交付什么、哪些公开可用。`,
-    headline: l,
+    title: `AI${l}平台——BioAI 平台导航 | BioAI Nav`,
+    description: `BioAI 生态中的 ${n} 个 AI${l}平台：每个平台实际交付什么、哪些公开可用。`,
+    headline: `AI${l}平台`,
   }),
-  datasets: (l, n) => ({
+  datasets: (l) => ({
     title: `${l}数据集——AI 生物学数据资源 | BioAI Nav`,
     description: `AI 生物学领域的${l}数据集：内容、授权与获取入口，BioAI Nav 人工核实。`,
     headline: `${l}数据集`,
   }),
-  skills: (l, n) => ({
-    title: `${l}生物智能体技能——技能库与 MCP | BioAI Nav`,
-    description: `面向${l}的生物智能体技能与 MCP 服务器：给编码智能体装上生物学能力。`,
-    headline: `${l}生物智能体技能`,
-  }),
-  awesome: (l, n) => ({
+  skills: (l, n, sub) =>
+    sub === 'mcp'
+      ? {
+          title: '生物学 MCP 服务器——智能体技能与工具 | BioAI Nav',
+          description: `${n} 个让 AI 智能体直接操作序列、结构与生物信息学工具的 MCP 服务器——兼容 Claude Code、OpenClaw、Codex 与 Gemini CLI。`,
+          headline: '生物学 MCP 服务器',
+        }
+      : sub === 'general'
+        ? {
+            title: '生物智能体技能——技能库与技能包 | BioAI Nav',
+            description: `${n} 个给编码智能体装上生物学与生物信息学能力的技能库与技能包——覆盖 OpenClaw、Claude Code、Codex 等。`,
+            headline: '生物智能体技能',
+          }
+        : {
+            title: `${l}生物技能——生物学智能体技能 | BioAI Nav`,
+            description: `面向${l}的生物智能体技能与 MCP 服务器：给编码智能体装上生物学能力。`,
+            headline: `${l}生物智能体技能`,
+          },
+  awesome: (l) => ({
     title: `Awesome ${l}——GitHub 精选清单 | BioAI Nav`,
     description: `GitHub 上整理${l}版图的 awesome 清单——社区维护、值得星标。`,
     headline: `Awesome ${l}`,
   }),
-  learning: (l, n) => ({
+  learning: (l) => ({
     title: `AI 生物学${l}——学习资源 | BioAI Nav`,
     description: `学习 AI 生物学的精选${l}——从入门原理到前沿方法。`,
     headline: `AI 生物学${l}`,
   }),
 }
 
-export function subcategorySeo(categorySlug: string, label: string, count: number, locale: Locale = 'en') {
+export function subcategorySeo(categorySlug: string, subSlug: string, count: number, locale: Locale = 'en') {
+  const meta = getCategory(categorySlug)
+  const label = meta ? subcategoryLabel(meta, subSlug, locale) : subSlug
   const fn = (locale === 'zh' ? SUB_SEO_ZH : SUB_SEO_EN)[categorySlug]
-  if (fn) return fn(label, count)
+  if (fn) return fn(label, count, subSlug)
   return {
     title: `${label} | BioAI Nav`,
     description: `Curated ${label} resources in the BioAI ecosystem.`,

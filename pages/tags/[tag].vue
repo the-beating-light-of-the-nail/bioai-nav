@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { byTag, validTags } from '~/data/load'
-import { usePageSeo, useBreadcrumbJsonLd, useJsonLd, collectionJsonLd, tagLabel } from '~/composables/seo'
+import { usePageSeo, useBreadcrumbJsonLd, useJsonLd, collectionJsonLd, tagLabel, TAG_SEO } from '~/composables/seo'
 
 const route = useRoute()
 const { t, locale } = useI18n()
@@ -22,13 +22,23 @@ const otherTags = validTags()
   .slice(0, 12)
 
 const isZh = loc.value === 'zh'
+// 高价值标签（drug-discovery / bioinformatics / protein-design 等）用关键词专属标题，其余回落通用模板
+const tagSeo = TAG_SEO[tagParam]
 usePageSeo({
-  title: isZh
-    ? `${tagLabel(tagParam, 'zh')}——BioAI 资源与工具导航 | BioAI Nav`
-    : `${label} — BioAI Resources, Tools & Agents | BioAI Nav`,
-  description: isZh
-    ? `BioAI 生态中的 ${entry.count} 条${tagLabel(tagParam, 'zh')}精选资源：工具、智能体、数据集、技能与学习材料——链接已核实，附开源状态与智能体友好度。`
-    : `${entry.count} curated ${label.toLowerCase()} resources in the BioAI ecosystem: tools, agents, datasets, skills and learning materials — verified links, open-source status and agent-readiness.`,
+  title: tagSeo
+    ? isZh
+      ? tagSeo.titleZh
+      : tagSeo.title
+    : isZh
+      ? `${tagLabel(tagParam, 'zh')}——BioAI 资源与工具导航 | BioAI Nav`
+      : `${label} — BioAI Resources, Tools & Agents | BioAI Nav`,
+  description: tagSeo
+    ? isZh
+      ? `BioAI 生态中的 ${entry.count} 条${tagSeo.phraseZh}——链接已核实，附开源状态与智能体友好度。`
+      : `${entry.count} curated ${tagSeo.phrase} — verified links, open-source status and agent-readiness.`
+    : isZh
+      ? `BioAI 生态中的 ${entry.count} 条「${tagLabel(tagParam, 'zh')}」精选资源：工具、智能体、数据集、技能与学习材料——链接已核实，附开源状态与智能体友好度。`
+      : `${entry.count} curated resources tagged “${label}” in the BioAI ecosystem: tools, agents, datasets, skills and learning materials — verified links, open-source status and agent-readiness.`,
 })
 useBreadcrumbJsonLd([
   { name: t('common.home'), path: localePath('/') },
