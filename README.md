@@ -68,9 +68,13 @@ npm run deploy                   # generate + check + wrangler deploy（正式�
   详情页按 type 映射 SoftwareApplication/Dataset/Course/Book/ScholarlyArticle 等，首页 WebSite+SearchAction。
 - sitemap（167+ URL）与 robots 由 `server/routes/` 生成，数据源与页面一致；`/search` noindex。
 - 域名硬编码只存在于 `data/categories.ts` 的 `SITE.url`（runtimeConfig 同源覆盖）——换域名改一处。
+- **IndexNow**：key 文件 `public/6341fd17f5394cfcad3023afc710510c.txt`（**刻意入库、勿删**，文件名 = key 内容）；
+  `npm run seo:indexnow` 从构建产物 sitemap 抽全部页面 URL 批量提交（`--dry` 只统计）。
+  首次换 key / 新域名后立刻提交会 403 SiteVerificationNotCompleted，等 ~1 分钟让引擎抓完 key 文件再跑。
+  内容更新后重跑一次即可让 Bing/Yandex/Naver/Seznam 等快速感知。
 
 ## 路线图（未做）
 
 - GitHub stars/last-updated 定期刷新（P1，GitHub API 批量脚本）
 - og:image 生成（当前 OG 卡为纯文本）
-- IndexNow / Search Console 提交（en + zh 分别提交）
+- Search Console 提交（en + zh 两个 sitemap 分别提交）

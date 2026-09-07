@@ -9,6 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "check": "node scripts/check-prerender.mjs",
+    "seo:indexnow": "node scripts/indexnow.mjs",
     "deploy": "npm run generate && node scripts/check-prerender.mjs && wrangler deploy"
   },
   "dependencies": {
