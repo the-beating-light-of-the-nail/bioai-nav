@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "anthropic-life-sciences",
+  "description": "Anthropic 官方生命科学市场：可装进 Claude Code 的 MCP 服务器与技能合集。",
+  "longDescription": "anthropics/life-sciences 是 Anthropic 面向 Claude Code 的生命科学市场：一组暴露专业科研工具与数据库的 MCP 服务器和技能插件。它随 Claude for Life Sciences 一起发布，后者为 Claude 增加了科研连接器和面向药物发现的能力。生命科学智能体工具链成为一方生态，这是最明确的信号。"
+}

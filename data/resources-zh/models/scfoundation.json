@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "scfoundation",
+  "description": "BioMap 约 1 亿参数的单细胞模型：5000 万+ 人类转录组训练，全上下文建模约 19264 个基因。",
+  "longDescription": "scFoundation 基于 xTrimoGene 架构，在超过 5000 万人类单细胞转录组谱上训练。它能捕捉无标度基因网络结构，支撑细胞分型与药物响应预测等任务。权重镜像在 Hugging Face，常规与 scGPT、Geneformer 同台评测。"
+}

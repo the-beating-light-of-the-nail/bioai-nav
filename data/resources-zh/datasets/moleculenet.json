@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "moleculenet",
+  "description": "经典基准套件：17 个分子机器学习数据集，横跨量子力学、物理化学、生物物理与生理学。",
+  "longDescription": "MoleculeNet（arXiv 1703.00564；含 70 万+ 精选化合物）把 17 个数据集组织进量子力学、物理化学、生物物理与生理学四大类。全部数据集可直接以 DeepChem dc.data.Dataset 对象加载，是分子机器学习模型对比的长期标准。其中的 Tox21、ESOL、HIV 至今仍频繁出现在论文与教程里。"
+}

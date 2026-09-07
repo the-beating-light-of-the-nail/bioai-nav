@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "nucleotide-transformer",
+  "description": "DNA 语言模型家族，最大 25 亿参数，在 3200+ 个人类基因组与 850 个物种上预训练。",
+  "longDescription": "InstaDeep 的 Nucleotide Transformer 家族在全基因组上预训练 BERT 式模型，2024 年发表于 Nature Methods。权重在 Hugging Face 开放并与 transformers 库集成。它是 DNA 语言模型基准评测的标准基线之一。"
+}

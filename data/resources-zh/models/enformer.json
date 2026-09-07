@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "enformer",
+  "description": "DeepMind 的 Transformer：从约 200kb DNA 序列出发，用长程上下文预测基因表达与染色质轨道。",
+  "longDescription": "Enformer 是第一个在预测基因表达时整合数万碱基外增强子效应的序列模型。它至今仍是评估遗传变异调控效应的主力工具。后继者 AlphaGenome（2025）把思路扩展到百万碱基输入和更多调控模态。"
+}

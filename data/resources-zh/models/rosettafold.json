@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "rosettafold",
+  "description": "Baker 实验室的三轨神经网络：精确的蛋白质结构与复合物预测，Rosetta 生态的一员。",
+  "longDescription": "RoseTTAFold 是 2021 年解决单链结构预测问题的两个明星方法之一，单张 GPU 几分钟出结果。其 All-Atom 后继版本把预测扩展到含核酸、配体与共价修饰的组装体。它至今仍是 Rosetta 蛋白质设计软件生态的地基。"
+}

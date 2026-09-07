@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-medical-imaging",
+  "description": "医学影像研究软件精选：从 DICOM 工具到分割与分析框架。",
+  "longDescription": "fepegar/awesome-medical-imaging 收录医学影像研究软件——格式、查看器、配准、分割与分析工具链。它被 Bioconductor 社客博客的 awesome 清单汇总推荐，是这个细分里少数还在活跃维护的条目。配合 AMID 等影像数据集清单使用正好。"
+}

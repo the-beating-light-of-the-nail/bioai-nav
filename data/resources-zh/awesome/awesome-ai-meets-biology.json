@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-ai-meets-biology",
+  "description": "生物医学与生物信息学领域的 SOTA 与新锐 LLM、智能体合集。",
+  "longDescription": "Webioinfo01/Awesome-AI-Meets-Biology 汇集生物医学与生物信息学方向值得关注的 LLM 与智能体。同一组织还维护 Awesome-LLMs-meet-genomes、Awesome-Virtual-Cell 等衍生清单。它更像 BioAI 模型与智能体版图的快照，而非工具目录。"
+}

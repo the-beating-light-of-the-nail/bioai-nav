@@ -1,16 +1,21 @@
 <script setup lang="ts">
-import { CATEGORIES } from '~/data/categories'
+import { CATEGORIES, catText } from '~/data/categories'
 import { usePageSeo, useBreadcrumbJsonLd } from '~/composables/seo'
 
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
+const loc = computed(() => locale.value as 'en' | 'zh')
+const isZh = loc.value === 'zh'
+
 usePageSeo({
-  title: 'Submit a BioAI Resource | BioAI Nav',
-  description:
-    'Suggest a tool, agent, skill library, awesome list, model, platform, dataset or learning resource for the BioAI Nav catalog. Every submission is human-reviewed, usually within a week.',
-  path: '/submit',
+  title: isZh ? '提交 BioAI 资源 | BioAI Nav' : 'Submit a BioAI Resource | BioAI Nav',
+  description: isZh
+    ? '推荐收录进 BioAI Nav 目录的工具、智能体、技能库、Awesome 清单、模型、平台、数据集或学习资源。每份投稿都由人工审核，通常一周内处理。'
+    : 'Suggest a tool, agent, skill library, awesome list, model, platform, dataset or learning resource for the BioAI Nav catalog. Every submission is human-reviewed, usually within a week.',
 })
 useBreadcrumbJsonLd([
-  { name: 'Home', path: '/' },
-  { name: 'Submit', path: '/submit' },
+  { name: t('common.home'), path: localePath('/') },
+  { name: isZh ? '投稿' : 'Submit', path: localePath('/submit') },
 ])
 
 // 表单直连 Worker /api/submit（Upstash 暂存 + 每 IP 限频），无需账号；
@@ -34,7 +39,7 @@ const submittableCats = CATEGORIES.filter((c) => c.slug !== 'github')
 async function submit() {
   error.value = ''
   if (!form.name.trim() || !form.url.trim() || !form.category || form.description.trim().length < 10) {
-    error.value = 'Please fill in the resource name, URL, category and a description of at least 10 characters.'
+    error.value = t('submit.errorForm')
     return
   }
   sending.value = true
@@ -69,66 +74,60 @@ function resetForm() {
 <template>
   <div class="container page page-narrow">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink :to="localePath('/')">{{ t('common.home') }}</NuxtLink>
       <span aria-hidden="true">›</span>
-      <span aria-current="page">Submit</span>
+      <span aria-current="page">{{ isZh ? '投稿' : 'Submit' }}</span>
     </nav>
 
     <header class="page-head">
-      <h1 class="page-title">Submit a resource</h1>
-      <p class="page-tagline">
-        Suggest a BioAI tool, agent, skill library, awesome list, model, platform, dataset or learning resource.
-        Every submission is reviewed by a human — usually within a week.
-      </p>
+      <h1 class="page-title">{{ t('submit.title') }}</h1>
+      <p class="page-tagline">{{ t('submit.sub') }}</p>
     </header>
 
     <div v-if="done" class="submit-done">
-      <h2>Thank you — submission received</h2>
-      <p>
-        Your suggestion is in the review queue. If it is accepted, it will appear in the catalog with credit to no one
-        but the resource itself (we list projects, not people).
-      </p>
+      <h2>{{ t('submit.doneTitle') }}</h2>
+      <p>{{ t('submit.doneText') }}</p>
       <div class="cta-actions">
-        <NuxtLink class="btn btn-primary" to="/">Back to home</NuxtLink>
-        <button class="btn btn-ghost" type="button" @click="resetForm">Submit another</button>
+        <NuxtLink class="btn btn-primary" :to="localePath('/')">{{ t('submit.backHome') }}</NuxtLink>
+        <button class="btn btn-ghost" type="button" @click="resetForm">{{ t('submit.another') }}</button>
       </div>
     </div>
 
     <form v-else class="submit-form" novalidate @submit.prevent="submit">
       <div class="form-row form-row-2">
         <label class="form-field">
-          <span>Resource name <b>*</b></span>
+          <span>{{ t('submit.name') }} <b>*</b></span>
           <input v-model="form.name" type="text" maxlength="100" placeholder="e.g. ClawBio" required />
         </label>
         <label class="form-field">
-          <span>Official URL <b>*</b></span>
+          <span>{{ t('submit.url') }} <b>*</b></span>
           <input v-model="form.url" type="url" maxlength="300" placeholder="https://…" required />
         </label>
       </div>
 
       <div class="form-row form-row-2">
         <label class="form-field">
-          <span>GitHub repository (optional)</span>
+          <span>{{ t('submit.github') }}</span>
           <input v-model="form.github" type="url" maxlength="300" placeholder="https://github.com/owner/repo" />
         </label>
         <label class="form-field">
-          <span>Category <b>*</b></span>
+          <span>{{ t('submit.category') }} <b>*</b></span>
           <select v-model="form.category" required>
-            <option value="" disabled>Select the best fit…</option>
-            <option v-for="c in submittableCats" :key="c.slug" :value="c.slug">{{ c.title }}</option>
-            <option value="other">Not sure / other</option>
+            <option value="" disabled>{{ t('submit.categoryPlaceholder') }}</option>
+            <option v-for="c in submittableCats" :key="c.slug" :value="c.slug">{{ catText(c, loc).title }}</option>
+            <option value="other">{{ t('submit.other') }}</option>
           </select>
         </label>
       </div>
 
       <div class="form-row">
         <label class="form-field">
-          <span>Description <b>*</b></span>
+          <span>{{ t('submit.description') }} <b>*</b></span>
           <textarea
             v-model="form.description"
             rows="4"
             maxlength="600"
-            placeholder="One or two sentences: what it is and why it matters to the BioAI ecosystem."
+            :placeholder="t('submit.descPlaceholder')"
             required
           />
         </label>
@@ -136,12 +135,12 @@ function resetForm() {
 
       <div class="form-row form-row-2">
         <label class="form-field">
-          <span>Your name (optional)</span>
-          <input v-model="form.submitter" type="text" maxlength="60" placeholder="For our records only" />
+          <span>{{ t('submit.submitter') }}</span>
+          <input v-model="form.submitter" type="text" maxlength="60" :placeholder="t('submit.submitterPlaceholder')" />
         </label>
         <label class="form-field">
-          <span>Email (optional)</span>
-          <input v-model="form.email" type="email" maxlength="120" placeholder="Only used to notify you about the listing" />
+          <span>{{ t('submit.email') }}</span>
+          <input v-model="form.email" type="email" maxlength="120" :placeholder="t('submit.emailPlaceholder')" />
         </label>
       </div>
 
@@ -151,9 +150,9 @@ function resetForm() {
 
       <div class="form-actions">
         <button class="btn btn-primary" type="submit" :disabled="sending">
-          {{ sending ? 'Submitting…' : 'Submit for review' }}
+          {{ sending ? t('submit.sending') : t('submit.send') }}
         </button>
-        <span class="form-hint">No account needed. No tracking beyond rate limits.</span>
+        <span class="form-hint">{{ t('submit.hint') }}</span>
       </div>
     </form>
   </div>

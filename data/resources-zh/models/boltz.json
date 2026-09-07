@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "boltz",
+  "description": "开源生物分子相互作用模型；Boltz-2 在 AlphaFold 3 级结构预测之上叠加结合亲和力预测。",
+  "longDescription": "Boltz-1（2024）是第一个在生物分子复合物精度上接近 AlphaFold 3 的全开源模型。Boltz-2（2025）联合预测结构与结合亲和力，速度远快于物理方法，可以直接支撑虚拟筛选。代码与权重都在 GitHub，附本地与服务化部署文档。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "biocontextai-registry",
+  "description": "社区 MCP 服务器注册表与开源合集，封装 STRING、Open Targets、Reactome、UniProt 与人类蛋白质图谱。",
+  "longDescription": "BioContextAI 是连接智能体 AI 与生物医学资源的社区注册表；其概念验证 Knowledgebase 服务器联邦接入了 STRING、Open Targets、Reactome、UniProt、人类蛋白质图谱和 PanglaoDb。项目有 bioRxiv 预印本，并提供新服务器提交模板与注册表编辑器。最接近「生物学 MCP 应用商店」的存在。"
+}

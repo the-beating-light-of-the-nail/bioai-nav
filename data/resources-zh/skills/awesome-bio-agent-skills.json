@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "awesome-bio-agent-skills",
+  "description": "精选合集：1676 个自包含的 SKILL.md 生物医学智能体技能，从 20 个开源仓库去重归入 15 类。",
+  "longDescription": "BioTender-max/awesome-bio-agent-skills 聚合了 1676 个 SKILL.md 格式的生物医学智能体技能——基因组学、蛋白质组学、单细胞分析、临床 AI、蛋白质设计——从 20 个开源仓库去重后归入 15 个类目。技能兼容 OpenClaw、NanoClaw、Biomni 等智能体框架。目前最大的一架现成生物技能货架。"
+}

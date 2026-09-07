@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "rfdiffusion",
+  "description": "基于扩散模型的从头蛋白质设计生成模型：结合蛋白、motif 骨架化与对称组装体都行。",
+  "longDescription": "RFdiffusion 是从零生成新蛋白质（或围绕功能 motif 生成）的事实标准工具。2023 年发布后掀起了一波经实验验证的设计结合蛋白与支架。RFdiffusion 2 与 3（2025）把生成能力扩展到全新生物聚合物与结合小分子的蛋白质。"
+}

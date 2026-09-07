@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "evo-2",
+  "description": "在 10 万+ 物种、9 万亿碱基对上训练的基因组基础模型，支持基因组级预测、解读与设计。",
+  "longDescription": "Arc Institute 的 Evo 2 以单核苷酸分辨率建模跨越全部生命域的 DNA，成果已发表于 Nature。它能预测人类遗传变异的致病性，也能生成基因组级的功能序列。代码在 GitHub 开源、权重在 Hugging Face，还有 Evo Designer 设计工具。"
+}

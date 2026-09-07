@@ -1,0 +1,6 @@
+{
+  "category": "directories",
+  "slug": "bio-tools",
+  "description": "ELIXIR 体系下维护的生命科学计算工具与数据资源社区注册表。",
+  "longDescription": "bio.tools 是历史悠久的生物信息学软件与数据服务社区注册表，由 ELIXIR 基础设施维护。每个条目带结构化元数据（主题、操作类型、输入输出格式），让整个目录机器可读——对需要可靠发现工具的 AI 智能体越来越重要。它是目前最完整的生命科学软件目录之一。"
+}

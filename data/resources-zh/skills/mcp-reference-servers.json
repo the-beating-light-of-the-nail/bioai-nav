@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "mcp-reference-servers",
+  "description": "Model Context Protocol 官方仓库：参考服务器实现与社区 MCP 服务器索引。",
+  "longDescription": "modelcontextprotocol/servers 是 MCP 参考实现的权威合集，外加社区服务器索引，由 MCP 项目（Anthropic 与合作伙伴）维护。它定义了生物信息学 MCP 服务器沿用的服务器模式——从文件系统访问到数据库查询。任何面向生物学的智能体枢纽最终都要接入这个生态。"
+}

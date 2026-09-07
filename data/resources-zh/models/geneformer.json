@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "geneformer",
+  "description": "在约 3000 万单细胞转录组上预训练的基础 Transformer，支持上下文感知的基因网络预测与迁移学习。",
+  "longDescription": "Geneformer（Nature 2023，Theodoris 等，Broad 研究所）仅凭表达数据就能在特定细胞上下文中按网络重要性给基因排序。它支持小数据下的细胞类型分类迁移学习与在硅扰动预测。权重与代码通过 Hugging Face 发布，文档在 Read the Docs。"
+}

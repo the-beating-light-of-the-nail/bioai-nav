@@ -1,0 +1,6 @@
+{
+  "category": "learning",
+  "slug": "ucsd-bioinformatics-specialization",
+  "description": "加州大学圣地亚哥分校七门课专项：从 DNA 里的隐藏信息到基因组测序的生物信息学算法。",
+  "longDescription": "由 UCSD 的 Pavel Pevzner、Phillip Compeau 与 Nikolay Vyahhi 创建，2015 年在 Illumina 支持下成为首个在线生物信息学专项。课程从「Finding Hidden Messages in DNA」一路讲到基因组测序、基因比较、分子演化与生物信息学算法。与 ROSALIND 题库和 Compeau/Pevzner 教科书天然配套。"
+}

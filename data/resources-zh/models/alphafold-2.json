@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "alphafold-2",
+  "description": "AlphaFold 2 官方开源实现——这个突破性系统把蛋白质结构预测做到了接近实验精度。",
+  "longDescription": "AlphaFold 2 在 2020 年 CASP14 的成绩和 2021 年的开源发布彻底改变了结构生物学。它的代码加上 AlphaFold DB 里近两亿条预测，撑起了现代计算生物学的半壁江山。该仓库至今仍是蛋白质结构预测的权威参考实现。"
+}

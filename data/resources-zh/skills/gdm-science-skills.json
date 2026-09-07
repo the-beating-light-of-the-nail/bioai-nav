@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "gdm-science-skills",
+  "description": "Google DeepMind 官方技能包，让智能体做科研更快、更接地、更省 token。",
+  "longDescription": "science-skills 是 Google DeepMind 面向科研的公开智能体技能合集，覆盖基因组学与生命科学，也包含化学、材料与物理。它的发布目标是让智能体科研工作流更快、更可靠，按第三方追踪榜单已是星标最多的科研技能仓库之一（约 2.7k 星）。给任何兼容 SKILL.md 的智能体补领域知识的最直接方式。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "cellxgene",
+  "description": "Chan Zuckerberg Initiative 平台：发现、下载与可视化探索精选标准化的单细胞数据集。",
+  "longDescription": "CZ CELLxGENE Discover（NAR 2025）让研究者能查找、下载与可视化探索精选标准化的单细胞数据集，Explorer 支持单数据集交互分析。CELLxGENE Census 提供全语料库的 API 访问以支撑大规模计算，底层 Explorer 软件开源。跨组织单细胞数据与模型的主枢纽之一。"
+}

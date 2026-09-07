@@ -1,0 +1,6 @@
+{
+  "category": "platforms",
+  "slug": "valence-labs",
+  "description": "Recursion 旗下 AI 研究引擎：构建虚拟细胞、分子机器学习与 LLM 编排工作流工具。",
+  "longDescription": "Valence Labs 前身是 Valence Discovery，2023 年被收购后成为 Recursion 的机器学习研究引擎。它构建用于快速假设验证循环的虚拟细胞模型与低数据分子机器学习方法。其 LOWE 项目是一个 LLM 编排的工作流引擎，把 SOTA AI 工具交到每位发现科学家手上。"
+}

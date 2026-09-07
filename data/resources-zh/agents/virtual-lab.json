@@ -1,0 +1,6 @@
+{
+  "category": "agents",
+  "slug": "virtual-lab",
+  "description": "斯坦福框架：PI 智能体带领一队 LLM 科学家与人类研究者协作，规划并推进科研项目。",
+  "longDescription": "Virtual Lab（斯坦福 Zou 组）是一场人机协作：LLM 主研究员（PI）智能体统领不同背景的 AI 科学家，各自开组会。其旗舰成果是为新冠病毒变体设计纳米抗体结合蛋白，2025 年被斯坦福医学与 CZ Biohub 报道。多智能体虚拟实验室的参考架构。"
+}

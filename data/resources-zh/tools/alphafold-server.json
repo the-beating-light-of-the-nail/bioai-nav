@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "alphafold-server",
+  "description": "Google DeepMind 与 Isomorphic Labs 的免费网页工具：用 AlphaFold 3 预测蛋白质与 DNA、RNA、配体、离子的相互作用。",
+  "longDescription": "AlphaFold Server（alphafoldserver.com）免费开放 AlphaFold 3 的网页版——Google 称其为预测蛋白质与 DNA、RNA、配体等分子相互作用的最准确工具。它把 AlphaFold 2 仅限蛋白质的预测扩展到完整生物分子复合物，界面只需填表。与两亿结构的 AlphaFold DB 一起，撑起了现代 AI 结构生物学的半边天。"
+}

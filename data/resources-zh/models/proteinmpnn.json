@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "proteinmpnn",
+  "description": "Baker 实验室的逆折叠图神经网络：为给定蛋白质骨架设计能正确折叠的氨基酸序列。",
+  "longDescription": "ProteinMPNN 是 RFdiffusion 这类结构生成器的标准搭档，把骨架改写成能正确折叠的序列。这项 2022 年发表于 Science 的方法在计算与实验上都胜过基于物理的设计，且支持多聚体设计。后继者 LigandMPNN 与 NA-MPNN 把能力扩展到配体与核酸。"
+}

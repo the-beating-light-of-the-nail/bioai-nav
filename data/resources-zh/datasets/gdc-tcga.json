@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "gdc-tcga",
+  "description": "NCI 基因组数据公共库：统一协调并分发肿瘤基因组数据，含完整 TCGA 队列 5 万+ 例。",
+  "longDescription": "NCI 的 Genomic Data Commons 是新一代肿瘤知识网络，提供覆盖 TCGA、HCMI 等项目 50571 例的仓库与计算平台。它对基因组、临床与生物样本数据施加统一协调管线（Nature Communications 2021），经 GDC 数据门户分发。大规模肿瘤机器学习与精准医学研究的正典入口。"
+}

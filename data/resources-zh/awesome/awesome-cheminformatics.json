@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-cheminformatics",
+  "description": "化学信息学软件、资源与库的精选清单——以命令行、免费或开源工具为主。",
+  "longDescription": "hsiaoyi0504/awesome-cheminformatics 是化学信息学工具的首选 awesome 清单：以 CLI 为主、免费或开源的分子处理、描述符与检索软件。它常与 Pat Walters 那份观点鲜明的开源化学信息学资源清单搭配使用。是药物发现与 BioAI 清单在化学侧的补全。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "gtex",
+  "description": "NIH Common Fund 资源：组织特异性基因表达与遗传调控，约 1000 名供体、50+ 组织的 eQTL。",
+  "longDescription": "Genotype-Tissue Expression（GTEx）门户是研究组织与细胞特异性基因表达和遗传调控的综合公共资源，覆盖约 1000 名供体、50+ 种组织类型。它提供批量与单细胞 RNA-seq，以及把遗传变异关联到表达变化的 eQTL 分析。GTEx eQTL 是功能基因组学与 AI 靶点优先级排序管线的标准配料。"
+}

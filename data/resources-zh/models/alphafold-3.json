@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "alphafold-3",
+  "description": "Google DeepMind 的 AI 系统：直接从序列预测蛋白质、DNA、RNA、配体与修饰的三维结构。",
+  "longDescription": "AlphaFold 3 把 AlphaFold 系列的能力扩展到几乎所有生物分子相互作用，包括蛋白-配体和抗体-抗原复合物。DeepMind 开源了推理管线代码，训练好的模型参数则单独以非商业许可提供。它树立的精度标杆，正是 Boltz、Chai-1 这些开源模型现在追赶的目标。"
+}

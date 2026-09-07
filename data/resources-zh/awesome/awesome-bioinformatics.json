@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-bioinformatics",
+  "description": "经典的生物信息学软件与库精选清单，按序列分析、组装、变异检测等主题组织。",
+  "longDescription": "danielecook/Awesome-Bioinformatics 是生物信息学软件领域资历最老的社区 awesome 清单，覆盖序列分析、基因组组装、变异检测、数据格式与工具链。维护活跃（最近提交在 2026 年 4 月），被广泛引用为生物信息学软件发现的第一入口。配合 bio.tools 的结构化元数据使用效果更佳。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "deepchem",
+  "description": "Python 库：让深度学习走进药物发现、量子化学、材料科学与更广的生命科学。",
+  "longDescription": "DeepChem 的目标是提供高质量开源工具链，普及深度学习在药物发现、材料科学、量子化学与生命科学中的应用。它提供模型实现、特征化器和 MoleculeNet 数据集，配套统称 The DeepChem Book 的长篇教程。MIT 协议，学术商业两相宜。"
+}

@@ -1,20 +1,14 @@
-// SEO 组合式函数：canonical / OG / Twitter / JSON-LD 统一出口。
-// canonical 绝不硬编码在页面里，一律走 runtimeConfig.public.siteUrl（默认正式域名）。
-import { SITE, TYPE_LABELS } from '~/data/categories'
+// SEO 组合式函数：OG / Twitter / JSON-LD 统一出口。
+// canonical 与 hreflang 由 app.vue 的 useLocaleHead 全局生成（en 无前缀 x-default、zh /zh 前缀），
+// 这里不再手动设 canonical，避免双写互相覆盖。
+import { SITE, TYPE_LABELS, TYPE_LABELS_ZH, type Locale } from '~/data/categories'
 
 export function useSiteUrl(): string {
   const config = useRuntimeConfig()
   return (config.public.siteUrl as string) || SITE.url
 }
 
-export function usePageSeo(opts: {
-  title: string
-  description: string
-  path: string
-  ogType?: 'website' | 'article'
-}) {
-  const siteUrl = useSiteUrl()
-  const canonical = siteUrl + opts.path
+export function usePageSeo(opts: { title: string; description: string; ogType?: 'website' | 'article' }) {
   useHead({ title: opts.title })
   useSeoMeta({
     description: opts.description,
@@ -22,12 +16,10 @@ export function usePageSeo(opts: {
     ogDescription: opts.description,
     ogSiteName: SITE.name,
     ogType: opts.ogType || 'website',
-    ogUrl: canonical,
     twitterCard: 'summary_large_image',
     twitterTitle: opts.title,
     twitterDescription: opts.description,
   })
-  useHead({ link: [{ rel: 'canonical', href: canonical }] })
 }
 
 // 页面级 JSON-LD：一次一条 script 标签，多调几次即可挂多组结构化数据
@@ -63,25 +55,31 @@ export function useBreadcrumbJsonLd(crumbs: Crumb[]) {
 
 export function websiteJsonLd() {
   const siteUrl = useSiteUrl()
+  const { locale } = useI18n()
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: SITE.name,
     alternateName: 'BioAI Navigation',
     url: siteUrl,
-    description: SITE.description,
+    description: locale.value === 'zh' ? SITE.zh.description : SITE.description,
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${siteUrl}/search?q={search_term_string}`,
+        urlTemplate: `${siteUrl}${locale.value === 'zh' ? '/zh' : ''}/search?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
   }
 }
 
-export function collectionJsonLd(opts: { name: string; description: string; path: string; resources: { name: string; slug: string; category: string }[] }) {
+export function collectionJsonLd(opts: {
+  name: string
+  description: string
+  path: string // locale 感知的完整路径（zh 带 /zh 前缀）
+  resources: { name: string; slug: string; category: string }[]
+}) {
   const siteUrl = useSiteUrl()
   return [
     {
@@ -100,7 +98,7 @@ export function collectionJsonLd(opts: { name: string; description: string; path
         '@type': 'ListItem',
         position: i + 1,
         name: r.name,
-        url: `${siteUrl}/${r.category}/${r.slug}`,
+        url: `${siteUrl}${opts.path.startsWith('/zh') ? '/zh' : ''}/${r.category}/${r.slug}`,
       })),
     },
   ]
@@ -150,11 +148,11 @@ export function resourceJsonLd(r: {
   return node
 }
 
-export function typeLabel(type: string): string {
-  return TYPE_LABELS[type] || 'Resource'
+export function typeLabel(type: string, locale: Locale = 'en'): string {
+  return (locale === 'zh' ? TYPE_LABELS_ZH : TYPE_LABELS)[type] || 'Resource'
 }
 
-// 标签 slug → 展示名（小写词表 → Title Case，缩写词特判）
+// 标签 slug → 展示名（小写词表 → Title Case；中文映射优先，缩写词特判）
 const TAG_ACRONYMS: Record<string, string> = {
   ai4science: 'AI4Science',
   mcp: 'MCP',
@@ -174,8 +172,168 @@ const TAG_ACRONYMS: Record<string, string> = {
   'agent-skills': 'Agent Skills',
 }
 
-export function tagLabel(slug: string): string {
+const TAG_ZH: Record<string, string> = {
+  'drug-discovery': '药物发现',
+  'protein-design': '蛋白质设计',
+  bioinformatics: '生物信息学',
+  genomics: '基因组学',
+  'single-cell': '单细胞',
+  'clinical-trials': '临床试验',
+  'protein-structure': '蛋白质结构',
+  docking: '分子对接',
+  'deep-learning': '深度学习',
+  'machine-learning': '机器学习',
+  'foundation-model': '基础模型',
+  llm: '大语言模型',
+  mcp: 'MCP',
+  skills: '技能',
+  agent: '智能体',
+  agents: '智能体',
+  benchmark: '基准测试',
+  database: '数据库',
+  databases: '数据库',
+  visualization: '可视化',
+  cheminformatics: '化学信息学',
+  transcriptomics: '转录组学',
+  protein: '蛋白质',
+  proteins: '蛋白质',
+  proteomics: '蛋白质组学',
+  molecules: '分子',
+  ai: '人工智能',
+  'open-source': '开源',
+  workflow: '工作流',
+  reproducibility: '可复现性',
+  'curated-list': '精选清单',
+  biomedical: '生物医学',
+  'medical-ai': '医疗 AI',
+  'antibody-design': '抗体设计',
+  'variant-calling': '变异检测',
+  'scrna-seq': 'scRNA-seq',
+  clinical: '临床',
+  cancer: '癌症',
+  eqtl: 'eQTL',
+  'gene-expression': '基因表达',
+  networks: '网络',
+  graph: '图网络',
+  course: '课程',
+  book: '书籍',
+  review: '综述',
+  paper: '论文',
+  tutorial: '教程',
+  documentation: '文档',
+  training: '培训',
+  'agent-framework': '智能体框架',
+  openclaw: 'OpenClaw',
+  gwas: '全基因组关联分析',
+  'diffusion-model': '扩散模型',
+  'generative-model': '生成模型',
+  'inverse-folding': '逆折叠',
+  'virtual-screening': '虚拟筛选',
+  'binding-affinity': '结合亲和力',
+  'structure-prediction': '结构预测',
+  'protein-language-model': '蛋白质语言模型',
+  'dna-language-model': 'DNA 语言模型',
+  'variant-effect': '变异效应',
+  'gene-regulation': '基因调控',
+  'multi-agent': '多智能体',
+  'knowledge-graph': '知识图谱',
+  'autonomous-research': '自主科研',
+  'multi-omics': '多组学',
+  'precision-medicine': '精准医疗',
+  oncology: '肿瘤学',
+  'real-world-data': '真实世界数据',
+  'lab-informatics': '实验室信息化',
+  'wet-lab': '湿实验',
+  ai4science: 'AI4Science',
+  healthcare: '医疗健康',
+  biopharma: '生物制药',
+  intelligence: '行业情报',
+  newsletter: '邮件通讯',
+  news: '资讯',
+  registry: '注册表',
+  'life-science': '生命科学',
+  software: '软件',
+  pipelines: '分析管线',
+  community: '社区',
+  chemistry: '化学',
+  'computational-chemistry': '计算化学',
+  'molecular-biology': '分子生物学',
+  'cloud-platform': '云平台',
+  'data-management': '数据管理',
+  'cryo-em': '冷冻电镜',
+  '3d-structures': '三维结构',
+  sequence: '序列',
+  annotation: '注释',
+  bioactivity: '生物活性',
+  compounds: '化合物',
+  problems: '题库',
+  practice: '实战练习',
+  algorithms: '算法',
+  'rna-seq': 'RNA-seq',
+  'data-analysis': '数据分析',
+  'protein-interactions': '蛋白质相互作用',
+  'publication-figures': '论文插图',
+  scripting: '脚本',
+  'molecular-graphics': '分子图形',
+  'web-tool': '在线工具',
+  'web-platform': '网页平台',
+  hpc: '高性能计算',
+  cloud: '云计算',
+  gpu: 'GPU',
+  microservices: '微服务',
+  'self-hosted': '自托管',
+  'skill-registry': '技能注册表',
+  'skill-format': '技能格式',
+  reference: '参考实现',
+  servers: '服务器',
+  protocol: '协议',
+  'systems-biology': '系统生物学',
+  literature: '文献',
+  'clinical-research': '临床研究',
+  'report-writing': '报告撰写',
+  'question-answering': '问答',
+  'tool-use': '工具调用',
+  'hypothesis-generation': '假设生成',
+  nanobody: '纳米抗体',
+  'virtual-lab': '虚拟实验室',
+  'protein-folding': '蛋白质折叠',
+  alphafold: 'AlphaFold',
+  esmfold: 'ESMFold',
+  'open-weights': '开放权重',
+  'target-discovery': '靶点发现',
+  'clinical-stage': '临床阶段',
+  therapeutics: '治疗性药物',
+  biologics: '生物药',
+  simulation: '模拟',
+  'molecular-modeling': '分子建模',
+  automation: '自动化',
+  'generative-ai': '生成式 AI',
+  genomicsmodels: '基因组模型',
+  'gene-network': '基因网络',
+  'virtual-screenings': '虚拟筛选',
+  'lead-optimization': '先导化合物优化',
+  scaffold: '分子骨架',
+  'graph-model': '图模型',
+  'graph-neural-network': '图神经网络',
+  'sequence-design': '序列设计',
+  'binder-design': '结合蛋白设计',
+  'de-novo-design': '从头设计',
+  'baker-lab': 'Baker 实验室',
+  'protein-complexes': '蛋白质复合物',
+  'molecule-generation': '分子生成',
+  'free-courses': '免费课程',
+  'data-portal': '数据门户',
+  'data-platform': '数据平台',
+  atlas: '细胞图谱',
+  'multi-omic': '多组学',
+  'functional-genomics': '功能基因组学',
+  'chip-seq': 'ChIP-seq',
+  biopharmaceuticals: '生物制药',
+}
+
+export function tagLabel(slug: string, locale: Locale = 'en'): string {
   const key = slug.toLowerCase()
+  if (locale === 'zh' && TAG_ZH[key]) return TAG_ZH[key]
   if (TAG_ACRONYMS[key]) return TAG_ACRONYMS[key]
   return key
     .split('-')

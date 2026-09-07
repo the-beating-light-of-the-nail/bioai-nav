@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "uniprot",
+  "description": "全球最全面、可免费访问的蛋白质序列与功能注释资源，2002 年起持续维护。",
+  "longDescription": "UniProt 是全球领先的高质量、全面、免费开放的蛋白质序列与功能信息资源（2025 年 NAR 论文）。UniProtKB 知识库合并专家人工注释的 Swiss-Prot 与自动注释的 TrEMBL，另配 BLAST 与蛋白质组服务。它是喂养生物医学模型与知识图谱的蛋白质功能数据正典。"
+}

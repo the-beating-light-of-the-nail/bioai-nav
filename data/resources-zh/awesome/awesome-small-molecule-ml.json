@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-small-molecule-ml",
+  "description": "小分子药物发现机器学习的论文、数据集、框架与工具包精选。",
+  "longDescription": "benb111/awesome-small-molecule-ml 收录小分子药物发现的机器学习侧资源：论文、数据集、框架、工具包和博客。它是机器学习化学基准与数据源的标准参考之一。与更宏观的药物发现清单相比，这份的机器学习聚焦更紧。"
+}

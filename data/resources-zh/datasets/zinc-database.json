@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "zinc-database",
+  "description": "免费的可购买化合物数据库，规模达数百亿：2D 覆盖 549 亿分子，专供虚拟筛选。",
+  "longDescription": "UCSF Shoichet 实验室的 ZINC 是免费的可购买（「摸得着」）化合物数据库；ZINC-22 在 2D 上枚举约 370-550 亿分子，数十亿已构建 3D 结构。通过 Cartblanche 界面浏览，配合 DOCK 支撑大规模对接筛选。任何配体发现智能体或虚拟筛选管线，最终的候选化合物都出自 ZINC。"
+}

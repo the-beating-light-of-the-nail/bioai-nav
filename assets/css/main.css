@@ -111,6 +111,12 @@ b, strong { color: var(--ink-strong); font-weight: 650; }
 .nav-link.active { color: var(--brand); background: var(--brand-soft); font-weight: 650; }
 
 .header-actions { display: flex; align-items: center; gap: 9px; }
+.lang-switch {
+  font-size: 13px; font-weight: 650; color: var(--teal);
+  border: 1px solid var(--line-strong); border-radius: 8px;
+  padding: 5px 10px; white-space: nowrap;
+}
+.lang-switch:hover { border-color: var(--teal); text-decoration: none; }
 .icon-btn {
   display: inline-flex; align-items: center; justify-content: center;
   width: 34px; height: 34px; border-radius: 8px; color: var(--muted);

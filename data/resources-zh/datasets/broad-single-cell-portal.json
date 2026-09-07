@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "broad-single-cell-portal",
+  "description": "Broad 研究所的免费开放门户：1000+ 项单细胞基因组研究，交互可视化与下载。",
+  "longDescription": "Broad 研究所的 Single Cell Portal 是一个开放访问的网页平台，用于共享与探索单细胞基因组数据，目前收录 1000+ 项研究。它提供交互可视化、探索性差异表达与公开下载，并托管精选的 Human Cell Atlas 主合集。与 CELLxGENE 并列的大型单细胞图谱公共之家。"
+}

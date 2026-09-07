@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "diffdock",
+  "description": "MIT 扩散生成模型：把分子对接重构为非欧流形上的生成问题，预测配体结合姿势。",
+  "longDescription": "DiffDock（arXiv 2210.01776，MIT）把分子对接表述为非欧几里得流形上的生成建模问题，配对评分模型与置信度模型。它显著提升了盲对接的精度与速度，NVIDIA 模型卡和 Hugging Face 演示均可上手。它成了新一代生成式对接方法对标的参照系。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "gget-mcp",
+  "description": "把 gget 生物信息学工具箱封装成 MCP 服务器，让智能体用标准接口查询基因组数据库。",
+  "longDescription": "gget-mcp 来自 longevity-genie 组织，把流行的基因组数据库命令行工具 gget 封装成了 Model Context Protocol 服务器。AI 助手因此能用结构化方式完成原本要靠 shell 命令的基因、序列与注释查询。它常被 awesome-genomic-skills 等生命科学 MCP 精选清单引用。"
+}

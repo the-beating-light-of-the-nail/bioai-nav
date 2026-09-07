@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-single-cell",
+  "description": "社区精选的单细胞分析软件、数据资源、研究者与论文清单。",
+  "longDescription": "seandavi/awesome-single-cell 是单细胞基因组学的社区正典：RNA-seq、ATAC-seq 等实验的软件包与数据资源，外加研究者和论文索引。它被 scRNA-seq 工具领域的同行评审综述引用（Zappia 等 2021 年分析了 1000+ 工具）。至今仍是发给单细胞新人的第一个链接。"
+}

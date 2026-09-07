@@ -153,6 +153,42 @@ for (const r of byName) {
 mkdirSync(resolve(root, 'data/generated'), { recursive: true })
 writeFileSync(resolve(root, 'data/generated/all-resources.json'), JSON.stringify(byName, null, 2) + '\n')
 
+// 中文介绍覆盖：scripts/merged-zh/*.json（数组元素 {category, slug, description, longDescription}）
+// → data/resources-zh/<category>/<slug>.json（只存覆盖字段）
+const zhDir = resolve(root, 'scripts/merged-zh')
+const zhOutDir = resolve(root, 'data/resources-zh')
+const enSlugs = new Set(byName.map((r) => `${r.category}/${r.slug}`))
+let zhCount = 0
+if (existsSync(zhDir)) {
+  if (existsSync(zhOutDir)) rmSync(zhOutDir, { recursive: true, force: true })
+  const zhBatches = readdirSync(zhDir)
+    .filter((f) => f.endsWith('.json'))
+    .sort()
+    .flatMap((f) => JSON.parse(readFileSync(resolve(zhDir, f), 'utf8')))
+  for (const z of zhBatches) {
+    if (!enSlugs.has(`${z.category}/${z.slug}`)) {
+      console.error(`  ! zh 覆盖指向不存在的资源: ${z.category}/${z.slug}`)
+      continue
+    }
+    mkdirSync(resolve(zhOutDir, z.category), { recursive: true })
+    writeFileSync(
+      resolve(zhOutDir, z.category, `${z.slug}.json`),
+      JSON.stringify(
+        {
+          category: z.category,
+          slug: z.slug,
+          description: z.description || null,
+          longDescription: z.longDescription || null,
+        },
+        null,
+        2,
+      ) + '\n',
+    )
+    zhCount++
+  }
+}
+console.log(`中文覆盖：${zhCount} 条`)
+
 const total = byName.length
 console.log(`拆分完成：${total} 个资源（featured ${byName.filter((r) => r.featured).length}）`)
 for (const [c, n] of Object.entries(counts).sort()) console.log(`  ${c}: ${n}`)

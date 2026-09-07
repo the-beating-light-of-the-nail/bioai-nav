@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "papyrus-dataset",
+  "description": "大规模整理的生物活性数据集约 6000 万条，源自 ChEMBL 等，面向 ML 药物发现。",
+  "longDescription": "Papyrus（Journal of Cheminformatics 2023）聚合了约 6000 万条小分子生物活性数据点，来源包括 ChEMBL、ExCAPE-DB 与若干高质量小集，带蛋白质质量分级与一致的分子结构标准化。数据集开放托管在 Zenodo，Papyrus-scripts 库提供程序化访问。广泛用于生物活性预测模型的训练与基准。"
+}

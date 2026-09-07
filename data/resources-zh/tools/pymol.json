@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "pymol",
+  "description": "基于开源基金会的分子可视化系统，由 Schrödinger 维护与分发。",
+  "longDescription": "PyMOL 由 Warren DeLano 创建、现由 Schrödinger 维护，是渲染与动画化三维分子结构的全能工具。GitHub 上有开源基础版，另有免费教育版与商业激励版，当前版本 PyMOL 3.1。其可脚本化特性让它长期稳坐论文级分子插图工具的头把交椅。"
+}

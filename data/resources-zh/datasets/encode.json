@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "encode",
+  "description": "NHGRI 计划：构建人类与小鼠基因组功能元件全景图，门户提供丰富数据。",
+  "longDescription": "ENCODE（DNA 元件百科全书）由 NHGRI 于 2003 年启动，目标是给人类与小鼠基因组编一份功能元件完整清单。其门户提供数千个数据集，包括 ChIP-seq 矩阵、人体图谱与单细胞实验。ENCODE 的调控注释是基因组深度学习模型的核心训练数据。"
+}

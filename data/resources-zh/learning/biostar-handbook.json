@@ -1,0 +1,6 @@
+{
+  "category": "learning",
+  "slug": "biostar-handbook",
+  "description": "Istvan Albert 的实用电子书系列：可复现生物信息学数据分析，从 Unix 脚本到 RNA-seq 与 SNP 检测。",
+  "longDescription": "Istvan Albert 的 Biostar Handbook 是对初学者友好的实用电子书系列（现有五卷），覆盖 Unix 命令行、RNA-seq、基因组分析、SNP 检测等。它与 Biostars 问答社区紧密相连，强调把大规模测序数据变成可复现的结论。NCI 的初学者培训模块直接基于它构建。"
+}

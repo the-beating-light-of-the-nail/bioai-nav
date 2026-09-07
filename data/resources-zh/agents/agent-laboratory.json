@@ -1,0 +1,6 @@
+{
+  "category": "agents",
+  "slug": "agent-laboratory",
+  "description": "端到端自主科研工作流：LLM 智能体完成文献综述、实验与报告撰写，产出完整论文。",
+  "longDescription": "Agent Laboratory（arXiv 2501.04227，约翰霍普金斯/AMD）是端到端的自主科研工作流：输入一个研究想法，产出代码、实验和完整报告。它有 PhD 智能体、博后智能体等角色，分文献综述、实验、撰写三阶段。是生物团队改造自己管线时常借用的通用 AI 科研底座。"
+}

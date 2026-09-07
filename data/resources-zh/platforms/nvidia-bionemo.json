@@ -1,0 +1,6 @@
+{
+  "category": "platforms",
+  "slug": "nvidia-bionemo",
+  "description": "NVIDIA 的 AI 生物与药物发现平台：开放模型、库、数据集与可部署的 NIM 微服务。",
+  "longDescription": "BioNeMo 把蛋白质结构、分子生成、基因组学等领域的模型打包成可定制的 NIM 微服务与云服务，让生物科技与药企团队在 NVIDIA GPU 上构建和扩展生成式 AI 药物发现管线。合作伙伴用它跑从靶点发现到虚拟筛选的各类工作流。"
+}

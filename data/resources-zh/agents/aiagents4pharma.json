@@ -1,0 +1,6 @@
+{
+  "category": "agents",
+  "slug": "aiagents4pharma",
+  "description": "开源 AI 智能体套件：帮药研人员跨药物发现工作流查询与推理生物医学数据。",
+  "longDescription": "AIAgents4Pharma（Virtual Patient Engine 团队）是一个开源项目，把一组 AI 智能体汇聚起来，让研究者与药企能和复杂的生物医学数据交互。它打包了横跨文献、化学与组学的 LLM 智能体和工具，端到端支撑药物发现。目前最完整的面向制药工作流的开源智能体框架之一。"
+}

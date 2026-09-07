@@ -1,7 +1,9 @@
 // 资源数据装载：data/resources/<category>/<slug>.json，一文件一资源。
 // 由 Vite import.meta.glob 全量内联——SSG 预渲染与浏览器端搜索/筛选共用同一份内存数据，
 // 新增资源 = 新增一个 JSON 文件，无需改任何代码。
-import { CATEGORY_SLUGS } from './categories'
+// 中文介绍为平行目录 data/resources-zh/<category>/<slug>.json（只含 description /
+// longDescription 覆盖字段），装载时 merge，缺失自动回落英文。
+import { CATEGORY_SLUGS, type Locale } from './categories'
 
 export interface Resource {
   name: string
@@ -110,6 +112,44 @@ export function validTags(min = TAG_PAGE_MIN) {
 export function byTag(tag: string): Resource[] {
   const t = tag.toLowerCase()
   return resources.filter((r) => (r.tags || []).some((x) => x.toLowerCase() === t))
+}
+
+/* ---------------- 中文介绍覆盖层 ---------------- */
+
+export interface ZhOverride {
+  description?: string
+  longDescription?: string | string[]
+}
+
+const zhModules = import.meta.glob('./resources-zh/**/*.json', { eager: true }) as Record<
+  string,
+  { default: ZhOverride & { category?: string; slug?: string } }
+>
+
+const zhOverrides = new Map<string, ZhOverride>()
+for (const [path, mod] of Object.entries(zhModules)) {
+  const d = mod.default
+  const m = path.match(/\.\/resources-zh\/([^/]+)\/([^/]+)\.json$/)
+  if (m) zhOverrides.set(`${m[1]}/${m[2]}`, d)
+  else if (d.category && d.slug) zhOverrides.set(`${d.category}/${d.slug}`, d)
+}
+
+// 按locale取资源的展示文案（zh 缺翻译时回落英文）
+export function resourceText(r: Resource, locale: Locale): { description: string; longDescription: string | string[] } {
+  if (locale === 'zh') {
+    const zh = zhOverrides.get(`${r.category}/${r.slug}`)
+    if (zh) {
+      return {
+        description: zh.description || r.description,
+        longDescription: zh.longDescription || r.longDescription || [],
+      }
+    }
+  }
+  return { description: r.description, longDescription: r.longDescription || [] }
+}
+
+export function hasZh(r: Resource): boolean {
+  return zhOverrides.has(`${r.category}/${r.slug}`)
 }
 
 // 有资格生成 /tags/:tag 聚合页的标签集合（卡片上的标签芯片只链接这些，避免死链）

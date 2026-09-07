@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "rcsb-pdb",
+  "description": "世界蛋白质数据库（wwPDB）的美国节点：实验测定的蛋白质与核酸三维结构，配分析工具。",
+  "longDescription": "RCSB PDB（rcsb.org）整理并注释全球唯一的实验测定大分子三维结构档案。它提供强力检索、交互式 Mol* 三维查看器与 PDB-101 教育资源（见其 NAR 数据库卷论文）。从 AlphaFold 到扩散设计器，几乎所有蛋白质 AI 模型的训练或评测都对着 PDB 结构。"
+}

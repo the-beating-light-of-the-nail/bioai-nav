@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "autodock-vina",
+  "description": "最快、最广泛使用的开源分子对接引擎之一：虚拟筛选与结合姿势预测。",
+  "longDescription": "AutoDock Vina 由斯克里普斯研究所 Oleg Trott 设计，是预测小分子如何结合受体的最快、最常用开源对接引擎之一。它是药物发现与虚拟筛选里的开箱即用对接程序，支持多核并有 GPU 加速变体（AutoDock-GPU）。至今仍是新 AI 对接方法的比较基线。"
+}

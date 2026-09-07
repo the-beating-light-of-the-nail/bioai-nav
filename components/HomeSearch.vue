@@ -1,12 +1,19 @@
 <script setup lang="ts">
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
+
 const q = ref('')
 const router = useRouter()
 
-const suggestions = ['AlphaFold', 'drug discovery', 'agent skills', 'single cell', 'awesome lists']
+const suggestions = computed(() =>
+  locale.value === 'zh'
+    ? ['药物发现', '蛋白质设计', '智能体技能', '单细胞', '模型']
+    : ['AlphaFold', 'drug discovery', 'agent skills', 'single cell', 'awesome lists'],
+)
 
 function go() {
-  const t = q.value.trim()
-  router.push({ path: '/search', query: t ? { q: t } : {} })
+  const term = q.value.trim()
+  router.push(localePath({ path: '/search', query: term ? { q: term } : {} }))
 }
 </script>
 
@@ -20,14 +27,14 @@ function go() {
       <input
         v-model="q"
         type="search"
-        placeholder="Search BioAI resources — tools, agents, skills, models, datasets…"
+        :placeholder="t('hero.placeholder')"
         aria-label="Search BioAI resources"
       />
-      <button class="btn btn-primary" type="submit">Search</button>
+      <button class="btn btn-primary" type="submit">{{ t('hero.searchBtn') }}</button>
     </form>
     <p class="hs-suggest">
-      <span>Try:</span>
-      <NuxtLink v-for="s in suggestions" :key="s" :to="`/search?q=${encodeURIComponent(s)}`">{{ s }}</NuxtLink>
+      <span>{{ t('hero.try') }}</span>
+      <NuxtLink v-for="s in suggestions" :key="s" :to="localePath({ path: '/search', query: { q: s } })">{{ s }}</NuxtLink>
     </p>
   </div>
 </template>

@@ -1,0 +1,6 @@
+{
+  "category": "agents",
+  "slug": "sciagents",
+  "description": "MIT 多智能体系统：本体知识图谱 + LLM 智能体，自主生成并验证科学假说。",
+  "longDescription": "SciAgents（MIT LAMM，Buehler 实验室；arXiv 2409.05556，发表于 Advanced Materials）把大规模本体知识图谱与多智能体 LLM 推理耦合，自动化科学发现：自主生成、批判并迭代研究假说，在材料与生物材料发现上做了演示。展示了知识图谱接地如何提升智能体的假说生成质量。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "awesome-genomic-skills",
+  "description": "基因组学与生物信息学智能体技能与 MCP 服务器索引：覆盖 DeepMind、OpenAI、Anthropic、AWS 与社区项目。",
+  "longDescription": "GoekeLab 的 awesome-genomic-skills 是生物智能体技能生态的地图：技能库（Google DeepMind science-skills、OpenAI life-science-research、Anthropic life-sciences、AWS Kiro 套件、ClawBio、SciAgent-skills）、生命科学 MCP 服务器（biomcp、gget-mcp、Seqera、plant-genomics-mcp），以及 BixBench、LAB-Bench 等智能体基准。CC0 协议、由基因组学实验室维护，且清晰区分了技能与 MCP 服务器。整个品类最好的单一入口。"
+}

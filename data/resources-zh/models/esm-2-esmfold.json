@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "esm-2-esmfold",
+  "description": "Meta FAIR 蛋白质语言模型家族与 ESMFold：无需比对，直接从单条序列预测原子级三维结构。",
+  "longDescription": "ESM-2 把蛋白质语言模型规模推到 15B 参数，ESMFold 用它以远超 AlphaFold2 的速度折叠序列。2023 年的 Science 论文让普通硬件上从原始序列做结构预测变得可行。仓库 2024 年归档（团队分拆进 EvolutionaryScale），活跃的 esm 包现在由 Biohub/esm 维护。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "claude-code",
+  "description": "Anthropic 的终端编码智能体，基于文件系统的 Agent Skills——SKILL.md 生物技能库的参考运行时。",
+  "longDescription": "Claude Code 是 Anthropic 的命令行编码与自动化智能体，也是 Agent Skills 格式的旗舰载体：一个带 SKILL.md 的文件夹就能教会智能体一套专门流程。技能基于文件系统管理，与 claude.ai/API 侧的技能相互独立，Anthropic 还在此之上发布了专门的生命科学市场。本站收录的大部分生物信息学技能库都优先适配它。"
+}

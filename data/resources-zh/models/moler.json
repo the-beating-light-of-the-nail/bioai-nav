@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "moler",
+  "description": "微软的图分子生成模型，支持骨架约束生成，用于先导化合物优化。",
+  "longDescription": "MoLeR 直接生成分子图，并可固定给定骨架，让化学家围绕已知先导化合物探索修饰。microsoft/molecule-generation 仓库提供了 PyTorch 实现。它已通过 OpenAD 等模型服务暴露为条件式小分子生成能力。"
+}

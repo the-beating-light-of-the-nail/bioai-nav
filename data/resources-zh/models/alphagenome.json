@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "alphagenome",
+  "description": "DeepMind 2025 年的统一 DNA 模型：百万碱基输入，近单碱基分辨率预测基因表达、剪接与染色质。",
+  "longDescription": "AlphaGenome 接受最长一百万碱基对的 DNA 序列，跨 11 种调控模态预测数千种分子性质。它瞄准基因组的非编码「暗物质」，帮助解读突变如何影响健康。GitHub 上有 Python API 客户端与科研代码。"
+}

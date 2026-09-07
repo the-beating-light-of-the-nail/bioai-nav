@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "rdkit",
+  "description": "开源化学信息学工具包：C++ 内核 + Python 封装，2D/3D 分子操作与机器学习描述符。",
+  "longDescription": "RDKit 是一套 C++ 编写、带 Python 封装的化学信息学与机器学习软件，BSD 协议对商用友好。它处理 2D/3D 分子操作、子结构检索与面向机器学习的描述符计算，覆盖 Windows、macOS 与 Linux。多数开源化学信息学技术栈的地基。"
+}

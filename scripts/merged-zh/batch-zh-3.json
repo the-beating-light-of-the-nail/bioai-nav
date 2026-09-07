@@ -1,0 +1,260 @@
+[
+  {
+    "category": "agents",
+    "slug": "biomni",
+    "description": "斯坦福开源的通用生物医学 AI 智能体：150+ 工具、59 个数据库，自主执行科研任务。",
+    "longDescription": "Biomni 是斯坦福 SNAP 实验室的通用生物医学 AI 智能体，2025 年发表于 Science，用于跨生物医学子领域自主执行科研任务。它把 LLM 智能体与 150 个专业工具、59 个数据库、105 个软件包整合在一起，并提供 Amazon Bedrock 集成。目前最完整的开源自主体生物医学数据工作底座。"
+  },
+  {
+    "category": "agents",
+    "slug": "virtual-lab",
+    "description": "斯坦福框架：PI 智能体带领一队 LLM 科学家与人类研究者协作，规划并推进科研项目。",
+    "longDescription": "Virtual Lab（斯坦福 Zou 组）是一场人机协作：LLM 主研究员（PI）智能体统领不同背景的 AI 科学家，各自开组会。其旗舰成果是为新冠病毒变体设计纳米抗体结合蛋白，2025 年被斯坦福医学与 CZ Biohub 报道。多智能体虚拟实验室的参考架构。"
+  },
+  {
+    "category": "agents",
+    "slug": "agent-laboratory",
+    "description": "端到端自主科研工作流：LLM 智能体完成文献综述、实验与报告撰写，产出完整论文。",
+    "longDescription": "Agent Laboratory（arXiv 2501.04227，约翰霍普金斯/AMD）是端到端的自主科研工作流：输入一个研究想法，产出代码、实验和完整报告。它有 PhD 智能体、博后智能体等角色，分文献综述、实验、撰写三阶段。是生物团队改造自己管线时常借用的通用 AI 科研底座。"
+  },
+  {
+    "category": "agents",
+    "slug": "genegpt",
+    "description": "NCBI 的工具增强 LLM：学会调用 NCBI Web API，在 GeneTuring 基准上打败生物医学大模型。",
+    "longDescription": "GeneGPT（NCBI，2024 年发表于 Bioinformatics）通过上下文学习教会 LLM 调用 NCBI Web API，回答基因、疾病与序列相关的生物医学问题。凭借工具增强，它在 GeneTuring 基准上超过了 BioGPT 等生物医学大模型。工具增强智能体访问基因组数据的早期典范之作。"
+  },
+  {
+    "category": "agents",
+    "slug": "sciagents",
+    "description": "MIT 多智能体系统：本体知识图谱 + LLM 智能体，自主生成并验证科学假说。",
+    "longDescription": "SciAgents（MIT LAMM，Buehler 实验室；arXiv 2409.05556，发表于 Advanced Materials）把大规模本体知识图谱与多智能体 LLM 推理耦合，自动化科学发现：自主生成、批判并迭代研究假说，在材料与生物材料发现上做了演示。展示了知识图谱接地如何提升智能体的假说生成质量。"
+  },
+  {
+    "category": "agents",
+    "slug": "aiagents4pharma",
+    "description": "开源 AI 智能体套件：帮药研人员跨药物发现工作流查询与推理生物医学数据。",
+    "longDescription": "AIAgents4Pharma（Virtual Patient Engine 团队）是一个开源项目，把一组 AI 智能体汇聚起来，让研究者与药企能和复杂的生物医学数据交互。它打包了横跨文献、化学与组学的 LLM 智能体和工具，端到端支撑药物发现。目前最完整的面向制药工作流的开源智能体框架之一。"
+  },
+  {
+    "category": "tools",
+    "slug": "alphafold-server",
+    "description": "Google DeepMind 与 Isomorphic Labs 的免费网页工具：用 AlphaFold 3 预测蛋白质与 DNA、RNA、配体、离子的相互作用。",
+    "longDescription": "AlphaFold Server（alphafoldserver.com）免费开放 AlphaFold 3 的网页版——Google 称其为预测蛋白质与 DNA、RNA、配体等分子相互作用的最准确工具。它把 AlphaFold 2 仅限蛋白质的预测扩展到完整生物分子复合物，界面只需填表。与两亿结构的 AlphaFold DB 一起，撑起了现代 AI 结构生物学的半边天。"
+  },
+  {
+    "category": "tools",
+    "slug": "galaxy-project",
+    "description": "开源网页平台：数据密集型生物医学研究，不写代码也能跑数千个分析工具。",
+    "longDescription": "Galaxy 是一个开源、社区驱动的网页平台，做可及、可复现、透明的计算科研（NAR 2024 平台论文）。公共服务器以点选方式暴露数千个可互操作的第三方分析工具，无需自备代码。生物医学数据分析领域历史最久、使用最广的平台之一。"
+  },
+  {
+    "category": "tools",
+    "slug": "nextflow",
+    "description": "领域专用语言与执行引擎：构建可扩展、可复现的科学工作流，跨任何计算平台运行。",
+    "longDescription": "Nextflow 用领域专用语言加强大执行引擎，构建可扩展、可复现、可移植的科研与生产工作流。工作流不加改动即可跑在本地、HPC 集群与云端，因此成为生物信息学的事实标准之一。nf-core 生态与 training.nextflow.io 官方培训进一步放大了它的影响。"
+  },
+  {
+    "category": "tools",
+    "slug": "nf-core",
+    "description": "社区维护的 156 条同行评审、标准化的 Nextflow 生物信息学管线，共享模块与培训。",
+    "longDescription": "nf-core 是社区驱动的 Nextflow 生物信息学管线合集（当前 156 条），每条都经同行评审，共享模块与子工作流保持标准化。2025 年的 PMC 收录论文记录了它如何用可复用的最佳实践管线赋能社区。在任何计算环境跑 nf-core 管线，生产级可复现性触手可及。"
+  },
+  {
+    "category": "tools",
+    "slug": "gatk",
+    "description": "Broad Institute 开源的行业标准工具包：胚系 DNA 与 RNA-seq 数据的 SNP/indel 变异检测。",
+    "longDescription": "Broad Institute 的 Genome Analysis Toolkit 是胚系 DNA 与 RNA-seq 数据中检测 SNP 和 indel 的行业标准。GATK 4 是一组面向高通量测序数据分析的命令行工具，专注变异发现，完全开源。其 Best Practices 流程是全球大多数生产级基因组变异检测工作流的锚点。"
+  },
+  {
+    "category": "tools",
+    "slug": "scanpy",
+    "description": "可扩展的 Python 单细胞基因表达分析工具包：预处理、聚类、轨迹推断与可视化。",
+    "longDescription": "Scanpy（scverse 生态）是与 anndata 格式协同构建的可扩展 Python 单细胞分析工具包。它提供了预处理、可视化、聚类、轨迹推断与差异表达的标准 Python 工作流。与 Seurat 并列单细胞分析的两大生态。"
+  },
+  {
+    "category": "tools",
+    "slug": "seurat",
+    "description": "Satija 实验室的 R 工具包：单细胞 RNA-seq 的质控、分析与交互式探索。",
+    "longDescription": "Seurat 是 Satija 实验室出品的 R 系单细胞 RNA-seq 分析工具包，与 Python 世界的 Scanpy 相对。支持质控、标准化、降维、聚类与细胞类型注释，配套大量兼作教程的 vignette。同行评审对比指出两个包分析选项都很全、社区都很活跃。"
+  },
+  {
+    "category": "tools",
+    "slug": "rdkit",
+    "description": "开源化学信息学工具包：C++ 内核 + Python 封装，2D/3D 分子操作与机器学习描述符。",
+    "longDescription": "RDKit 是一套 C++ 编写、带 Python 封装的化学信息学与机器学习软件，BSD 协议对商用友好。它处理 2D/3D 分子操作、子结构检索与面向机器学习的描述符计算，覆盖 Windows、macOS 与 Linux。多数开源化学信息学技术栈的地基。"
+  },
+  {
+    "category": "tools",
+    "slug": "autodock-vina",
+    "description": "最快、最广泛使用的开源分子对接引擎之一：虚拟筛选与结合姿势预测。",
+    "longDescription": "AutoDock Vina 由斯克里普斯研究所 Oleg Trott 设计，是预测小分子如何结合受体的最快、最常用开源对接引擎之一。它是药物发现与虚拟筛选里的开箱即用对接程序，支持多核并有 GPU 加速变体（AutoDock-GPU）。至今仍是新 AI 对接方法的比较基线。"
+  },
+  {
+    "category": "tools",
+    "slug": "chimerax",
+    "description": "UCSF 新一代交互式分子可视化程序：分析结构、密度图与分子轨迹。",
+    "longDescription": "ChimeraX 是 UCSF 生物计算、可视化与信息学资源中心的下一代分子可视化程序，接替 UCSF Chimera。它交互式可视化并分析分子结构、密度图与轨迹，高度可扩展，支持结构搭建与分析工作流。学术使用免费，是结构生物学实验室的标准装备。"
+  },
+  {
+    "category": "tools",
+    "slug": "pymol",
+    "description": "基于开源基金会的分子可视化系统，由 Schrödinger 维护与分发。",
+    "longDescription": "PyMOL 由 Warren DeLano 创建、现由 Schrödinger 维护，是渲染与动画化三维分子结构的全能工具。GitHub 上有开源基础版，另有免费教育版与商业激励版，当前版本 PyMOL 3.1。其可脚本化特性让它长期稳坐论文级分子插图工具的头把交椅。"
+  },
+  {
+    "category": "tools",
+    "slug": "diffdock",
+    "description": "MIT 扩散生成模型：把分子对接重构为非欧流形上的生成问题，预测配体结合姿势。",
+    "longDescription": "DiffDock（arXiv 2210.01776，MIT）把分子对接表述为非欧几里得流形上的生成建模问题，配对评分模型与置信度模型。它显著提升了盲对接的精度与速度，NVIDIA 模型卡和 Hugging Face 演示均可上手。它成了新一代生成式对接方法对标的参照系。"
+  },
+  {
+    "category": "tools",
+    "slug": "deepchem",
+    "description": "Python 库：让深度学习走进药物发现、量子化学、材料科学与更广的生命科学。",
+    "longDescription": "DeepChem 的目标是提供高质量开源工具链，普及深度学习在药物发现、材料科学、量子化学与生命科学中的应用。它提供模型实现、特征化器和 MoleculeNet 数据集，配套统称 The DeepChem Book 的长篇教程。MIT 协议，学术商业两相宜。"
+  },
+  {
+    "category": "datasets",
+    "slug": "rcsb-pdb",
+    "description": "世界蛋白质数据库（wwPDB）的美国节点：实验测定的蛋白质与核酸三维结构，配分析工具。",
+    "longDescription": "RCSB PDB（rcsb.org）整理并注释全球唯一的实验测定大分子三维结构档案。它提供强力检索、交互式 Mol* 三维查看器与 PDB-101 教育资源（见其 NAR 数据库卷论文）。从 AlphaFold 到扩散设计器，几乎所有蛋白质 AI 模型的训练或评测都对着 PDB 结构。"
+  },
+  {
+    "category": "datasets",
+    "slug": "uniprot",
+    "description": "全球最全面、可免费访问的蛋白质序列与功能注释资源，2002 年起持续维护。",
+    "longDescription": "UniProt 是全球领先的高质量、全面、免费开放的蛋白质序列与功能信息资源（2025 年 NAR 论文）。UniProtKB 知识库合并专家人工注释的 Swiss-Prot 与自动注释的 TrEMBL，另配 BLAST 与蛋白质组服务。它是喂养生物医学模型与知识图谱的蛋白质功能数据正典。"
+  },
+  {
+    "category": "datasets",
+    "slug": "chembl",
+    "description": "EMBL-EBI 人工整理的生物活性类药分子数据库：化学、活性与基因组数据整合。",
+    "longDescription": "ChEMBL 是 EMBL-EBI 维护的人工整理、开放、FAIR 合规的生物活性类药分子数据库。ChEMBL 35 收录约 17500 种已上市药物与数百万条连接化合物-靶标的活性测量数据。它是全球核心生物数据资源之一，也是药物发现机器学习的骨干数据集。"
+  },
+  {
+    "category": "datasets",
+    "slug": "bindingdb",
+    "description": "公开可访问的蛋白质-小分子实验结合亲和力数据库，自 2000 年持续收集。",
+    "longDescription": "BindingDB 于 2000 年上线，是第一个公开的分子识别数据库，收录蛋白质与小分子（主要是药物靶点）之间实验测定的结合亲和力。2025 年 NAR 论文将其描述为 FAIR 的蛋白-小分子结合数据知识库，全量数据可从 UC 圣地亚哥下载。亲和力预测基准里 ChEMBL 的关键补充。"
+  },
+  {
+    "category": "datasets",
+    "slug": "zinc-database",
+    "description": "免费的可购买化合物数据库，规模达数百亿：2D 覆盖 549 亿分子，专供虚拟筛选。",
+    "longDescription": "UCSF Shoichet 实验室的 ZINC 是免费的可购买（「摸得着」）化合物数据库；ZINC-22 在 2D 上枚举约 370-550 亿分子，数十亿已构建 3D 结构。通过 Cartblanche 界面浏览，配合 DOCK 支撑大规模对接筛选。任何配体发现智能体或虚拟筛选管线，最终的候选化合物都出自 ZINC。"
+  },
+  {
+    "category": "datasets",
+    "slug": "papyrus-dataset",
+    "description": "大规模整理的生物活性数据集约 6000 万条，源自 ChEMBL 等，面向 ML 药物发现。",
+    "longDescription": "Papyrus（Journal of Cheminformatics 2023）聚合了约 6000 万条小分子生物活性数据点，来源包括 ChEMBL、ExCAPE-DB 与若干高质量小集，带蛋白质质量分级与一致的分子结构标准化。数据集开放托管在 Zenodo，Papyrus-scripts 库提供程序化访问。广泛用于生物活性预测模型的训练与基准。"
+  },
+  {
+    "category": "datasets",
+    "slug": "moleculenet",
+    "description": "经典基准套件：17 个分子机器学习数据集，横跨量子力学、物理化学、生物物理与生理学。",
+    "longDescription": "MoleculeNet（arXiv 1703.00564；含 70 万+ 精选化合物）把 17 个数据集组织进量子力学、物理化学、生物物理与生理学四大类。全部数据集可直接以 DeepChem dc.data.Dataset 对象加载，是分子机器学习模型对比的长期标准。其中的 Tox21、ESOL、HIV 至今仍频繁出现在论文与教程里。"
+  },
+  {
+    "category": "datasets",
+    "slug": "therapeutics-data-commons",
+    "description": "AI-ready 数据集、机器学习任务与公开榜单平台：覆盖从靶点到临床结局的完整治疗管线。",
+    "longDescription": "Therapeutics Data Commons（NeurIPS 2021 Datasets & Benchmarks；Nature Communications）是第一个系统性访问与评估全治疗管线机器学习的统一平台。每个数据集都配好机器学习任务、训练/验证/测试切分、评测指标与公开榜单，另有参考实现。由哈佛 Zitnik 实验室维护，也经 Hugging Face 分发数据。"
+  },
+  {
+    "category": "datasets",
+    "slug": "gdc-tcga",
+    "description": "NCI 基因组数据公共库：统一协调并分发肿瘤基因组数据，含完整 TCGA 队列 5 万+ 例。",
+    "longDescription": "NCI 的 Genomic Data Commons 是新一代肿瘤知识网络，提供覆盖 TCGA、HCMI 等项目 50571 例的仓库与计算平台。它对基因组、临床与生物样本数据施加统一协调管线（Nature Communications 2021），经 GDC 数据门户分发。大规模肿瘤机器学习与精准医学研究的正典入口。"
+  },
+  {
+    "category": "datasets",
+    "slug": "gtex",
+    "description": "NIH Common Fund 资源：组织特异性基因表达与遗传调控，约 1000 名供体、50+ 组织的 eQTL。",
+    "longDescription": "Genotype-Tissue Expression（GTEx）门户是研究组织与细胞特异性基因表达和遗传调控的综合公共资源，覆盖约 1000 名供体、50+ 种组织类型。它提供批量与单细胞 RNA-seq，以及把遗传变异关联到表达变化的 eQTL 分析。GTEx eQTL 是功能基因组学与 AI 靶点优先级排序管线的标准配料。"
+  },
+  {
+    "category": "datasets",
+    "slug": "encode",
+    "description": "NHGRI 计划：构建人类与小鼠基因组功能元件全景图，门户提供丰富数据。",
+    "longDescription": "ENCODE（DNA 元件百科全书）由 NHGRI 于 2003 年启动，目标是给人类与小鼠基因组编一份功能元件完整清单。其门户提供数千个数据集，包括 ChIP-seq 矩阵、人体图谱与单细胞实验。ENCODE 的调控注释是基因组深度学习模型的核心训练数据。"
+  },
+  {
+    "category": "datasets",
+    "slug": "human-cell-atlas",
+    "description": "全球联盟：为每一种人类细胞绘制综合参考图谱，公开数百万细胞的多组学数据。",
+    "longDescription": "Human Cell Atlas 于 2016 年作为开放全球计划发起，目标是建立所有人类细胞的综合参考图谱，作为理解健康与疾病的基础。其数据门户分发社区生成的多组学开放数据，覆盖超过 1200 万细胞并附标准化分析。HCA 图谱是新一代单细胞模型与 AI 注释工具的对照基准。"
+  },
+  {
+    "category": "datasets",
+    "slug": "cellxgene",
+    "description": "Chan Zuckerberg Initiative 平台：发现、下载与可视化探索精选标准化的单细胞数据集。",
+    "longDescription": "CZ CELLxGENE Discover（NAR 2025）让研究者能查找、下载与可视化探索精选标准化的单细胞数据集，Explorer 支持单数据集交互分析。CELLxGENE Census 提供全语料库的 API 访问以支撑大规模计算，底层 Explorer 软件开源。跨组织单细胞数据与模型的主枢纽之一。"
+  },
+  {
+    "category": "datasets",
+    "slug": "broad-single-cell-portal",
+    "description": "Broad 研究所的免费开放门户：1000+ 项单细胞基因组研究，交互可视化与下载。",
+    "longDescription": "Broad 研究所的 Single Cell Portal 是一个开放访问的网页平台，用于共享与探索单细胞基因组数据，目前收录 1000+ 项研究。它提供交互可视化、探索性差异表达与公开下载，并托管精选的 Human Cell Atlas 主合集。与 CELLxGENE 并列的大型单细胞图谱公共之家。"
+  },
+  {
+    "category": "datasets",
+    "slug": "string-db",
+    "description": "蛋白质相互作用数据库：12535 个物种、5930 万蛋白、200 亿+ 条打分整合的相互作用。",
+    "longDescription": "STRING（string-db.org，由 SIB 瑞士生物信息学研究所维护）收集、打分并整合来自实验、人工数据库与计算预测的物理及功能蛋白质关联。12.5 版覆盖 12535 个物种、200 亿+ 相互作用，可按置信度下载并提供 API。其网络是图机器学习与靶点发现管线的标准输入。"
+  },
+  {
+    "category": "learning",
+    "slug": "ai-for-medicine",
+    "description": "DeepLearning.AI 专项课程：用深度学习做医学诊断、预后与治疗，全程动手编程。",
+    "longDescription": "这是 DeepLearning.AI 在 Coursera 上的专项课程，教实用的医学机器学习：影像诊断、预后估计与治疗效果估计。包含 AI for Medical Diagnosis、AI for Medical Prognosis、AI for Medical Treatment 三门课与配套实验。机器学习工程师转医疗 AI 最顺手的体系化入口。"
+  },
+  {
+    "category": "learning",
+    "slug": "ucsd-bioinformatics-specialization",
+    "description": "加州大学圣地亚哥分校七门课专项：从 DNA 里的隐藏信息到基因组测序的生物信息学算法。",
+    "longDescription": "由 UCSD 的 Pavel Pevzner、Phillip Compeau 与 Nikolay Vyahhi 创建，2015 年在 Illumina 支持下成为首个在线生物信息学专项。课程从「Finding Hidden Messages in DNA」一路讲到基因组测序、基因比较、分子演化与生物信息学算法。与 ROSALIND 题库和 Compeau/Pevzner 教科书天然配套。"
+  },
+  {
+    "category": "learning",
+    "slug": "rosalind",
+    "description": "用自动判题的编程题目学生物信息学：从 Python 入门到基因组组装算法。",
+    "longDescription": "ROSALIND 是一个通过解题学生物信息学的平台，相当于生物版的 Project Euler。题目按 Python Village、生物信息学教材轨与算法专区组织，提交答案自动判分。初学者把生物学知识变成能跑的代码的标准路径。"
+  },
+  {
+    "category": "learning",
+    "slug": "biostar-handbook",
+    "description": "Istvan Albert 的实用电子书系列：可复现生物信息学数据分析，从 Unix 脚本到 RNA-seq 与 SNP 检测。",
+    "longDescription": "Istvan Albert 的 Biostar Handbook 是对初学者友好的实用电子书系列（现有五卷），覆盖 Unix 命令行、RNA-seq、基因组分析、SNP 检测等。它与 Biostars 问答社区紧密相连，强调把大规模测序数据变成可复现的结论。NCI 的初学者培训模块直接基于它构建。"
+  },
+  {
+    "category": "learning",
+    "slug": "embl-ebi-training",
+    "description": "EMBL-EBI 免费课程：按需点播与直播，覆盖生物信息学资源与数据驱动的生命科学技能。",
+    "longDescription": "EMBL-EBI Training 通过按需在线课程、线上直播与 Hinxton 线下课，免费提供世界级的数据驱动生命科学培训。材料覆盖 UniProt、ChEMBL 等主要 EMBL-EBI 资源，开放可复用。想搞懂多数 AI 生物管线底下那层公共生物数据基础设施，这里是权威途径。"
+  },
+  {
+    "category": "learning",
+    "slug": "deep-learning-life-sciences-book",
+    "description": "O'Reilly 出版、DeepChem 团队写的书：把深度学习用于基因组学、化学、显微镜与药物发现。",
+    "longDescription": "作者 Bharath Ramsundar、Peter Eastman、Patrick Walters 与 Vijay Pande（O'Reilly，2019），这本实操书教开发者和科学家把深度学习应用于基因组学、化学、生物物理、显微镜与药物发现。全书围绕 DeepChem 库构建，配分子性质预测与蛋白质任务的可运行示例。至今仍是机器学习工程与生命科学数据之间的经典桥梁。"
+  },
+  {
+    "category": "learning",
+    "slug": "rosetta-docs",
+    "description": "Rosetta 大分子建模套件官方文档与教程：结构预测、对接与蛋白质设计。",
+    "longDescription": "RosettaCommons 官方文档覆盖自 1998 年开发的 Rosetta 在蛋白质与核酸结构预测、设计与改造上的能力，含入门指南、教程、示例与蛋白设计/蛋白对接的 protocol capture，并配套 Leman 等 2020 年 Nature Methods 论文。Rosetta 仍是现代深度学习蛋白质设计的经典物理学派参照。"
+  },
+  {
+    "category": "learning",
+    "slug": "uw-institute-protein-design",
+    "description": "诺奖得主 David Baker 的蛋白质设计研究所：从头设计研究、软件与论文汇总站。",
+    "longDescription": "华盛顿大学蛋白质设计研究所（ipd.uw.edu）是 2024 年化学诺奖得主 David Baker 开创的计算蛋白质设计大本营。站点发布深度学习、酶、多肽、微结合蛋白与药物递送方向的研究，并链接 Baker、Bhardwaj、DiMaio、King 等核心实验室及其软件与 AI 工具。追 AI 蛋白质设计前沿最快的办法就是追 IPD 的论文。"
+  },
+  {
+    "category": "learning",
+    "slug": "ai-drug-development-review",
+    "description": "高被引 Nature Medicine 综述（Zhang 等）：全景扫描 AI 在药物研发全流程的应用。",
+    "longDescription": "这篇 Nature Medicine 综述（s41591-024-03434-4，Zhang 等）梳理了 AI 在药物研发全流程的应用——从靶点识别到临床结局，已被引用 600+ 次。它是界定机器学习在制药中真正创造价值的标准现代参考文献。可搭配 Bajorath 的编辑评论《Artificial Intelligence in Drug Discovery: Into the Great Wide Open》（J. Med. Chem. 2020）阅读。"
+  }
+]

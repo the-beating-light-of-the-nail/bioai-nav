@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "openclaw",
+  "description": "开源 AI 智能体框架：跑在你自己的设备和聊天渠道上，带 SKILL.md 技能系统与 ClawHub 注册表。",
+  "longDescription": "OpenClaw 是一个免费开源的自主 AI 智能体网关（TypeScript，MIT 协议），把大模型接入工具和 Discord、iMessage、Teams 等消息渠道。技能以 SKILL.md 文件定义，可从 ClawHub、Git 仓库或本地目录安装，并支持按工作区配置门控、白名单和环境注入。ClawBio 等生物信息学技能库都以它为第一目标生态。"
+}

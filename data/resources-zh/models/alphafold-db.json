@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "alphafold-db",
+  "description": "DeepMind 与 EMBL-EBI 的开放数据库：2 亿+ 条预测蛋白质结构，按 UniProt 编号检索与下载。",
+  "longDescription": "AlphaFold DB 通过网页界面和公共 FTP 免费开放了几乎全部已知蛋白质的 AlphaFold 预测，已增长到超过 2.6 亿条结构，是生物学家快速查看结构的默认基础设施。由 EMBL-EBI 与 Google DeepMind 联合开发并托管。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "colabfold",
+  "description": "免费 Colab 笔记本与本地安装器：AlphaFold2 搭配快速 MMseqs2 比对，让人人都能做结构预测。",
+  "longDescription": "ColabFold 把 AlphaFold 2 带进了每个实验室：在浏览器笔记本里配上快速 MMseqs2 序列比对。发表于 Nature Methods，被数千项结构预测研究引用。LocalColabFold 把同一管线扩展到各操作系统的本地机器。"
+}

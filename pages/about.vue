@@ -1,17 +1,22 @@
 <script setup lang="ts">
-import { CATEGORIES, SITE } from '~/data/categories'
+import { CATEGORIES, SITE, catText } from '~/data/categories'
 import { categoryCounts, resources } from '~/data/load'
 import { usePageSeo, useBreadcrumbJsonLd } from '~/composables/seo'
 
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
+const loc = computed(() => locale.value as 'en' | 'zh')
+const isZh = loc.value === 'zh'
+
 usePageSeo({
-  title: 'About BioAI Nav — The Discovery Layer of the BioAI Ecosystem',
-  description:
-    'BioAI Nav is the navigation hub for AI in biology and biotech: how we curate resources, what we catalog, and our editorial standards. Discover where to find BioAI tools, agents, skills, models and datasets.',
-  path: '/about',
+  title: isZh ? '关于 BioAI Nav——BioAI 生态的发现层 | BioAI Nav' : 'About BioAI Nav — The Discovery Layer of the BioAI Ecosystem',
+  description: isZh
+    ? 'BioAI Nav 是 AI 生物学与生物科技的导航中心：我们如何筛选资源、收录什么、编辑标准是什么。发现去哪里找 BioAI 工具、智能体、技能、模型与数据集。'
+    : 'BioAI Nav is the navigation hub for AI in biology and biotech: how we curate resources, what we catalog, and our editorial standards. Discover where to find BioAI tools, agents, skills, models and datasets.',
 })
 useBreadcrumbJsonLd([
-  { name: 'Home', path: '/' },
-  { name: 'About', path: '/about' },
+  { name: t('common.home'), path: localePath('/') },
+  { name: isZh ? '关于' : 'About', path: localePath('/about') },
 ])
 
 const counts = categoryCounts()
@@ -20,73 +25,81 @@ const counts = categoryCounts()
 <template>
   <div class="container page">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink :to="localePath('/')">{{ t('common.home') }}</NuxtLink>
       <span aria-hidden="true">›</span>
-      <span aria-current="page">About</span>
+      <span aria-current="page">{{ isZh ? '关于' : 'About' }}</span>
     </nav>
 
     <header class="page-head">
-      <h1 class="page-title">The discovery layer of the BioAI ecosystem</h1>
-      <p class="page-tagline">Not another tools directory</p>
+      <h1 class="page-title">{{ t('about.title') }}</h1>
+      <p class="page-tagline">{{ t('about.sub') }}</p>
     </header>
 
     <div class="page-intro prose">
-      <p>
-        BioAI resources are fragmented across directories, GitHub repositories, skill libraries, commercial platforms
-        and research labs. Before you can pick a tool, an agent or a dataset, you first have to answer a harder
-        question: <b>where should you be looking?</b>
-      </p>
-      <p>
-        BioAI Nav exists to answer that question. We catalog the navigational infrastructure of AI in biology and
-        biotech — the directories, awesome lists and skill registries that map the field — alongside the flagship
-        tools, models, platforms, datasets and learning resources themselves. Think of it as a navigation of
-        navigations.
-      </p>
+      <i18n-t keypath="about.intro1" tag="p" scope="global">
+        <template #q><b>{{ isZh ? '该去哪里找？' : 'where should you be looking?' }}</b></template>
+      </i18n-t>
+      <p>{{ t('about.intro2') }}</p>
     </div>
 
     <section class="detail-section prose">
-      <h2>What we catalog</h2>
-      <p>Every resource on BioAI Nav belongs to one of ten categories:</p>
+      <h2>{{ t('about.whatTitle') }}</h2>
+      <p>{{ t('about.whatLead') }}</p>
       <ul class="cat-list">
         <li v-for="c in CATEGORIES" :key="c.slug">
-          <NuxtLink :to="`/${c.slug}`">{{ c.title }}</NuxtLink> — {{ c.blurb }}
+          <NuxtLink :to="localePath(`/${c.slug}`)">{{ catText(c, loc).title }}</NuxtLink> — {{ catText(c, loc).blurb }}
           <i>({{ counts[c.slug] }})</i>
         </li>
       </ul>
-      <p>
-        In total, {{ resources.length }} curated entries and growing — deliberately. We would rather list 300
-        high-quality resources than 3,000 unverified links.
-      </p>
+      <p>{{ t('about.whatTotal', { n: resources.length }) }}</p>
     </section>
 
     <section class="detail-section prose">
-      <h2>Editorial standards</h2>
+      <h2>{{ t('about.standardsTitle') }}</h2>
       <ul>
-        <li><b>Real, verified, current.</b> Every entry is checked by a human before listing: a real project, a working official link, honest metadata. Dead or abandoned projects get retired.</li>
-        <li><b>No paid placement.</b> Featured positions are editorial choices, not advertisements.</li>
-        <li><b>Honest flags.</b> Open-source status, agent-readiness, MCP and OpenClaw support are recorded as facts, not marketing. A closed platform is listed as a closed platform.</li>
-        <li><b>The ecosystem is the catalog.</b> Directories and awesome lists are not our competitors — they are our content. We link to the best of them and let you go deep where they are strong.</li>
+        <li>
+          <i18n-t keypath="about.standards1" scope="global" tag="span">
+            <template #lead><b>{{ t('about.standards1.lead') }}</b></template>
+          </i18n-t>
+        </li>
+        <li>
+          <i18n-t keypath="about.standards2" scope="global" tag="span">
+            <template #lead><b>{{ t('about.standards2.lead') }}</b></template>
+          </i18n-t>
+        </li>
+        <li>
+          <i18n-t keypath="about.standards3" scope="global" tag="span">
+            <template #lead><b>{{ t('about.standards3.lead') }}</b></template>
+          </i18n-t>
+        </li>
+        <li>
+          <i18n-t keypath="about.standards4" scope="global" tag="span">
+            <template #lead><b>{{ t('about.standards4.lead') }}</b></template>
+          </i18n-t>
+        </li>
       </ul>
     </section>
 
     <section class="detail-section prose">
-      <h2>Roadmap</h2>
+      <h2>{{ t('about.roadmapTitle') }}</h2>
       <ul>
-        <li>Periodic refresh of GitHub stars, languages and last-update metadata for cataloged repositories.</li>
-        <li>More programmatic topic pages as the catalog grows past each quality threshold.</li>
-        <li>A Chinese edition (中文版) once the English catalog stabilizes.</li>
-        <li>Machine-readable exports — the catalog is plain JSON and stays that way.</li>
+        <li>{{ t('about.roadmap1') }}</li>
+        <li>{{ t('about.roadmap2') }}</li>
+        <li>{{ t('about.roadmap3') }}</li>
+        <li>{{ t('about.roadmap4') }}</li>
       </ul>
     </section>
 
     <section class="detail-section prose">
-      <h2>Get in touch</h2>
-      <p>
-        The fastest way to reach us is the
-        <NuxtLink to="/submit">submission form</NuxtLink> — it works for corrections and feedback too, not just new
-        resources. The source and issue tracker live on
-        <a :href="'https://github.com/' + SITE.githubRepo" target="_blank" rel="noopener noreferrer">GitHub</a>.
-      </p>
+      <h2>{{ t('about.contactTitle') }}</h2>
+      <i18n-t keypath="about.contactText" tag="p" scope="global">
+        <template #link>
+          <NuxtLink :to="localePath('/submit')">{{ isZh ? '投稿表单' : 'submission form' }}</NuxtLink>
+        </template>
+        <template #gh>
+          <a :href="'https://github.com/' + SITE.githubRepo" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </template>
+      </i18n-t>
     </section>
   </div>
 </template>

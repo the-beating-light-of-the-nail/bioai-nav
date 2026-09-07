@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "biogpt",
+  "description": "微软的领域生成式 Transformer：在海量 PubMed 摘要上预训练，面向生物医学文本挖掘与生成。",
+  "longDescription": "BioGPT 把 GPT 配方应用到大规模生物医学文献，发布时在 BC5CDR 等关系抽取基准上领先。MIT 协议仓库提供预训练的 base 与 large 权重，Hugging Face 亦有。它仍是领域生物医学语言模型的常用参照点。"
+}

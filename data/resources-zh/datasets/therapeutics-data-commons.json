@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "therapeutics-data-commons",
+  "description": "AI-ready 数据集、机器学习任务与公开榜单平台：覆盖从靶点到临床结局的完整治疗管线。",
+  "longDescription": "Therapeutics Data Commons（NeurIPS 2021 Datasets & Benchmarks；Nature Communications）是第一个系统性访问与评估全治疗管线机器学习的统一平台。每个数据集都配好机器学习任务、训练/验证/测试切分、评测指标与公开榜单，另有参考实现。由哈佛 Zitnik 实验室维护，也经 Hugging Face 分发数据。"
+}

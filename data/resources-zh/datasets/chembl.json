@@ -1,0 +1,6 @@
+{
+  "category": "datasets",
+  "slug": "chembl",
+  "description": "EMBL-EBI 人工整理的生物活性类药分子数据库：化学、活性与基因组数据整合。",
+  "longDescription": "ChEMBL 是 EMBL-EBI 维护的人工整理、开放、FAIR 合规的生物活性类药分子数据库。ChEMBL 35 收录约 17500 种已上市药物与数百万条连接化合物-靶标的活性测量数据。它是全球核心生物数据资源之一，也是药物发现机器学习的骨干数据集。"
+}

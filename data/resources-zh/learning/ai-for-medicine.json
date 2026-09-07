@@ -1,0 +1,6 @@
+{
+  "category": "learning",
+  "slug": "ai-for-medicine",
+  "description": "DeepLearning.AI 专项课程：用深度学习做医学诊断、预后与治疗，全程动手编程。",
+  "longDescription": "这是 DeepLearning.AI 在 Coursera 上的专项课程，教实用的医学机器学习：影像诊断、预后估计与治疗效果估计。包含 AI for Medical Diagnosis、AI for Medical Prognosis、AI for Medical Treatment 三门课与配套实验。机器学习工程师转医疗 AI 最顺手的体系化入口。"
+}

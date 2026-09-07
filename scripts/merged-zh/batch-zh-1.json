@@ -1,0 +1,212 @@
+[
+  {
+    "category": "directories",
+    "slug": "bioai-agents-directory",
+    "description": "收录 238+ 个药物发现、蛋白质设计、临床试验与基因组学 AI 智能体和平台的精选目录。",
+    "longDescription": "BioAI Agents Directory 收录了 237+ 个正在改变生物制药的 AI 智能体与平台，可按分类和使用场景浏览，覆盖研发全价值链。站内还有专家对比指南和品类榜单（如蛋白质设计平台排名），并提供新工具提交入口。摸底商业 BioAI 智能体版图的第一站。"
+  },
+  {
+    "category": "directories",
+    "slug": "baio",
+    "description": "每周两更的 AI × 生物学简报，追踪模型、论文、交易与工具，往期存档可公开检索。",
+    "longDescription": "BAIO 是一个以邮件通讯为主的情报源，覆盖 AI 与生物学的交叉领域：模型、论文、产业交易和工具生态被浓缩成 5 分钟可读的摘要，每周两期。它的公开存档同时也是一份可检索的 AI 生物领域时间线。适合在深度检索之间保持对 BioAI 新工具的敏感度。"
+  },
+  {
+    "category": "directories",
+    "slug": "biotech-today",
+    "description": "药物发现 AI 情报平台，追踪约 90 款结构预测、对接、抗体设计与 ADMET 工具并给出成熟度评估。",
+    "longDescription": "Biotech Today 由 Avanthus Sàrl 运营，把药物发现 AI 的深度报道与工具情报结合起来：按品类给出基准、成熟度评分与采用数据，覆盖蛋白质结构预测、从头设计、分子对接、抗体设计和 ADMET 等。站内还发布 AlphaFold2 对比 Boltz-1 对比 Chai-1 这类工具横评。一半是目录，一半是 TechBio 工具圈的分析简报。"
+  },
+  {
+    "category": "directories",
+    "slug": "bio-tools",
+    "description": "ELIXIR 体系下维护的生命科学计算工具与数据资源社区注册表。",
+    "longDescription": "bio.tools 是历史悠久的生物信息学软件与数据服务社区注册表，由 ELIXIR 基础设施维护。每个条目带结构化元数据（主题、操作类型、输入输出格式），让整个目录机器可读——对需要可靠发现工具的 AI 智能体越来越重要。它是目前最完整的生命科学软件目录之一。"
+  },
+  {
+    "category": "skills",
+    "slug": "openclaw",
+    "description": "开源 AI 智能体框架：跑在你自己的设备和聊天渠道上，带 SKILL.md 技能系统与 ClawHub 注册表。",
+    "longDescription": "OpenClaw 是一个免费开源的自主 AI 智能体网关（TypeScript，MIT 协议），把大模型接入工具和 Discord、iMessage、Teams 等消息渠道。技能以 SKILL.md 文件定义，可从 ClawHub、Git 仓库或本地目录安装，并支持按工作区配置门控、白名单和环境注入。ClawBio 等生物信息学技能库都以它为第一目标生态。"
+  },
+  {
+    "category": "skills",
+    "slug": "claude-code",
+    "description": "Anthropic 的终端编码智能体，基于文件系统的 Agent Skills——SKILL.md 生物技能库的参考运行时。",
+    "longDescription": "Claude Code 是 Anthropic 的命令行编码与自动化智能体，也是 Agent Skills 格式的旗舰载体：一个带 SKILL.md 的文件夹就能教会智能体一套专门流程。技能基于文件系统管理，与 claude.ai/API 侧的技能相互独立，Anthropic 还在此之上发布了专门的生命科学市场。本站收录的大部分生物信息学技能库都优先适配它。"
+  },
+  {
+    "category": "skills",
+    "slug": "codex-cli",
+    "description": "OpenAI 的开源编码智能体，已实验性支持 Agent Skills，文档见 openai/codex 仓库与 OpenAI API 文档。",
+    "longDescription": "Codex 是 OpenAI 的命令行/云端编码智能体；openai/codex 仓库文档化了 SKILL.md 形式的技能（实验性开放）与 AGENTS.md 约定。OpenAI 官方指南涵盖了如何把说明、资源和可选脚本打包成技能来扩展 ChatGPT 与 Codex。它是与 Claude 生态同一套跨兼容技能文件的第二目标运行时。"
+  },
+  {
+    "category": "skills",
+    "slug": "gemini-cli",
+    "description": "Google 的开源终端 AI 智能体，自 v0.26 起支持 Agent Skills、钩子与 TOML frontmatter 自定义命令。",
+    "longDescription": "Gemini CLI 是把 Gemini 模型带进终端的开源智能体，支持在 .gemini/commands 里用 Markdown 定义斜杠命令。v0.26.0 起支持打包专业知识、流程化工作流和任务资源的 Agent Skills，与 SKILL.md 生态同构。社区生物技能包也可以安装到这个运行时上。"
+  },
+  {
+    "category": "skills",
+    "slug": "anthropic-agent-skills",
+    "description": "Anthropic 官方的 Agent Skills 示例仓库——开放 SKILL.md 技能格式的参考实现。",
+    "longDescription": "anthropics/skills 是演示 Claude 技能系统的官方公开仓库，从创意应用到实用文档处理都有示例。它带火的 SKILL.md 格式如今已被 Claude Code、GitHub Copilot 和众多社区合集支持，成为智能体技能事实上的打包标准。写或审计生物技能之前，先从这里了解格式。"
+  },
+  {
+    "category": "skills",
+    "slug": "anthropic-life-sciences",
+    "description": "Anthropic 官方生命科学市场：可装进 Claude Code 的 MCP 服务器与技能合集。",
+    "longDescription": "anthropics/life-sciences 是 Anthropic 面向 Claude Code 的生命科学市场：一组暴露专业科研工具与数据库的 MCP 服务器和技能插件。它随 Claude for Life Sciences 一起发布，后者为 Claude 增加了科研连接器和面向药物发现的能力。生命科学智能体工具链成为一方生态，这是最明确的信号。"
+  },
+  {
+    "category": "skills",
+    "slug": "gdm-science-skills",
+    "description": "Google DeepMind 官方技能包，让智能体做科研更快、更接地、更省 token。",
+    "longDescription": "science-skills 是 Google DeepMind 面向科研的公开智能体技能合集，覆盖基因组学与生命科学，也包含化学、材料与物理。它的发布目标是让智能体科研工作流更快、更可靠，按第三方追踪榜单已是星标最多的科研技能仓库之一（约 2.7k 星）。给任何兼容 SKILL.md 的智能体补领域知识的最直接方式。"
+  },
+  {
+    "category": "skills",
+    "slug": "mcp-reference-servers",
+    "description": "Model Context Protocol 官方仓库：参考服务器实现与社区 MCP 服务器索引。",
+    "longDescription": "modelcontextprotocol/servers 是 MCP 参考实现的权威合集，外加社区服务器索引，由 MCP 项目（Anthropic 与合作伙伴）维护。它定义了生物信息学 MCP 服务器沿用的服务器模式——从文件系统访问到数据库查询。任何面向生物学的智能体枢纽最终都要接入这个生态。"
+  },
+  {
+    "category": "skills",
+    "slug": "biomcp",
+    "description": "生物医学 MCP 服务器与 CLI：一个接口打通 PubMed、ClinicalTrials.gov 与 MyVariant.info 查询。",
+    "longDescription": "BioMCP 由 GenomOncology 开源，是一个面向生物医学 AI 助手与智能体的 MCP 服务器。一次查询即可触达文献、临床试验和基因组变异这三类原本分散在不同 API 与标识体系下的数据源；既有 Python 包（biomcp-python）也有单文件 CLI。企业版扩展 OncoMCP 提供 HIPAA 合规的精准肿瘤学部署。"
+  },
+  {
+    "category": "skills",
+    "slug": "mcpmed",
+    "description": "MCPmed 组织维护的一组生物学与生物医学数据库 MCP 服务器。",
+    "longDescription": "MCPmed 是一个 GitHub 组织，发布覆盖生物学与生物医学数据库的一整套 Model Context Protocol 服务器。借助这组合集，Claude、Cursor 等 MCP 客户端可以直接查询核心生命科学资源，而不必写临时脚本。它的服务器经常被 BioContextAI 等生命科学 MCP 注册表交叉收录。"
+  },
+  {
+    "category": "skills",
+    "slug": "gget-mcp",
+    "description": "把 gget 生物信息学工具箱封装成 MCP 服务器，让智能体用标准接口查询基因组数据库。",
+    "longDescription": "gget-mcp 来自 longevity-genie 组织，把流行的基因组数据库命令行工具 gget 封装成了 Model Context Protocol 服务器。AI 助手因此能用结构化方式完成原本要靠 shell 命令的基因、序列与注释查询。它常被 awesome-genomic-skills 等生命科学 MCP 精选清单引用。"
+  },
+  {
+    "category": "skills",
+    "slug": "biocontextai-registry",
+    "description": "社区 MCP 服务器注册表与开源合集，封装 STRING、Open Targets、Reactome、UniProt 与人类蛋白质图谱。",
+    "longDescription": "BioContextAI 是连接智能体 AI 与生物医学资源的社区注册表；其概念验证 Knowledgebase 服务器联邦接入了 STRING、Open Targets、Reactome、UniProt、人类蛋白质图谱和 PanglaoDb。项目有 bioRxiv 预印本，并提供新服务器提交模板与注册表编辑器。最接近「生物学 MCP 应用商店」的存在。"
+  },
+  {
+    "category": "skills",
+    "slug": "clawbio",
+    "description": "第一个生物信息学原生的 AI 智能体技能库：独立可跑的 SKILL.md 管线技能，带脚本、演示数据与测试。",
+    "longDescription": "ClawBio 把真实的生物信息学工作流——基因组学、GWAS、系统发生学、蛋白质组学、药物基因组学、单细胞——打包成可运行的智能体技能，每个技能都有 SKILL.md 契约、可执行 Python 脚本、演示数据和测试。它基于 OpenClaw/open-agent 约定构建，本地优先、注重隐私，每个技能还能通过 clawbio.run_skill() 独立运行。技能数量增长很快：从发布时的 8 个涨到最近的几十个（快照约 96 个），贡献者持续增加。"
+  },
+  {
+    "category": "skills",
+    "slug": "awesome-bio-agent-skills",
+    "description": "精选合集：1676 个自包含的 SKILL.md 生物医学智能体技能，从 20 个开源仓库去重归入 15 类。",
+    "longDescription": "BioTender-max/awesome-bio-agent-skills 聚合了 1676 个 SKILL.md 格式的生物医学智能体技能——基因组学、蛋白质组学、单细胞分析、临床 AI、蛋白质设计——从 20 个开源仓库去重后归入 15 个类目。技能兼容 OpenClaw、NanoClaw、Biomni 等智能体框架。目前最大的一架现成生物技能货架。"
+  },
+  {
+    "category": "skills",
+    "slug": "gptomics-bioskills",
+    "description": "一组 SKILL.md 文件，为 AI 智能体提供标准生物信息学工作流的专业知识与代码范式。",
+    "longDescription": "GPTomics/bioSkills 为 AI 智能体提供生物信息学工作的专家知识：每个技能把代码范式与最佳实践打包成 SKILL.md 指令。它是较早把生物信息学实践沉淀给编码智能体的社区尝试之一，常与 ClawBio 一起出现在基因组技能精选清单里。适合作为搭建实验室专属技能集的原材料。"
+  },
+  {
+    "category": "skills",
+    "slug": "awesome-genomic-skills",
+    "description": "基因组学与生物信息学智能体技能与 MCP 服务器索引：覆盖 DeepMind、OpenAI、Anthropic、AWS 与社区项目。",
+    "longDescription": "GoekeLab 的 awesome-genomic-skills 是生物智能体技能生态的地图：技能库（Google DeepMind science-skills、OpenAI life-science-research、Anthropic life-sciences、AWS Kiro 套件、ClawBio、SciAgent-skills）、生命科学 MCP 服务器（biomcp、gget-mcp、Seqera、plant-genomics-mcp），以及 BixBench、LAB-Bench 等智能体基准。CC0 协议、由基因组学实验室维护，且清晰区分了技能与 MCP 服务器。整个品类最好的单一入口。"
+  },
+  {
+    "category": "skills",
+    "slug": "awesome-medical-ai-skills",
+    "description": "国际版的医疗与健康 AI 智能体技能、MCP 服务器与临床工具精选清单。",
+    "longDescription": "JuneYaooo/awesome-medical-ai-skills（国际版）收录面向医疗与健康 AI 的智能体技能、MCP 服务器和工具。它与同作者的 awesome-medical-ai（开源医疗 AI 项目合集，涵盖大模型、影像、多智能体与临床软件）互为补充。算是基因组学技能清单在医疗侧的对应物。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-bioinformatics",
+    "description": "经典的生物信息学软件与库精选清单，按序列分析、组装、变异检测等主题组织。",
+    "longDescription": "danielecook/Awesome-Bioinformatics 是生物信息学软件领域资历最老的社区 awesome 清单，覆盖序列分析、基因组组装、变异检测、数据格式与工具链。维护活跃（最近提交在 2026 年 4 月），被广泛引用为生物信息学软件发现的第一入口。配合 bio.tools 的结构化元数据使用效果更佳。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-single-cell",
+    "description": "社区精选的单细胞分析软件、数据资源、研究者与论文清单。",
+    "longDescription": "seandavi/awesome-single-cell 是单细胞基因组学的社区正典：RNA-seq、ATAC-seq 等实验的软件包与数据资源，外加研究者和论文索引。它被 scRNA-seq 工具领域的同行评审综述引用（Zappia 等 2021 年分析了 1000+ 工具）。至今仍是发给单细胞新人的第一个链接。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-deep-learning-single-cell-papers",
+    "description": "OmicsML 组织维护的单细胞深度学习论文精选。",
+    "longDescription": "OmicsML/awesome-deep-learning-single-cell-papers 收录单细胞分析的深度学习论文，从经典表示学习到最新的基础模型。同一组织还维护姊妹清单 awesome-foundation-model-single-cell-papers，追踪单细胞基础模型的最新浪潮。研究单细胞 AI 方向的必备阅读清单。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-cheminformatics",
+    "description": "化学信息学软件、资源与库的精选清单——以命令行、免费或开源工具为主。",
+    "longDescription": "hsiaoyi0504/awesome-cheminformatics 是化学信息学工具的首选 awesome 清单：以 CLI 为主、免费或开源的分子处理、描述符与检索软件。它常与 Pat Walters 那份观点鲜明的开源化学信息学资源清单搭配使用。是药物发现与 BioAI 清单在化学侧的补全。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-drug-discovery",
+    "description": "计算药物发现资源精选：化合物数据库、对接、QSAR、逆合成、AI/ML 框架与分子动力学。",
+    "longDescription": "yboulaamane/awesome-drug-discovery 聚焦药物发现的计算方法——化合物数据库、对接工具、QSAR、逆合成、AI/ML 框架和分子动力学。它在 r/comp_chem 社区广泛流传，是同名清单里当前最活跃的一个。旧仓库 xnuohz/awesome-drug-discovery 则归档了更早一代的深度学习论文。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-small-molecule-ml",
+    "description": "小分子药物发现机器学习的论文、数据集、框架与工具包精选。",
+    "longDescription": "benb111/awesome-small-molecule-ml 收录小分子药物发现的机器学习侧资源：论文、数据集、框架、工具包和博客。它是机器学习化学基准与数据源的标准参考之一。与更宏观的药物发现清单相比，这份的机器学习聚焦更紧。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-aidd",
+    "description": "热门的 AI 辅助药物发现清单：分子与蛋白质表示、结构预测、设计与酶工程。",
+    "longDescription": "daiyun02211/awesome-AIDD 追踪 AI 辅助药物发现研究，覆盖分子与蛋白质表示、蛋白质结构预测、蛋白质设计和酶工程。它在搜索结果中经常与 BioAI 智能体目录同屏出现。是连接深度学习文献与实际分子设计工具的一座好桥。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesomegenomics",
+    "description": "Broad Institute 的基因组学资源清单：数据库、软件、库、工具箱、管线、书籍与课程。",
+    "longDescription": "broadinstitute/AwesomeGenomics 是 Broad Institute 维护的基因组学 awesome 清单，覆盖生物信息学数据库、软件、库、工具箱、管线和学习材料。机构级维护让它在生产级基因组学基础设施上的覆盖尤其出色。算是 Awesome-Bioinformatics 在基因组学侧的对应清单。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-ai-for-science",
+    "description": "AI for Science 精选清单：加速物理、化学、生物科学发现的工具、库、论文、数据集与框架。",
+    "longDescription": "ai-boost/awesome-ai-for-science（背靠 ai4s-research 组织）按领域组织 AI for Science 资源——生物、化学、物理等——覆盖工具、论文、数据集和框架，也收录 GDM science-skills 这类智能体技能包。它上过 TrendShift 热榜，是被广泛分享的 AI4Science 追更入口。BioAI 就挂在这张伞状清单之下。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-agents4science",
+    "description": "俄亥俄州立大学 NLP 组维护的科研 LLM 与智能体论文精选。",
+    "longDescription": "OSU-NLP-Group/awesome-agents4science 追踪快速增长的「LLM 智能体做科研」文献——自主实验、科学发现与研究自动化。当你需要智能体在科研工作流中实际表现的证据时，它是工具清单的论文级补充。由俄亥俄州立大学 NLP 组维护。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-medical-imaging",
+    "description": "医学影像研究软件精选：从 DICOM 工具到分割与分析框架。",
+    "longDescription": "fepegar/awesome-medical-imaging 收录医学影像研究软件——格式、查看器、配准、分割与分析工具链。它被 Bioconductor 社客博客的 awesome 清单汇总推荐，是这个细分里少数还在活跃维护的条目。配合 AMID 等影像数据集清单使用正好。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-ai-meets-biology",
+    "description": "生物医学与生物信息学领域的 SOTA 与新锐 LLM、智能体合集。",
+    "longDescription": "Webioinfo01/Awesome-AI-Meets-Biology 汇集生物医学与生物信息学方向值得关注的 LLM 与智能体。同一组织还维护 Awesome-LLMs-meet-genomes、Awesome-Virtual-Cell 等衍生清单。它更像 BioAI 模型与智能体版图的快照，而非工具目录。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-ai-bio-labs",
+    "description": "全球 AI-first 生物学实验室的可审计精选目录，逐实验室组织并带出处标注。",
+    "longDescription": "BioTender-max/awesome-ai-bio-labs 是全球 AI-first 生物学实验室的精选目录，围绕实验室与团队组织，条目带出处标注。它还有网页版（biotender.online/labs）。想找「谁在做 BioAI」而不仅仅是「有哪些工具」时特别有用。"
+  },
+  {
+    "category": "awesome",
+    "slug": "awesome-scientific-skills",
+    "description": "开放的科研智能体技能精选清单，含湿实验、生命科学与生物信息学技能。",
+    "longDescription": "InternScience/Awesome-Scientific-Skills 收录横跨科学领域的智能体技能，包括湿实验流程、生命科学与生物信息学。它以更广的实验科学技能覆盖补充了 GoekeLab 那份聚焦基因组学的清单。是围绕 SKILL.md 快速成形的科研技能生态的一部分。"
+  }
+]

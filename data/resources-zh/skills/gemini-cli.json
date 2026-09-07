@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "gemini-cli",
+  "description": "Google 的开源终端 AI 智能体，自 v0.26 起支持 Agent Skills、钩子与 TOML frontmatter 自定义命令。",
+  "longDescription": "Gemini CLI 是把 Gemini 模型带进终端的开源智能体，支持在 .gemini/commands 里用 Markdown 定义斜杠命令。v0.26.0 起支持打包专业知识、流程化工作流和任务资源的 Agent Skills，与 SKILL.md 生态同构。社区生物技能包也可以安装到这个运行时上。"
+}

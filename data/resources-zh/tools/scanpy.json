@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "scanpy",
+  "description": "可扩展的 Python 单细胞基因表达分析工具包：预处理、聚类、轨迹推断与可视化。",
+  "longDescription": "Scanpy（scverse 生态）是与 anndata 格式协同构建的可扩展 Python 单细胞分析工具包。它提供了预处理、可视化、聚类、轨迹推断与差异表达的标准 Python 工作流。与 Seurat 并列单细胞分析的两大生态。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "platforms",
+  "slug": "cradle",
+  "description": "网页版 AI 蛋白质工程平台：用你自己的数据生成并优化稳定性、活性与表达量更优的候选。",
+  "longDescription": "Cradle 的 SaaS 让蛋白质工程师在自己的实验数据上训练，AI 由此建议更优候选、减少实验轮数。7300 万美元 B 轮后，它披露已被前 25 大药企中的六家采用。机器学习栈跑在 Google Cloud 上，底层用开源的 Flyte 工作流编排器。"
+}

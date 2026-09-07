@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "clawbio",
+  "description": "第一个生物信息学原生的 AI 智能体技能库：独立可跑的 SKILL.md 管线技能，带脚本、演示数据与测试。",
+  "longDescription": "ClawBio 把真实的生物信息学工作流——基因组学、GWAS、系统发生学、蛋白质组学、药物基因组学、单细胞——打包成可运行的智能体技能，每个技能都有 SKILL.md 契约、可执行 Python 脚本、演示数据和测试。它基于 OpenClaw/open-agent 约定构建，本地优先、注重隐私，每个技能还能通过 clawbio.run_skill() 独立运行。技能数量增长很快：从发布时的 8 个涨到最近的几十个（快照约 96 个），贡献者持续增加。"
+}

@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "codex-cli",
+  "description": "OpenAI 的开源编码智能体，已实验性支持 Agent Skills，文档见 openai/codex 仓库与 OpenAI API 文档。",
+  "longDescription": "Codex 是 OpenAI 的命令行/云端编码智能体；openai/codex 仓库文档化了 SKILL.md 形式的技能（实验性开放）与 AGENTS.md 约定。OpenAI 官方指南涵盖了如何把说明、资源和可选脚本打包成技能来扩展 ChatGPT 与 Codex。它是与 Claude 生态同一套跨兼容技能文件的第二目标运行时。"
+}

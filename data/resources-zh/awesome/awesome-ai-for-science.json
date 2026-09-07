@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-ai-for-science",
+  "description": "AI for Science 精选清单：加速物理、化学、生物科学发现的工具、库、论文、数据集与框架。",
+  "longDescription": "ai-boost/awesome-ai-for-science（背靠 ai4s-research 组织）按领域组织 AI for Science 资源——生物、化学、物理等——覆盖工具、论文、数据集和框架，也收录 GDM science-skills 这类智能体技能包。它上过 TrendShift 热榜，是被广泛分享的 AI4Science 追更入口。BioAI 就挂在这张伞状清单之下。"
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "category": "models",
+    "slug": "alphafold-3",
+    "description": "Google DeepMind 的 AI 系统：直接从序列预测蛋白质、DNA、RNA、配体与修饰的三维结构。",
+    "longDescription": "AlphaFold 3 把 AlphaFold 系列的能力扩展到几乎所有生物分子相互作用，包括蛋白-配体和抗体-抗原复合物。DeepMind 开源了推理管线代码，训练好的模型参数则单独以非商业许可提供。它树立的精度标杆，正是 Boltz、Chai-1 这些开源模型现在追赶的目标。"
+  },
+  {
+    "category": "models",
+    "slug": "alphafold-2",
+    "description": "AlphaFold 2 官方开源实现——这个突破性系统把蛋白质结构预测做到了接近实验精度。",
+    "longDescription": "AlphaFold 2 在 2020 年 CASP14 的成绩和 2021 年的开源发布彻底改变了结构生物学。它的代码加上 AlphaFold DB 里近两亿条预测，撑起了现代计算生物学的半壁江山。该仓库至今仍是蛋白质结构预测的权威参考实现。"
+  },
+  {
+    "category": "models",
+    "slug": "alphafold-db",
+    "description": "DeepMind 与 EMBL-EBI 的开放数据库：2 亿+ 条预测蛋白质结构，按 UniProt 编号检索与下载。",
+    "longDescription": "AlphaFold DB 通过网页界面和公共 FTP 免费开放了几乎全部已知蛋白质的 AlphaFold 预测，已增长到超过 2.6 亿条结构，是生物学家快速查看结构的默认基础设施。由 EMBL-EBI 与 Google DeepMind 联合开发并托管。"
+  },
+  {
+    "category": "models",
+    "slug": "esm-3",
+    "description": "980 亿参数的生成式蛋白质语言模型，联合推理序列、结构与功能，设计出自然界之外的蛋白质。",
+    "longDescription": "ESM-3 在 28 亿蛋白质序列上训练，生成了一种与自然界任何蛋白都不同的新荧光蛋白，成果 2025 年发表于 Science。它是 EvolutionaryScale 的首发模型——这家公司由 Meta FAIR 蛋白质团队分拆而来。通过公司 Forge 平台与 API 使用，另有小号开放权重版本。"
+  },
+  {
+    "category": "models",
+    "slug": "esm-2-esmfold",
+    "description": "Meta FAIR 蛋白质语言模型家族与 ESMFold：无需比对，直接从单条序列预测原子级三维结构。",
+    "longDescription": "ESM-2 把蛋白质语言模型规模推到 15B 参数，ESMFold 用它以远超 AlphaFold2 的速度折叠序列。2023 年的 Science 论文让普通硬件上从原始序列做结构预测变得可行。仓库 2024 年归档（团队分拆进 EvolutionaryScale），活跃的 esm 包现在由 Biohub/esm 维护。"
+  },
+  {
+    "category": "models",
+    "slug": "openfold",
+    "description": "可训练、省内存的 AlphaFold 2 PyTorch 复现，含完整训练管线与训练数据。",
+    "longDescription": "与原始发布不同，OpenFold 允许研究者重新训练并修改模型，由此产生了关于 AlphaFold 2 如何学习与泛化的新认识。它是许多生产级和社区结构预测部署的骨干。同一实验室正在开发 OpenFold-3——AlphaFold 3 的逐位复现。"
+  },
+  {
+    "category": "models",
+    "slug": "rosettafold",
+    "description": "Baker 实验室的三轨神经网络：精确的蛋白质结构与复合物预测，Rosetta 生态的一员。",
+    "longDescription": "RoseTTAFold 是 2021 年解决单链结构预测问题的两个明星方法之一，单张 GPU 几分钟出结果。其 All-Atom 后继版本把预测扩展到含核酸、配体与共价修饰的组装体。它至今仍是 Rosetta 蛋白质设计软件生态的地基。"
+  },
+  {
+    "category": "models",
+    "slug": "colabfold",
+    "description": "免费 Colab 笔记本与本地安装器：AlphaFold2 搭配快速 MMseqs2 比对，让人人都能做结构预测。",
+    "longDescription": "ColabFold 把 AlphaFold 2 带进了每个实验室：在浏览器笔记本里配上快速 MMseqs2 序列比对。发表于 Nature Methods，被数千项结构预测研究引用。LocalColabFold 把同一管线扩展到各操作系统的本地机器。"
+  },
+  {
+    "category": "models",
+    "slug": "proteinmpnn",
+    "description": "Baker 实验室的逆折叠图神经网络：为给定蛋白质骨架设计能正确折叠的氨基酸序列。",
+    "longDescription": "ProteinMPNN 是 RFdiffusion 这类结构生成器的标准搭档，把骨架改写成能正确折叠的序列。这项 2022 年发表于 Science 的方法在计算与实验上都胜过基于物理的设计，且支持多聚体设计。后继者 LigandMPNN 与 NA-MPNN 把能力扩展到配体与核酸。"
+  },
+  {
+    "category": "models",
+    "slug": "rfdiffusion",
+    "description": "基于扩散模型的从头蛋白质设计生成模型：结合蛋白、motif 骨架化与对称组装体都行。",
+    "longDescription": "RFdiffusion 是从零生成新蛋白质（或围绕功能 motif 生成）的事实标准工具。2023 年发布后掀起了一波经实验验证的设计结合蛋白与支架。RFdiffusion 2 与 3（2025）把生成能力扩展到全新生物聚合物与结合小分子的蛋白质。"
+  },
+  {
+    "category": "models",
+    "slug": "boltz",
+    "description": "开源生物分子相互作用模型；Boltz-2 在 AlphaFold 3 级结构预测之上叠加结合亲和力预测。",
+    "longDescription": "Boltz-1（2024）是第一个在生物分子复合物精度上接近 AlphaFold 3 的全开源模型。Boltz-2（2025）联合预测结构与结合亲和力，速度远快于物理方法，可以直接支撑虚拟筛选。代码与权重都在 GitHub，附本地与服务化部署文档。"
+  },
+  {
+    "category": "models",
+    "slug": "chai-1",
+    "description": "Chai Discovery 的开放权重模型：预测蛋白质、配体与核酸复合物结构，Apache-2.0 协议。",
+    "longDescription": "Chai-1 发布了可直接运行的权重与代码，在多个复合物预测基准上达到 AlphaFold 3 级表现。chai-lab 仓库采用 Apache-2.0 协议，配套公司面向诺华、辉瑞等客户的商业计算机辅助分子设计套件。公司站点还公布了更新的抗体设计模型。"
+  },
+  {
+    "category": "models",
+    "slug": "evo-2",
+    "description": "在 10 万+ 物种、9 万亿碱基对上训练的基因组基础模型，支持基因组级预测、解读与设计。",
+    "longDescription": "Arc Institute 的 Evo 2 以单核苷酸分辨率建模跨越全部生命域的 DNA，成果已发表于 Nature。它能预测人类遗传变异的致病性，也能生成基因组级的功能序列。代码在 GitHub 开源、权重在 Hugging Face，还有 Evo Designer 设计工具。"
+  },
+  {
+    "category": "models",
+    "slug": "geneformer",
+    "description": "在约 3000 万单细胞转录组上预训练的基础 Transformer，支持上下文感知的基因网络预测与迁移学习。",
+    "longDescription": "Geneformer（Nature 2023，Theodoris 等，Broad 研究所）仅凭表达数据就能在特定细胞上下文中按网络重要性给基因排序。它支持小数据下的细胞类型分类迁移学习与在硅扰动预测。权重与代码通过 Hugging Face 发布，文档在 Read the Docs。"
+  },
+  {
+    "category": "models",
+    "slug": "scgpt",
+    "description": "单细胞多组学生成式预训练 Transformer：3300 万细胞预训练，支持细胞分型、整合与扰动。",
+    "longDescription": "scGPT 是最早通过生成式预训练构建的单细胞基础模型之一，预训练覆盖 3300 万细胞。它支持细胞注释、多组学整合、批次校正与基因网络推断，仓库里有完整教程。是单细胞基础模型基准里的标准基线。"
+  },
+  {
+    "category": "models",
+    "slug": "scfoundation",
+    "description": "BioMap 约 1 亿参数的单细胞模型：5000 万+ 人类转录组训练，全上下文建模约 19264 个基因。",
+    "longDescription": "scFoundation 基于 xTrimoGene 架构，在超过 5000 万人类单细胞转录组谱上训练。它能捕捉无标度基因网络结构，支撑细胞分型与药物响应预测等任务。权重镜像在 Hugging Face，常规与 scGPT、Geneformer 同台评测。"
+  },
+  {
+    "category": "models",
+    "slug": "biogpt",
+    "description": "微软的领域生成式 Transformer：在海量 PubMed 摘要上预训练，面向生物医学文本挖掘与生成。",
+    "longDescription": "BioGPT 把 GPT 配方应用到大规模生物医学文献，发布时在 BC5CDR 等关系抽取基准上领先。MIT 协议仓库提供预训练的 base 与 large 权重，Hugging Face 亦有。它仍是领域生物医学语言模型的常用参照点。"
+  },
+  {
+    "category": "models",
+    "slug": "moler",
+    "description": "微软的图分子生成模型，支持骨架约束生成，用于先导化合物优化。",
+    "longDescription": "MoLeR 直接生成分子图，并可固定给定骨架，让化学家围绕已知先导化合物探索修饰。microsoft/molecule-generation 仓库提供了 PyTorch 实现。它已通过 OpenAD 等模型服务暴露为条件式小分子生成能力。"
+  },
+  {
+    "category": "models",
+    "slug": "enformer",
+    "description": "DeepMind 的 Transformer：从约 200kb DNA 序列出发，用长程上下文预测基因表达与染色质轨道。",
+    "longDescription": "Enformer 是第一个在预测基因表达时整合数万碱基外增强子效应的序列模型。它至今仍是评估遗传变异调控效应的主力工具。后继者 AlphaGenome（2025）把思路扩展到百万碱基输入和更多调控模态。"
+  },
+  {
+    "category": "models",
+    "slug": "nucleotide-transformer",
+    "description": "DNA 语言模型家族，最大 25 亿参数，在 3200+ 个人类基因组与 850 个物种上预训练。",
+    "longDescription": "InstaDeep 的 Nucleotide Transformer 家族在全基因组上预训练 BERT 式模型，2024 年发表于 Nature Methods。权重在 Hugging Face 开放并与 transformers 库集成。它是 DNA 语言模型基准评测的标准基线之一。"
+  },
+  {
+    "category": "models",
+    "slug": "alphagenome",
+    "description": "DeepMind 2025 年的统一 DNA 模型：百万碱基输入，近单碱基分辨率预测基因表达、剪接与染色质。",
+    "longDescription": "AlphaGenome 接受最长一百万碱基对的 DNA 序列，跨 11 种调控模态预测数千种分子性质。它瞄准基因组的非编码「暗物质」，帮助解读突变如何影响健康。GitHub 上有 Python API 客户端与科研代码。"
+  },
+  {
+    "category": "platforms",
+    "slug": "nvidia-bionemo",
+    "description": "NVIDIA 的 AI 生物与药物发现平台：开放模型、库、数据集与可部署的 NIM 微服务。",
+    "longDescription": "BioNeMo 把蛋白质结构、分子生成、基因组学等领域的模型打包成可定制的 NIM 微服务与云服务，让生物科技与药企团队在 NVIDIA GPU 上构建和扩展生成式 AI 药物发现管线。合作伙伴用它跑从靶点发现到虚拟筛选的各类工作流。"
+  },
+  {
+    "category": "platforms",
+    "slug": "insilico-medicine",
+    "description": "临床阶段的 AI 药物发现公司，以 Pharma.AI 套件（PandaOmics/Chemistry42/Medicine42）跑通靶点到临床管线。",
+    "longDescription": "英矽智能的 Pharma.AI 横跨生物学（PandaOmics 靶点发现）、化学（Chemistry42 生成式分子设计）与临床医学（Medicine42 试验分析）。其进入临床阶段的 AI 设计抗纤维化候选药，是生成式 AI 药物发现的标志性案例。公司公开披露管线与验证细节。"
+  },
+  {
+    "category": "platforms",
+    "slug": "recursion",
+    "description": "TechBio 公司：用 Recursion OS 平台、机器人湿实验室与海量多模态生物数据工业化药物发现。",
+    "longDescription": "Recursion 以自动化实验搭配多模态 AI，在空前规模上绘制细胞表型图谱。Recursion OS 平台覆盖从靶点确定到临床试验入组的全流程；与 Exscientia 的合并整合了两家最大的 AI 药物发现组织。其研究引擎 Valence Labs 持续推进底层机器学习。"
+  },
+  {
+    "category": "platforms",
+    "slug": "isomorphic-labs",
+    "description": "Alphabet 旗下公司：以前沿 AI 模型重构药物发现，21 亿美元融资加大型药企合作加持。",
+    "longDescription": "Isomorphic Labs 于 2021 年从 DeepMind 分拆而出，使命是用 AI-first 的方式重新发明药物发现。其 AI 药物设计引擎建立在跨疾病领域的基础模型之上，并与大型制药公司深度合作。21 亿美元融资正在把引擎与管线推向全球。"
+  },
+  {
+    "category": "platforms",
+    "slug": "benchling",
+    "description": "生物优先的云平台：结构化科研数据、分子生物学工作流、注册表与库存管理。",
+    "longDescription": "Benchling 是数百家生物科技公司的实验室信息化事实标准，把实验、序列与样品收进同一套系统。科学家在它上面设计实验、沉淀结构化数据，再让 AI 智能体和模型跑在上层。创业版与学术版让它遍布整个生物科技生态。"
+  },
+  {
+    "category": "platforms",
+    "slug": "cradle",
+    "description": "网页版 AI 蛋白质工程平台：用你自己的数据生成并优化稳定性、活性与表达量更优的候选。",
+    "longDescription": "Cradle 的 SaaS 让蛋白质工程师在自己的实验数据上训练，AI 由此建议更优候选、减少实验轮数。7300 万美元 B 轮后，它披露已被前 25 大药企中的六家采用。机器学习栈跑在 Google Cloud 上，底层用开源的 Flyte 工作流编排器。"
+  },
+  {
+    "category": "platforms",
+    "slug": "generate-biomedicines",
+    "description": "Flagship 孵化的生成式生物学公司：编程全新蛋白质药物；Chroma 蛋白质生成器发表于 Nature。",
+    "longDescription": "Generate:Biomedicines 训练 Chroma 等生成模型来创造超出自然演化的治疗性蛋白质。平台覆盖靶点到分子，配套整合的湿实验验证，并与诺华达成多靶点合作。公司把自己定位为「药物生成」而非「药物发现」公司。"
+  },
+  {
+    "category": "platforms",
+    "slug": "absci",
+    "description": "生成式 AI 药物创造公司：零样本抗体设计搭配高通量湿实验验证，做更好的生物药。",
+    "longDescription": "Absci 的整合药物创建平台把深度学习抗体设计与快速实验筛选耦合起来。公司宣称实现了新抗体的零样本生成式设计与验证，并与多家药企合作 AI 设计生物药。新靶点通过超级免疫应答者的反向免疫学发现。"
+  },
+  {
+    "category": "platforms",
+    "slug": "schrodinger",
+    "description": "基于物理的计算平台：行业标准的分子建模与模拟软件，服务药物发现与材料科学。",
+    "longDescription": "Schrödinger 的平台把基于物理的模拟与机器学习结合，推进小分子与生物药项目。其软件被整个制药行业用于计算化学——从先导化合物发现到制剂。公司同时运营自己的内部药物发现管线。"
+  },
+  {
+    "category": "platforms",
+    "slug": "valence-labs",
+    "description": "Recursion 旗下 AI 研究引擎：构建虚拟细胞、分子机器学习与 LLM 编排工作流工具。",
+    "longDescription": "Valence Labs 前身是 Valence Discovery，2023 年被收购后成为 Recursion 的机器学习研究引擎。它构建用于快速假设验证循环的虚拟细胞模型与低数据分子机器学习方法。其 LOWE 项目是一个 LLM 编排的工作流引擎，把 SOTA AI 工具交到每位发现科学家手上。"
+  },
+  {
+    "category": "platforms",
+    "slug": "tempus",
+    "description": "AI 驱动的精准医疗公司：全球最大的临床+分子数据库、基因检测与 Tempus OS。",
+    "longDescription": "Tempus 连接真实世界临床与分子数据，支撑肿瘤决策支持、基因检测与生物制药研究。Tempus OS 把这套数据基础设施配上规模化生成式 AI，服务医生与研究者。这家上市公司与多家学术医学中心合作加速科研与患者照护。"
+  }
+]

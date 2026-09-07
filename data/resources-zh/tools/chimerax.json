@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "chimerax",
+  "description": "UCSF 新一代交互式分子可视化程序：分析结构、密度图与分子轨迹。",
+  "longDescription": "ChimeraX 是 UCSF 生物计算、可视化与信息学资源中心的下一代分子可视化程序，接替 UCSF Chimera。它交互式可视化并分析分子结构、密度图与轨迹，高度可扩展，支持结构搭建与分析工作流。学术使用免费，是结构生物学实验室的标准装备。"
+}

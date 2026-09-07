@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { CATEGORIES, SITE } from './data/categories'
 
-// BioAI Nav — Nuxt 3 SSG + Cloudflare Workers 静态资产
+// BioAI Nav — Nuxt 3 SSG + Cloudflare Workers 静态资产（en 无前缀 / zh 前缀双语）
 // 预渲染种子从 data/resources/**/*.json 显式计算（不依赖 crawlLinks），
 // 与 scripts/check-prerender.mjs、server/routes/sitemap.xml.ts 同一数据源。
 
@@ -52,9 +52,26 @@ const tagRoutes = [...tagCounts.entries()]
   .filter(([, n]) => n >= TAG_PAGE_MIN)
   .map(([slug]) => `/tags/${slug}`)
 
+const enRoutes = [
+  '/',
+  '/about',
+  '/submit',
+  '/search',
+  '/tags',
+  ...CATEGORIES.map((c) => `/${c.slug}`),
+  ...subRoutes,
+  ...detailRoutes,
+  ...tagRoutes,
+]
+
+// 双语种子：en 无前缀，zh 加 /zh 前缀（prefix_except_default 策略）
+const zhRoutes = enRoutes.map((r) => (r === '/' ? '/zh' : `/zh${r}`))
+
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   ssr: true,
+
+  modules: ['@nuxtjs/i18n'],
 
   css: ['@fontsource-variable/inter', '~/assets/css/main.css'],
 
@@ -64,6 +81,18 @@ export default defineNuxtConfig({
       siteName: SITE.name,
       githubRepo: SITE.githubRepo,
     },
+  },
+
+  i18n: {
+    baseUrl: SITE.url,
+    locales: [
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'zh', language: 'zh-CN', name: '中文', file: 'zh.json' },
+    ],
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default',
+    // SEO 站不做语言自动跳转，用户手动切换（页头语言切换器）
+    detectBrowserLanguage: false,
   },
 
   app: {
@@ -84,16 +113,10 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       routes: [
-        '/',
-        '/about',
-        '/submit',
-        '/search',
-        '/tags',
-        ...CATEGORIES.map((c) => `/${c.slug}`),
-        ...subRoutes,
-        ...detailRoutes,
-        ...tagRoutes,
+        ...enRoutes,
+        ...zhRoutes,
         '/sitemap.xml',
+        '/zh/sitemap.xml',
         '/robots.txt',
       ],
     },

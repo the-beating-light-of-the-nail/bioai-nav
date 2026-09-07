@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "esm-3",
+  "description": "980 亿参数的生成式蛋白质语言模型，联合推理序列、结构与功能，设计出自然界之外的蛋白质。",
+  "longDescription": "ESM-3 在 28 亿蛋白质序列上训练，生成了一种与自然界任何蛋白都不同的新荧光蛋白，成果 2025 年发表于 Science。它是 EvolutionaryScale 的首发模型——这家公司由 Meta FAIR 蛋白质团队分拆而来。通过公司 Forge 平台与 API 使用，另有小号开放权重版本。"
+}

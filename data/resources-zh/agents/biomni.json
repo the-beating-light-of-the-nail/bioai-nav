@@ -1,0 +1,6 @@
+{
+  "category": "agents",
+  "slug": "biomni",
+  "description": "斯坦福开源的通用生物医学 AI 智能体：150+ 工具、59 个数据库，自主执行科研任务。",
+  "longDescription": "Biomni 是斯坦福 SNAP 实验室的通用生物医学 AI 智能体，2025 年发表于 Science，用于跨生物医学子领域自主执行科研任务。它把 LLM 智能体与 150 个专业工具、59 个数据库、105 个软件包整合在一起，并提供 Amazon Bedrock 集成。目前最完整的开源自主体生物医学数据工作底座。"
+}

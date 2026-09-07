@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "openfold",
+  "description": "可训练、省内存的 AlphaFold 2 PyTorch 复现，含完整训练管线与训练数据。",
+  "longDescription": "与原始发布不同，OpenFold 允许研究者重新训练并修改模型，由此产生了关于 AlphaFold 2 如何学习与泛化的新认识。它是许多生产级和社区结构预测部署的骨干。同一实验室正在开发 OpenFold-3——AlphaFold 3 的逐位复现。"
+}

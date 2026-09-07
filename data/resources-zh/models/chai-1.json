@@ -1,0 +1,6 @@
+{
+  "category": "models",
+  "slug": "chai-1",
+  "description": "Chai Discovery 的开放权重模型：预测蛋白质、配体与核酸复合物结构，Apache-2.0 协议。",
+  "longDescription": "Chai-1 发布了可直接运行的权重与代码，在多个复合物预测基准上达到 AlphaFold 3 级表现。chai-lab 仓库采用 Apache-2.0 协议，配套公司面向诺华、辉瑞等客户的商业计算机辅助分子设计套件。公司站点还公布了更新的抗体设计模型。"
+}

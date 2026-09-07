@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "nf-core",
+  "description": "社区维护的 156 条同行评审、标准化的 Nextflow 生物信息学管线，共享模块与培训。",
+  "longDescription": "nf-core 是社区驱动的 Nextflow 生物信息学管线合集（当前 156 条），每条都经同行评审，共享模块与子工作流保持标准化。2025 年的 PMC 收录论文记录了它如何用可复用的最佳实践管线赋能社区。在任何计算环境跑 nf-core 管线，生产级可复现性触手可及。"
+}

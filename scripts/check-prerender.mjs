@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// generate 之后的质量闸门：对照 data/resources 逐页检查 .output/public 产物。
+// generate 之后的质量闸门：对照 data/resources 逐页检查 .output/public 产物（en + zh 双语）。
 // 用法：node scripts/check-prerender.mjs（npm run check）
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
@@ -32,8 +32,8 @@ const all = existsSync(dataDir)
       )
   : []
 
-const expected = []
-const push = (route) => expected.push(route)
+const enExpected = []
+const push = (route) => enExpected.push(route)
 push('/')
 push('/about')
 push('/submit')
@@ -54,35 +54,35 @@ for (const r of all) {
 for (const [k, n] of subCounts) if (n >= SUBCAT_PAGE_MIN) push(`/${k}`)
 for (const [t, n] of tagCounts) if (n >= TAG_PAGE_MIN) push(`/tags/${t}`)
 
+// zh 前缀镜像
+const zhExpected = enExpected.map((r) => (r === '/' ? '/zh' : `/zh${r}`))
+const expected = [...enExpected, ...zhExpected]
+
 function routeToFile(route) {
   if (route === '/') return resolve(outDir, 'index.html')
+  if (route === '/zh') return resolve(outDir, 'zh/index.html')
   return resolve(outDir, route.replace(/^\//, ''), 'index.html')
 }
 
 const missing = expected.filter((r) => !existsSync(routeToFile(r)))
-const extras = ['/sitemap.xml', '/robots.txt', '/404.html'].filter((f) => !existsSync(resolve(outDir, f.replace(/^\//, ''))))
+const extras = ['/sitemap.xml', '/robots.txt', '/404.html', '/zh/sitemap.xml'].filter((f) => !existsSync(resolve(outDir, f.replace(/^\//, ''))))
 
-// sitemap 必须包含全部详情路由
-const sitemap = existsSync(resolve(outDir, 'sitemap.xml'))
-  ? readFileSync(resolve(outDir, 'sitemap.xml'), 'utf8')
-  : ''
-const sitemapMissing = all
-  .map((r) => `/${r.category}/${r.slug}`)
-  .filter((r) => !sitemap.includes(`<loc>https://bioainav.aiworkagent.org${r}</loc>`))
+// 两个 sitemap 必须各自包含全部详情路由
+const enSitemap = existsSync(resolve(outDir, 'sitemap.xml')) ? readFileSync(resolve(outDir, 'sitemap.xml'), 'utf8') : ''
+const zhSitemap = existsSync(resolve(outDir, 'zh/sitemap.xml')) ? readFileSync(resolve(outDir, 'zh/sitemap.xml'), 'utf8') : ''
+const enMissing = all.map((r) => `/${r.category}/${r.slug}`).filter((r) => !enSitemap.includes(`<loc>https://bioainav.aiworkagent.org${r}</loc>`))
+const zhMissing = all.map((r) => `/${r.category}/${r.slug}`).filter((r) => !zhSitemap.includes(`<loc>https://bioainav.aiworkagent.org/zh${r}</loc>`))
 
-console.log(`资源 ${all.length} 个 · 预期页面 ${expected.length} 个`)
+console.log(`资源 ${all.length} 个 · 预期页面 ${expected.length} 个（en ${enExpected.length} + zh ${zhExpected.length}）`)
 if (missing.length) {
   console.error(`缺失页面 ${missing.length} 个:`)
   for (const m of missing.slice(0, 30)) console.error('  - ' + m)
   if (missing.length > 30) console.error(`  … 以及另外 ${missing.length - 30} 个`)
 }
-if (extras.length) {
-  console.error(`缺失辅助文件: ${extras.join(', ')}`)
-}
-if (sitemapMissing.length) {
-  console.error(`sitemap 缺 ${sitemapMissing.length} 个详情路由（前 10: ${sitemapMissing.slice(0, 10).join(', ')}）`)
-}
-if (missing.length || extras.length || sitemapMissing.length) {
+if (extras.length) console.error(`缺失辅助文件: ${extras.join(', ')}`)
+if (enMissing.length) console.error(`en sitemap 缺 ${enMissing.length} 个详情路由（前 10: ${enMissing.slice(0, 10).join(', ')}）`)
+if (zhMissing.length) console.error(`zh sitemap 缺 ${zhMissing.length} 个详情路由（前 10: ${zhMissing.slice(0, 10).join(', ')}）`)
+if (missing.length || extras.length || enMissing.length || zhMissing.length) {
   console.error('CHECK FAILED')
   process.exit(1)
 }

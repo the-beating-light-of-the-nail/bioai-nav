@@ -1,12 +1,16 @@
 <script setup lang="ts">
 import type { Resource } from '~/data/load'
-import { getCategory } from '~/data/categories'
+import { resourceText, tagPageSet } from '~/data/load'
+import { getCategory, catText } from '~/data/categories'
 import { typeLabel, formatStars, tagLabel } from '~/composables/seo'
-import { tagPageSet } from '~/data/load'
 
 const props = withDefaults(defineProps<{ resource: Resource; showCategory?: boolean }>(), {
   showCategory: false,
 })
+
+const { locale } = useI18n()
+const localePath = useLocalePath()
+const loc = computed(() => locale.value as 'en' | 'zh')
 
 const host = computed(() => {
   try {
@@ -16,6 +20,7 @@ const host = computed(() => {
   }
 })
 const catMeta = computed(() => getCategory(props.resource.category))
+const text = computed(() => resourceText(props.resource, loc.value))
 const shownTags = computed(() =>
   (props.resource.tags || []).filter((t) => tagPageSet().has(t.toLowerCase())).slice(0, 4),
 )
@@ -30,25 +35,25 @@ const plainTags = computed(() =>
       <ResourceAvatar :name="resource.name" :size="40" />
       <div class="rcard-title">
         <h3 class="rcard-name">
-          <NuxtLink :to="`/${resource.category}/${resource.slug}`">{{ resource.name }}</NuxtLink>
+          <NuxtLink :to="localePath(`/${resource.category}/${resource.slug}`)">{{ resource.name }}</NuxtLink>
         </h3>
         <div class="rcard-meta">
-          <span class="type-chip">{{ typeLabel(resource.type) }}</span>
-          <NuxtLink v-if="showCategory && catMeta" :to="`/${catMeta.slug}`" class="cat-chip">
-            {{ catMeta.title }}
+          <span class="type-chip">{{ typeLabel(resource.type, loc) }}</span>
+          <NuxtLink v-if="showCategory && catMeta" :to="localePath(`/${catMeta.slug}`)" class="cat-chip">
+            {{ catText(catMeta, loc).title }}
           </NuxtLink>
           <span v-if="formatStars(resource.stars)" class="star-chip">★ {{ formatStars(resource.stars) }}</span>
         </div>
       </div>
     </div>
 
-    <p class="rcard-desc">{{ resource.description }}</p>
+    <p class="rcard-desc">{{ text.description }}</p>
 
     <div v-if="shownTags.length || plainTags.length" class="rcard-tags">
-      <NuxtLink v-for="t in shownTags" :key="t" class="tag-chip" :to="`/tags/${t.toLowerCase()}`">
-        {{ tagLabel(t) }}
+      <NuxtLink v-for="t in shownTags" :key="t" class="tag-chip" :to="localePath(`/tags/${t.toLowerCase()}`)">
+        {{ tagLabel(t, loc) }}
       </NuxtLink>
-      <span v-for="t in plainTags" :key="'p-' + t" class="tag-chip tag-chip-static">{{ tagLabel(t) }}</span>
+      <span v-for="t in plainTags" :key="'p-' + t" class="tag-chip tag-chip-static">{{ tagLabel(t, loc) }}</span>
     </div>
 
     <div class="rcard-foot">

@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "mcpmed",
+  "description": "MCPmed 组织维护的一组生物学与生物医学数据库 MCP 服务器。",
+  "longDescription": "MCPmed 是一个 GitHub 组织，发布覆盖生物学与生物医学数据库的一整套 Model Context Protocol 服务器。借助这组合集，Claude、Cursor 等 MCP 客户端可以直接查询核心生命科学资源，而不必写临时脚本。它的服务器经常被 BioContextAI 等生命科学 MCP 注册表交叉收录。"
+}

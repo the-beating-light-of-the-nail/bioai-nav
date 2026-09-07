@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "biomcp",
+  "description": "生物医学 MCP 服务器与 CLI：一个接口打通 PubMed、ClinicalTrials.gov 与 MyVariant.info 查询。",
+  "longDescription": "BioMCP 由 GenomOncology 开源，是一个面向生物医学 AI 助手与智能体的 MCP 服务器。一次查询即可触达文献、临床试验和基因组变异这三类原本分散在不同 API 与标识体系下的数据源；既有 Python 包（biomcp-python）也有单文件 CLI。企业版扩展 OncoMCP 提供 HIPAA 合规的精准肿瘤学部署。"
+}

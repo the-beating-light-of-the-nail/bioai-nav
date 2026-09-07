@@ -1,0 +1,6 @@
+{
+  "category": "learning",
+  "slug": "rosetta-docs",
+  "description": "Rosetta 大分子建模套件官方文档与教程：结构预测、对接与蛋白质设计。",
+  "longDescription": "RosettaCommons 官方文档覆盖自 1998 年开发的 Rosetta 在蛋白质与核酸结构预测、设计与改造上的能力，含入门指南、教程、示例与蛋白设计/蛋白对接的 protocol capture，并配套 Leman 等 2020 年 Nature Methods 论文。Rosetta 仍是现代深度学习蛋白质设计的经典物理学派参照。"
+}

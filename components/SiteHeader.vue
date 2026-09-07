@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { CATEGORIES } from '~/data/categories'
+import { CATEGORIES, catText } from '~/data/categories'
+
+const { locale } = useI18n()
+const localePath = useLocalePath()
+const switchLocalePath = useSwitchLocalePath()
 
 const route = useRoute()
 const open = ref(false)
@@ -15,7 +19,7 @@ watch(
 <template>
   <header class="site-header">
     <div class="container header-inner">
-      <NuxtLink to="/" class="brand" aria-label="BioAI Nav — home">
+      <NuxtLink :to="localePath('/')" class="brand" aria-label="BioAI Nav — home">
         <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
           <path d="M16 3l11 6.5v13L16 29 5 22.5v-13L16 3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
           <circle cx="16" cy="16" r="2.6" fill="currentColor" />
@@ -31,27 +35,30 @@ watch(
         <NuxtLink
           v-for="c in CATEGORIES"
           :key="c.slug"
-          :to="`/${c.slug}`"
+          :to="localePath(`/${c.slug}`)"
           class="nav-link"
           :class="{ active: activeCat === c.slug }"
         >
-          {{ c.title }}
+          {{ catText(c, locale as 'en' | 'zh').title }}
         </NuxtLink>
       </nav>
 
       <div class="header-actions">
-        <NuxtLink to="/search" class="icon-btn" aria-label="Search BioAI resources">
+        <NuxtLink :to="switchLocalePath(locale === 'zh' ? 'en' : 'zh')" class="lang-switch" aria-label="Switch language">
+          {{ $t('lang.switch') }}
+        </NuxtLink>
+        <NuxtLink :to="localePath('/search')" class="icon-btn" :aria-label="$t('nav.search')">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
             <circle cx="11" cy="11" r="6.5" />
             <path d="M16 16l4.5 4.5" />
           </svg>
         </NuxtLink>
-        <NuxtLink to="/submit" class="btn btn-small btn-primary">Submit</NuxtLink>
+        <NuxtLink :to="localePath('/submit')" class="btn btn-small btn-primary">{{ $t('nav.submit') }}</NuxtLink>
         <button
           class="icon-btn burger"
           :class="{ open }"
           :aria-expanded="open"
-          aria-label="Toggle navigation menu"
+          :aria-label="$t('nav.toggle')"
           @click="open = !open"
         >
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">

@@ -1,0 +1,6 @@
+{
+  "category": "agents",
+  "slug": "genegpt",
+  "description": "NCBI 的工具增强 LLM：学会调用 NCBI Web API，在 GeneTuring 基准上打败生物医学大模型。",
+  "longDescription": "GeneGPT（NCBI，2024 年发表于 Bioinformatics）通过上下文学习教会 LLM 调用 NCBI Web API，回答基因、疾病与序列相关的生物医学问题。凭借工具增强，它在 GeneTuring 基准上超过了 BioGPT 等生物医学大模型。工具增强智能体访问基因组数据的早期典范之作。"
+}

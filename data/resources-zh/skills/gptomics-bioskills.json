@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "gptomics-bioskills",
+  "description": "一组 SKILL.md 文件，为 AI 智能体提供标准生物信息学工作流的专业知识与代码范式。",
+  "longDescription": "GPTomics/bioSkills 为 AI 智能体提供生物信息学工作的专家知识：每个技能把代码范式与最佳实践打包成 SKILL.md 指令。它是较早把生物信息学实践沉淀给编码智能体的社区尝试之一，常与 ClawBio 一起出现在基因组技能精选清单里。适合作为搭建实验室专属技能集的原材料。"
+}

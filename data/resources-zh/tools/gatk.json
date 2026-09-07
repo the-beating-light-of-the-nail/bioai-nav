@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "gatk",
+  "description": "Broad Institute 开源的行业标准工具包：胚系 DNA 与 RNA-seq 数据的 SNP/indel 变异检测。",
+  "longDescription": "Broad Institute 的 Genome Analysis Toolkit 是胚系 DNA 与 RNA-seq 数据中检测 SNP 和 indel 的行业标准。GATK 4 是一组面向高通量测序数据分析的命令行工具，专注变异发现，完全开源。其 Best Practices 流程是全球大多数生产级基因组变异检测工作流的锚点。"
+}

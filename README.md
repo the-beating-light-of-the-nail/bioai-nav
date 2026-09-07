@@ -31,6 +31,8 @@ npm run deploy                   # generate + check + wrangler deploy（正式�
   字段参考 `data/load.ts` 的 `Resource` 接口（name/slug/category/subcategory/type/description/
   longDescription/url/github/tags/openSource/agentSupport/mcp/openclaw/featured/publisher/
   language/stars/license/addedAt/status）。
+- **中文介绍**：平行目录 `data/resources-zh/<category>/<slug>.json`（只含 description/longDescription
+  覆盖字段，缺失自动回落英文）；批量导入走 `scripts/merged-zh/*.json`。资源名/slug/URL 保持英文。
 - category 限定 9 个真实分类（github 是跨分类虚拟视图，聚合所有带 github 的资源，禁止出现在数据里）；
   子类目词表在 `data/categories.ts`（改动它会同时影响导航、SEO 文案与聚合页生成）。
 - 批量导入/重建：把数组放进 `scripts/merged/*.json` 再跑 `node scripts/split-resources.mjs`
@@ -38,6 +40,15 @@ npm run deploy                   # generate + check + wrangler deploy（正式�
 - **聚合页门槛**（避免薄页面）：子类目 ≥3 个资源才生成 `/{category}/{sub}`，标签 ≥4 个资源才生成 `/tags/{tag}`。
   门槛在 `nuxt.config.ts`、`data/load.ts`、`scripts/check-prerender.mjs` 三处同步（SUBCAT_PAGE_MIN/TAG_PAGE_MIN）。
 - 首页 Featured 是人工精选：`scripts/split-resources.mjs` 里的 `FEATURED` 集合。
+
+## 双语（中/英）
+
+- **英文无前缀、中文 `/zh` 前缀**（@nuxtjs/i18n `prefix_except_default`，en 为 x-default）；
+  页头有 EN/中文 切换器；关闭了浏览器语言自动跳转（SEO 站规范）。
+- canonical + hreflang 互指 + og:locale 由 `app.vue` 的 `useLocaleHead` 全局生成；
+  分语言 sitemap：`/sitemap.xml`（en）与 `/zh/sitemap.xml`（zh），robots.txt 两者都声明。
+- 界面文案在 `i18n/locales/{en,zh}.json`；分类/子类目文案与 SEO 模板在 `data/categories.ts`
+  （每个分类带 `zh` 子对象）；标签中文映射在 `composables/seo.ts` 的 `TAG_ZH`。
 
 ## 投稿链路
 
@@ -61,6 +72,5 @@ npm run deploy                   # generate + check + wrangler deploy（正式�
 ## 路线图（未做）
 
 - GitHub stars/last-updated 定期刷新（P1，GitHub API 批量脚本）
-- 中文版（结构已预留：文案集中在页面与 categories.ts，无硬编码散落）
 - og:image 生成（当前 OG 卡为纯文本）
-- IndexNow / Search Console 提交
+- IndexNow / Search Console 提交（en + zh 分别提交）

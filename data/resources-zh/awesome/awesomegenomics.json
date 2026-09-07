@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesomegenomics",
+  "description": "Broad Institute 的基因组学资源清单：数据库、软件、库、工具箱、管线、书籍与课程。",
+  "longDescription": "broadinstitute/AwesomeGenomics 是 Broad Institute 维护的基因组学 awesome 清单，覆盖生物信息学数据库、软件、库、工具箱、管线和学习材料。机构级维护让它在生产级基因组学基础设施上的覆盖尤其出色。算是 Awesome-Bioinformatics 在基因组学侧的对应清单。"
+}

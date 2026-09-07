@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "nextflow",
+  "description": "领域专用语言与执行引擎：构建可扩展、可复现的科学工作流，跨任何计算平台运行。",
+  "longDescription": "Nextflow 用领域专用语言加强大执行引擎，构建可扩展、可复现、可移植的科研与生产工作流。工作流不加改动即可跑在本地、HPC 集群与云端，因此成为生物信息学的事实标准之一。nf-core 生态与 training.nextflow.io 官方培训进一步放大了它的影响。"
+}

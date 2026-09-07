@@ -1,0 +1,6 @@
+{
+  "category": "tools",
+  "slug": "seurat",
+  "description": "Satija 实验室的 R 工具包：单细胞 RNA-seq 的质控、分析与交互式探索。",
+  "longDescription": "Seurat 是 Satija 实验室出品的 R 系单细胞 RNA-seq 分析工具包，与 Python 世界的 Scanpy 相对。支持质控、标准化、降维、聚类与细胞类型注释，配套大量兼作教程的 vignette。同行评审对比指出两个包分析选项都很全、社区都很活跃。"
+}

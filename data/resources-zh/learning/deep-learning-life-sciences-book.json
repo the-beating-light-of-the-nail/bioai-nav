@@ -1,0 +1,6 @@
+{
+  "category": "learning",
+  "slug": "deep-learning-life-sciences-book",
+  "description": "O'Reilly 出版、DeepChem 团队写的书：把深度学习用于基因组学、化学、显微镜与药物发现。",
+  "longDescription": "作者 Bharath Ramsundar、Peter Eastman、Patrick Walters 与 Vijay Pande（O'Reilly，2019），这本实操书教开发者和科学家把深度学习应用于基因组学、化学、生物物理、显微镜与药物发现。全书围绕 DeepChem 库构建，配分子性质预测与蛋白质任务的可运行示例。至今仍是机器学习工程与生命科学数据之间的经典桥梁。"
+}

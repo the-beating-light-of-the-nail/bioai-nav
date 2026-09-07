@@ -1,0 +1,6 @@
+{
+  "category": "learning",
+  "slug": "rosalind",
+  "description": "用自动判题的编程题目学生物信息学：从 Python 入门到基因组组装算法。",
+  "longDescription": "ROSALIND 是一个通过解题学生物信息学的平台，相当于生物版的 Project Euler。题目按 Python Village、生物信息学教材轨与算法专区组织，提交答案自动判分。初学者把生物学知识变成能跑的代码的标准路径。"
+}

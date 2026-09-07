@@ -1,0 +1,6 @@
+{
+  "category": "skills",
+  "slug": "anthropic-agent-skills",
+  "description": "Anthropic 官方的 Agent Skills 示例仓库——开放 SKILL.md 技能格式的参考实现。",
+  "longDescription": "anthropics/skills 是演示 Claude 技能系统的官方公开仓库，从创意应用到实用文档处理都有示例。它带火的 SKILL.md 格式如今已被 Claude Code、GitHub Copilot 和众多社区合集支持，成为智能体技能事实上的打包标准。写或审计生物技能之前，先从这里了解格式。"
+}

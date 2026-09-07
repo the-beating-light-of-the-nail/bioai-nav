@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-drug-discovery",
+  "description": "计算药物发现资源精选：化合物数据库、对接、QSAR、逆合成、AI/ML 框架与分子动力学。",
+  "longDescription": "yboulaamane/awesome-drug-discovery 聚焦药物发现的计算方法——化合物数据库、对接工具、QSAR、逆合成、AI/ML 框架和分子动力学。它在 r/comp_chem 社区广泛流传，是同名清单里当前最活跃的一个。旧仓库 xnuohz/awesome-drug-discovery 则归档了更早一代的深度学习论文。"
+}

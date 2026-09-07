@@ -1,0 +1,6 @@
+{
+  "category": "awesome",
+  "slug": "awesome-deep-learning-single-cell-papers",
+  "description": "OmicsML 组织维护的单细胞深度学习论文精选。",
+  "longDescription": "OmicsML/awesome-deep-learning-single-cell-papers 收录单细胞分析的深度学习论文，从经典表示学习到最新的基础模型。同一组织还维护姊妹清单 awesome-foundation-model-single-cell-papers，追踪单细胞基础模型的最新浪潮。研究单细胞 AI 方向的必备阅读清单。"
+}
