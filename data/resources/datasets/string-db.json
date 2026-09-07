@@ -1,0 +1,29 @@
+{
+  "name": "STRING",
+  "slug": "string-db",
+  "category": "datasets",
+  "subcategory": "proteomics",
+  "type": "dataset",
+  "description": "Database of scored, integrated protein-protein interactions covering 12,535 organisms, 59.3 million proteins, and 20+ billion interactions.",
+  "longDescription": "STRING (string-db.org, maintained within the SIB Swiss Institute of Bioinformatics) collects, scores, and integrates physical and functional protein associations from experiments, curated databases, and computational predictions. Version 12.5 covers 12,535 organisms and over 20 billion interactions, with confidence-scored downloads and an API. Its networks are standard inputs for graph-based ML and target-discovery pipelines.",
+  "url": "https://string-db.org/",
+  "github": null,
+  "tags": [
+    "protein-interactions",
+    "networks",
+    "proteomics",
+    "database",
+    "graph"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "SIB Swiss Institute of Bioinformatics",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-04"
+}

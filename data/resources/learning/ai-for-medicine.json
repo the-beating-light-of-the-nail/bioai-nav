@@ -1,0 +1,29 @@
+{
+  "name": "AI for Medicine Specialization",
+  "slug": "ai-for-medicine",
+  "category": "learning",
+  "subcategory": "courses",
+  "type": "course",
+  "description": "DeepLearning.AI specialization applying deep learning to medical diagnosis, prognosis, and treatment through hands-on programming assignments.",
+  "longDescription": "This DeepLearning.AI specialization on Coursera teaches practical machine learning for medicine: medical diagnosis from imaging, prognosis estimation, and treatment effect estimation. Courses include AI for Medical Diagnosis, AI for Medical Prognosis, and AI for Medical Treatment, with hands-on labs. It is the most accessible structured entry point for ML engineers moving into medical AI.",
+  "url": "https://www.coursera.org/specializations/ai-for-medicine",
+  "github": null,
+  "tags": [
+    "course",
+    "medical-ai",
+    "deep-learning",
+    "coursera",
+    "diagnosis"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "DeepLearning.AI",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-05"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "AutoDock Vina",
+  "slug": "autodock-vina",
+  "category": "tools",
+  "subcategory": "molecular-design",
+  "type": "tool",
+  "description": "One of the fastest and most widely used open-source molecular docking engines for virtual screening and binding pose prediction.",
+  "longDescription": "AutoDock Vina, designed by Oleg Trott at The Scripps Research Institute, is one of the fastest and most widely used open-source docking engines for predicting how small molecules bind to receptors. It is a turnkey computational docking program used heavily in drug discovery and virtual screening, with multi-core support and a GPU-accelerated variant (AutoDock-GPU). It remains the baseline against which newer AI docking methods are compared.",
+  "url": "https://vina.scripps.edu/",
+  "github": null,
+  "tags": [
+    "docking",
+    "virtual-screening",
+    "drug-discovery",
+    "open-source",
+    "scripps"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Scripps Research",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-26"
+}

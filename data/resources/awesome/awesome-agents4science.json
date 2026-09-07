@@ -1,0 +1,29 @@
+{
+  "name": "awesome-agents4science",
+  "slug": "awesome-agents4science",
+  "category": "awesome",
+  "subcategory": "ai4science",
+  "type": "awesome-list",
+  "description": "Curated papers on LLMs and AI agents for scientific research and development, maintained by the OSU NLP Group.",
+  "longDescription": "OSU-NLP-Group/awesome-agents4science tracks the fast-growing literature on LLM-based agents for science — autonomous experimentation, discovery, and research automation. It is the paper-level companion to tool lists when you need evidence on how agents actually perform in scientific workflows. Maintained by The Ohio State University NLP group.",
+  "url": "https://github.com/OSU-NLP-Group/awesome-agents4science",
+  "github": "https://github.com/OSU-NLP-Group/awesome-agents4science",
+  "tags": [
+    "curated-list",
+    "agents",
+    "papers",
+    "ai4science",
+    "llm"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "OSU NLP Group",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-06"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ProteinMPNN",
+  "slug": "proteinmpnn",
+  "category": "models",
+  "subcategory": "molecular",
+  "type": "model",
+  "description": "Baker lab's graph neural network for inverse folding, designing amino-acid sequences that fold into a target protein backbone.",
+  "longDescription": "ProteinMPNN is the standard companion to structure generators like RFdiffusion, rewriting backbones into sequences that fold correctly. The Science 2022 method outperformed physics-based design in silico and experimentally, and handles multimer design. Successors LigandMPNN and NA-MPNN extend it to ligands and nucleic acids.",
+  "url": "https://github.com/dauparas/ProteinMPNN",
+  "github": "https://github.com/dauparas/ProteinMPNN",
+  "tags": [
+    "inverse-folding",
+    "protein-design",
+    "sequence-design",
+    "baker-lab",
+    "graph-neural-network"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Baker Laboratory (UW Institute of Protein Design)",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-05"
+}

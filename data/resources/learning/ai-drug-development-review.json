@@ -1,0 +1,29 @@
+{
+  "name": "Artificial intelligence in drug development (review)",
+  "slug": "ai-drug-development-review",
+  "category": "learning",
+  "subcategory": "papers",
+  "type": "paper",
+  "description": "Highly cited Nature Medicine review by Zhang et al. surveying AI applications across the entire drug development workflow.",
+  "longDescription": "This Nature Medicine review (s41591-024-03434-4, Zhang et al.) surveys how AI is applied across the whole drug development workflow, from target identification to clinical outcomes, and has accumulated 600+ citations. It is the standard modern reference for framing where machine learning actually adds value in pharma. A useful companion is Bajorath's editorial Artificial Intelligence in Drug Discovery: Into the Great Wide Open (J. Med. Chem. 2020).",
+  "url": "https://www.nature.com/articles/s41591-024-03434-4",
+  "github": null,
+  "tags": [
+    "review",
+    "drug-discovery",
+    "ai",
+    "nature-medicine",
+    "paper"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Nature Medicine (Springer Nature)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-27"
+}

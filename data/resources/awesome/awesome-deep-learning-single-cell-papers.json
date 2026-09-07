@@ -1,0 +1,29 @@
+{
+  "name": "awesome-deep-learning-single-cell-papers",
+  "slug": "awesome-deep-learning-single-cell-papers",
+  "category": "awesome",
+  "subcategory": "single-cell",
+  "type": "awesome-list",
+  "description": "Curated papers on deep learning for single-cell analysis, maintained by the OmicsML organization.",
+  "longDescription": "OmicsML/awesome-deep-learning-single-cell-papers collects deep-learning papers for single-cell analysis, from classic representations to recent foundation models. The same organization maintains the companion awesome-foundation-model-single-cell-papers tracking the current wave of single-cell foundation models. The essential reading list for AI approaches to single-cell data.",
+  "url": "https://github.com/OmicsML/awesome-deep-learning-single-cell-papers",
+  "github": "https://github.com/OmicsML/awesome-deep-learning-single-cell-papers",
+  "tags": [
+    "curated-list",
+    "single-cell",
+    "deep-learning",
+    "papers",
+    "foundation-models"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "OmicsML",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-31"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Absci",
+  "slug": "absci",
+  "category": "platforms",
+  "subcategory": "drug-discovery",
+  "type": "platform",
+  "description": "Generative AI drug creation company pairing zero-shot antibody design with high-throughput wet-lab validation for better biologics.",
+  "longDescription": "Absci's Integrated Drug Creation platform couples deep-learning antibody design with rapid experimental screening. It claims zero-shot generative design and validation of new antibodies, with partners across pharma for AI-designed biologics. Novel targets are discovered via reverse immunology from super immune responders.",
+  "url": "https://www.absci.com/",
+  "github": null,
+  "tags": [
+    "antibody-design",
+    "drug-discovery",
+    "generative-ai",
+    "biologics",
+    "synthetic-biology"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Absci",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-07"
+}

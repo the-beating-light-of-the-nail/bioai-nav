@@ -1,0 +1,29 @@
+{
+  "name": "Bioinformatics Specialization (UCSD)",
+  "slug": "ucsd-bioinformatics-specialization",
+  "category": "learning",
+  "subcategory": "courses",
+  "type": "course",
+  "description": "Seven-course UC San Diego specialization teaching bioinformatics algorithms, from finding hidden messages in DNA to genome sequencing.",
+  "longDescription": "Created by Pavel Pevzner, Phillip Compeau, and Nikolay Vyahhi at UC San Diego, this Coursera specialization was the first online bioinformatics specialization when launched in 2015 with support from Illumina. Courses progress from Finding Hidden Messages in DNA through Genome Sequencing, gene comparison, molecular evolution, and bioinformatics algorithms. It pairs naturally with the ROSALIND problems and the Compeau/Pevzner textbook.",
+  "url": "https://www.coursera.org/specializations/bioinformatics",
+  "github": null,
+  "tags": [
+    "course",
+    "bioinformatics",
+    "algorithms",
+    "genomics",
+    "coursera"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "UC San Diego",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-29"
+}

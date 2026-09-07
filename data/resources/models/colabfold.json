@@ -1,0 +1,29 @@
+{
+  "name": "ColabFold",
+  "slug": "colabfold",
+  "category": "models",
+  "subcategory": "structure-prediction",
+  "type": "model",
+  "description": "Free Colab notebooks and local installer pairing AlphaFold2 with fast MMseqs2 alignments, making structure prediction accessible to all.",
+  "longDescription": "ColabFold brought AlphaFold 2 to every lab by combining it with fast MMseqs2 sequence alignments inside a browser notebook. Published in Nature Methods, it is cited by thousands of structure-prediction studies. LocalColabFold extends the same pipeline to local machines across operating systems.",
+  "url": "https://github.com/sokrypton/ColabFold",
+  "github": "https://github.com/sokrypton/ColabFold",
+  "tags": [
+    "structure-prediction",
+    "alphafold",
+    "google-colab",
+    "mmseqs2",
+    "protein-complexes"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Sergey Ovchinnikov (sokrypton) & community",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-31"
+}

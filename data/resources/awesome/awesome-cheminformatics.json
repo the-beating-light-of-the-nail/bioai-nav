@@ -1,0 +1,29 @@
+{
+  "name": "awesome-cheminformatics",
+  "slug": "awesome-cheminformatics",
+  "category": "awesome",
+  "subcategory": "chemistry",
+  "type": "awesome-list",
+  "description": "Curated list of cheminformatics software, resources, and libraries — mostly command-line based, free, or open-source.",
+  "longDescription": "hsiaoyi0504/awesome-cheminformatics is the go-to awesome list for cheminformatics tooling: mostly CLI-based, free or open-source software for molecular handling, descriptors, and search. It is often paired with Pat Walters' opinionated open-source cheminformatics resources list. The chemistry-side companion to drug-discovery and BioAI lists.",
+  "url": "https://github.com/hsiaoyi0504/awesome-cheminformatics",
+  "github": "https://github.com/hsiaoyi0504/awesome-cheminformatics",
+  "tags": [
+    "curated-list",
+    "cheminformatics",
+    "chemistry",
+    "drug-discovery",
+    "open-source"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "hsiaoyi0504",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-01"
+}

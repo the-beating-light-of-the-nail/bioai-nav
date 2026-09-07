@@ -1,0 +1,29 @@
+{
+  "name": "BioGPT",
+  "slug": "biogpt",
+  "category": "models",
+  "subcategory": "biomedical-lm",
+  "type": "model",
+  "description": "Microsoft's domain-specific generative transformer for biomedical text mining and generation, pretrained on millions of PubMed abstracts.",
+  "longDescription": "BioGPT applied the GPT recipe to large-scale biomedical literature and led biomedical relation-extraction benchmarks like BC5CDR at release. The MIT-licensed repo ships pretrained base and large checkpoints, also available on Hugging Face. It remains a common reference point for domain-specific biomedical language models.",
+  "url": "https://github.com/microsoft/BioGPT",
+  "github": "https://github.com/microsoft/BioGPT",
+  "tags": [
+    "biomedical-nlp",
+    "language-model",
+    "text-mining",
+    "pubmed",
+    "microsoft"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Microsoft Research",
+  "language": "Python",
+  "stars": null,
+  "license": "MIT",
+  "addedAt": "2026-08-30"
+}

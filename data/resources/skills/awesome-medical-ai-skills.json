@@ -1,0 +1,29 @@
+{
+  "name": "awesome-medical-ai-skills",
+  "slug": "awesome-medical-ai-skills",
+  "category": "skills",
+  "subcategory": "general",
+  "type": "skill-collection",
+  "description": "International-edition curated list of medical and healthcare AI agent skills, MCP servers, and clinical tools.",
+  "longDescription": "JuneYaooo/awesome-medical-ai-skills (International Edition) curates agent skills, MCP servers, and tools for medical and healthcare AI. It complements the same author's awesome-medical-ai list of open-source medical AI projects spanning LLMs, imaging, multi-agent systems, and clinical software. The medical counterpart to the genomics skill lists.",
+  "url": "https://github.com/JuneYaooo/awesome-medical-ai-skills",
+  "github": "https://github.com/JuneYaooo/awesome-medical-ai-skills",
+  "tags": [
+    "curated-list",
+    "medical-ai",
+    "skills",
+    "mcp",
+    "healthcare"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "JuneYaooo",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-28"
+}

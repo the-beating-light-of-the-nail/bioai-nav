@@ -1,0 +1,29 @@
+{
+  "name": "OpenFold",
+  "slug": "openfold",
+  "category": "models",
+  "subcategory": "structure-prediction",
+  "type": "model",
+  "description": "Trainable, memory-efficient PyTorch reimplementation of AlphaFold 2, including the complete training pipeline and training data.",
+  "longDescription": "Unlike the original release, OpenFold lets researchers retrain and modify the model, yielding new insights into how AlphaFold 2 learns and generalizes. It is the backbone of many production and community structure-prediction deployments. The same lab now develops OpenFold-3, a bitwise reproduction of AlphaFold 3.",
+  "url": "https://github.com/aqlaboratory/openfold",
+  "github": "https://github.com/aqlaboratory/openfold",
+  "tags": [
+    "structure-prediction",
+    "alphafold",
+    "pytorch",
+    "protein-folding",
+    "open-source"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "AlQuraishi Laboratory",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-07"
+}

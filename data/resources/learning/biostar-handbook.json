@@ -1,0 +1,29 @@
+{
+  "name": "Biostar Handbook",
+  "slug": "biostar-handbook",
+  "category": "learning",
+  "subcategory": "books",
+  "type": "book",
+  "description": "Practical e-book series by Istvan Albert teaching reproducible bioinformatics data analysis, from Unix scripting to RNA-seq and SNP calling.",
+  "longDescription": "The Biostar Handbook by Istvan Albert is a beginner-friendly, practical e-book series (now five volumes) covering Unix command-line skills, RNA-seq, genome analysis, SNP calling, and more. It is closely tied to the Biostars Q&A community and emphasizes turning large sequencing datasets into reproducible findings. NCI training modules for beginners are built directly on it.",
+  "url": "https://www.biostarhandbook.com/",
+  "github": null,
+  "tags": [
+    "book",
+    "bioinformatics",
+    "rna-seq",
+    "data-analysis",
+    "unix"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Istvan Albert / Biostars",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-26"
+}

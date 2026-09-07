@@ -1,0 +1,29 @@
+{
+  "name": "awesome-small-molecule-ml",
+  "slug": "awesome-small-molecule-ml",
+  "category": "awesome",
+  "subcategory": "drug-discovery",
+  "type": "awesome-list",
+  "description": "Curated papers, datasets, frameworks, and packages for machine learning on small-molecule drug discovery.",
+  "longDescription": "benb111/awesome-small-molecule-ml collects the machine-learning side of small-molecule drug discovery: papers, datasets, frameworks, packages, and blogs. It is a standard reference for ML chemistry benchmarks and data sources. Complements the broader drug-discovery lists with a tighter machine-learning focus.",
+  "url": "https://github.com/benb111/awesome-small-molecule-ml",
+  "github": "https://github.com/benb111/awesome-small-molecule-ml",
+  "tags": [
+    "curated-list",
+    "machine-learning",
+    "drug-discovery",
+    "chemistry",
+    "datasets"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "benb111",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-07"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Agent Laboratory",
+  "slug": "agent-laboratory",
+  "category": "agents",
+  "subcategory": "scientific",
+  "type": "agent",
+  "description": "End-to-end autonomous research workflow where LLM agents do literature review, experimentation, and report writing to produce complete papers.",
+  "longDescription": "Agent Laboratory (arXiv 2501.04227, Johns Hopkins/AMD) is an end-to-end autonomous research workflow that takes a research idea and produces code, experiments, and a full research report. It uses specialized agents such as a PhD agent and postdoc agent across three phases: literature review, experimentation, and report writing. It is a general AI-research foundation that bio groups adapt for their own pipelines.",
+  "url": "https://agentlaboratory.github.io/",
+  "github": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+  "tags": [
+    "agent",
+    "llm",
+    "autonomous-research",
+    "literature-review",
+    "report-writing"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Johns Hopkins University / AMD",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-06"
+}

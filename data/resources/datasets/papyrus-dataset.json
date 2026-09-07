@@ -1,0 +1,29 @@
+{
+  "name": "Papyrus Dataset",
+  "slug": "papyrus-dataset",
+  "category": "datasets",
+  "subcategory": "drug-discovery",
+  "type": "dataset",
+  "description": "Large-scale curated bioactivity dataset of about 60 million data points assembled from ChEMBL and other sources for ML drug discovery.",
+  "longDescription": "Papyrus (Journal of Cheminformatics 2023) aggregates around 60 million small-molecule bioactivity data points from ChEMBL, ExCAPE-DB, and smaller high-quality sets, with protein quality categories and consistent structure normalization. The dataset is openly hosted on Zenodo, and the Papyrus-scripts library provides programmatic access for ML and proteochemometrics modeling. It is widely used for training and benchmarking bioactivity prediction models.",
+  "url": "https://doi.org/10.5281/zenodo.7019874",
+  "github": "https://github.com/CDDLeiden/Papyrus-scripts",
+  "tags": [
+    "bioactivity",
+    "drug-discovery",
+    "dataset",
+    "machine-learning",
+    "benchmark"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "CDD Leiden, Leiden University",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-06"
+}

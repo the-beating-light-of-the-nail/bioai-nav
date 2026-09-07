@@ -1,0 +1,29 @@
+{
+  "name": "gget MCP",
+  "slug": "gget-mcp",
+  "category": "skills",
+  "subcategory": "mcp",
+  "type": "mcp-server",
+  "description": "MCP server implementing the gget bioinformatics toolbox, giving agents a standard interface to query genomic databases.",
+  "longDescription": "gget-mcp, from the longevity-genie organization, wraps gget — the popular command-line tool for querying genomic databases — as a Model Context Protocol server. AI assistants gain structured access to gene, sequence, and annotation lookups that would otherwise require shell commands. It is regularly cited in curated life-science MCP lists such as awesome-genomic-skills.",
+  "url": "https://github.com/longevity-genie/gget-mcp",
+  "github": "https://github.com/longevity-genie/gget-mcp",
+  "tags": [
+    "mcp",
+    "genomics",
+    "gget",
+    "bioinformatics",
+    "databases"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": true,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "longevity-genie",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-27"
+}

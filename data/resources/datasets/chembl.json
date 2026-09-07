@@ -1,0 +1,29 @@
+{
+  "name": "ChEMBL",
+  "slug": "chembl",
+  "category": "datasets",
+  "subcategory": "drug-discovery",
+  "type": "dataset",
+  "description": "Manually curated EMBL-EBI database of bioactive drug-like molecules that integrates chemical, bioactivity, and genomic data.",
+  "longDescription": "ChEMBL is a manually curated, open, FAIR-compliant database of bioactive molecules with drug-like properties maintained by EMBL-EBI. ChEMBL 35 contains data on roughly 17,500 approved drugs plus millions of bioactivity measurements linking compounds to targets. It is a Global Core Biodata Resource and the backbone dataset for ML in drug discovery.",
+  "url": "https://www.ebi.ac.uk/chembl/",
+  "github": null,
+  "tags": [
+    "bioactivity",
+    "drug-discovery",
+    "chemistry",
+    "database",
+    "ebi"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "EMBL-EBI",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-04"
+}

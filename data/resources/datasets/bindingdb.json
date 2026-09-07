@@ -1,0 +1,29 @@
+{
+  "name": "BindingDB",
+  "slug": "bindingdb",
+  "category": "datasets",
+  "subcategory": "drug-discovery",
+  "type": "dataset",
+  "description": "Public web-accessible database of experimentally measured protein-small molecule binding affinities, collecting data since 2000.",
+  "longDescription": "BindingDB, launched in 2000 as the first public molecular recognition database, holds experimentally measured binding affinities between proteins and small molecules, chiefly drug targets. Its 2025 NAR paper describes it as a FAIR knowledgebase of protein-small molecule binding data, with full dataset downloads hosted via UC San Diego. It is a key supplement to ChEMBL for affinity-prediction benchmarks.",
+  "url": "https://www.bindingdb.org/",
+  "github": null,
+  "tags": [
+    "binding-affinity",
+    "drug-discovery",
+    "database",
+    "protein-ligand",
+    "bioactivity"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "UC San Diego",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-03"
+}

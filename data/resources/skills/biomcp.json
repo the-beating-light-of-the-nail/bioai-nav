@@ -1,0 +1,30 @@
+{
+  "name": "BioMCP",
+  "slug": "biomcp",
+  "category": "skills",
+  "subcategory": "mcp",
+  "type": "mcp-server",
+  "description": "Biomedical MCP server and CLI unifying PubMed, ClinicalTrials.gov, and MyVariant.info queries for AI agents in one interface.",
+  "longDescription": "BioMCP by GenomOncology is an open-source Python MCP server announced as a Model Context Protocol for biomedical AI assistants and agents. One query reaches literature, clinical trial, and genomic variant sources that normally sit behind separate APIs and identifiers; it ships as both a Python package (biomcp-python) and a single-binary CLI. An enterprise extension, OncoMCP, adds HIPAA-compliant precision-oncology deployment.",
+  "url": "https://biomcp.org/",
+  "github": "https://github.com/genomoncology/biomcp",
+  "tags": [
+    "mcp",
+    "biomedical",
+    "oncology",
+    "clinical-trials",
+    "pubmed",
+    "variants"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": true,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "GenomOncology",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-28"
+}

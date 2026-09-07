@@ -1,0 +1,29 @@
+{
+  "name": "Benchling",
+  "slug": "benchling",
+  "category": "platforms",
+  "subcategory": "lab-informatics",
+  "type": "platform",
+  "description": "Biology-first cloud platform for biotech R&D: structured scientific data, molecular biology workflows, registry and inventory management.",
+  "longDescription": "Benchling is the de facto lab-informatics backbone for hundreds of biotechs, structuring experiments, sequences and samples in one system. Scientists design experiments, capture structured data and run AI agents and models on top of it. Startup and academic tiers make it ubiquitous across the biotech ecosystem.",
+  "url": "https://www.benchling.com/",
+  "github": null,
+  "tags": [
+    "lab-informatics",
+    "biotech-r-d",
+    "cloud-platform",
+    "data-management",
+    "molecular-biology"
+  ],
+  "openSource": false,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Benchling",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-04"
+}

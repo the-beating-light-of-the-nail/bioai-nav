@@ -1,0 +1,28 @@
+{
+  "name": "GPTomics bioSkills",
+  "slug": "gptomics-bioskills",
+  "category": "skills",
+  "subcategory": "general",
+  "type": "skill-library",
+  "description": "A set of SKILL.md files giving AI agents expert knowledge and code patterns for standard bioinformatics workflows.",
+  "longDescription": "GPTomics/bioSkills provides AI agents with expert knowledge for bioinformatics work: each skill bundles code patterns and best practices as SKILL.md instructions. It is one of the earlier community attempts to codify bioinformatics practice for coding agents, and appears alongside ClawBio in curated genomic-skill lists. Good raw material for building lab-specific skill sets.",
+  "url": "https://github.com/GPTomics/bioSkills",
+  "github": "https://github.com/GPTomics/bioSkills",
+  "tags": [
+    "skills",
+    "bioinformatics",
+    "skill-md",
+    "workflows"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "GPTomics",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-25"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "NCI Genomic Data Commons (TCGA)",
+  "slug": "gdc-tcga",
+  "category": "datasets",
+  "subcategory": "clinical",
+  "type": "dataset",
+  "description": "NCI's Genomic Data Commons harmonizing and distributing cancer genomics data, including the complete TCGA cohort of 50,000+ cases.",
+  "longDescription": "The NCI Genomic Data Commons is a next-generation cancer knowledge network providing a repository and computational platform spanning 50,571 cases from TCGA, HCMI, and other programs. It applies uniform harmonization pipelines to genomic, clinical, and biospecimen data (Nature Communications 2021), distributed through the GDC Data Portal. It is the canonical access point for large-scale cancer ML and precision-medicine research.",
+  "url": "https://gdc.cancer.gov/",
+  "github": null,
+  "tags": [
+    "cancer",
+    "genomics",
+    "tcga",
+    "clinical",
+    "database",
+    "nci"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "National Cancer Institute (NIH)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-30"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "AlphaFold DB",
+  "slug": "alphafold-db",
+  "category": "models",
+  "subcategory": "structure-prediction",
+  "type": "model",
+  "description": "Open-access database of 200M+ predicted protein structures from DeepMind and EMBL-EBI, searchable and downloadable by UniProt accession.",
+  "longDescription": "AlphaFold DB makes AlphaFold predictions for nearly every cataloged protein freely available through a web interface and public FTP. It has grown to over 260 million structures and is default infrastructure for biologists needing a quick structural view. EMBL-EBI co-develops and hosts the resource with Google DeepMind.",
+  "url": "https://alphafold.ebi.ac.uk/",
+  "github": null,
+  "tags": [
+    "database",
+    "structure-prediction",
+    "proteomics",
+    "embl-ebi",
+    "alphafold"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "EMBL-EBI & Google DeepMind",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-01"
+}

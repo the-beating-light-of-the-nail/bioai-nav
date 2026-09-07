@@ -1,0 +1,29 @@
+{
+  "name": "RDKit",
+  "slug": "rdkit",
+  "category": "tools",
+  "subcategory": "cheminformatics",
+  "type": "tool",
+  "description": "Open-source cheminformatics toolkit with a C++ core and Python wrappers for 2D/3D molecular operations and ML descriptor generation.",
+  "longDescription": "RDKit is a collection of cheminformatics and machine-learning software written in C++ with Python wrappers, distributed under a business-friendly BSD license. It handles 2D and 3D molecular operations, substructure search, and descriptor generation for machine learning on Mac, Windows, and Linux. It is the foundational library underlying most open-source cheminformatics stacks.",
+  "url": "https://www.rdkit.org/",
+  "github": "https://github.com/rdkit/rdkit",
+  "tags": [
+    "cheminformatics",
+    "molecules",
+    "python",
+    "c-plus-plus",
+    "machine-learning"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "RDKit community",
+  "language": "C++",
+  "stars": null,
+  "license": "BSD-3-Clause",
+  "addedAt": "2026-09-02"
+}

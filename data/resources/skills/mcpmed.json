@@ -1,0 +1,28 @@
+{
+  "name": "MCPmed",
+  "slug": "mcpmed",
+  "category": "skills",
+  "subcategory": "mcp",
+  "type": "mcp-server",
+  "description": "Collection of MCP servers for seamless integration with biological and biomedical databases, maintained by the MCPmed org.",
+  "longDescription": "MCPmed is a GitHub organization publishing a comprehensive set of Model Context Protocol servers for biological and biomedical databases. The collection lets Claude, Cursor, and other MCP clients query core life-science resources directly instead of through ad-hoc scripts. Its servers are frequently cross-listed in life-science MCP registries such as BioContextAI.",
+  "url": "https://github.com/MCPmed",
+  "github": "https://github.com/MCPmed",
+  "tags": [
+    "mcp",
+    "biomedical",
+    "databases",
+    "bioinformatics"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": true,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "MCPmed",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-02"
+}

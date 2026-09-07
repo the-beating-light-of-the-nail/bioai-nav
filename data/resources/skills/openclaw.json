@@ -1,0 +1,29 @@
+{
+  "name": "OpenClaw",
+  "slug": "openclaw",
+  "category": "skills",
+  "subcategory": "openclaw",
+  "type": "framework",
+  "description": "Open-source AI agent framework that runs on your devices and chat channels, with a SKILL.md-based skill system and the ClawHub registry.",
+  "longDescription": "OpenClaw is a free and open-source autonomous AI agent gateway (TypeScript, MIT) that connects LLMs to tools and messaging channels like Discord, iMessage, and Teams. Skills are defined by SKILL.md files and install from ClawHub, Git repos, or local directories, with gating, allowlists, and environment injection configured per workspace. It is the ecosystem several bioinformatics skill libraries, such as ClawBio, target first.",
+  "url": "https://openclaw.ai/",
+  "github": "https://github.com/openclaw/openclaw",
+  "tags": [
+    "agent-framework",
+    "skills",
+    "openclaw",
+    "self-hosted",
+    "skill-registry"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": true,
+  "featured": true,
+  "status": "active",
+  "publisher": "OpenClaw",
+  "language": "TypeScript",
+  "stars": null,
+  "license": "MIT",
+  "addedAt": "2026-08-25"
+}

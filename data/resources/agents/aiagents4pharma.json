@@ -1,0 +1,29 @@
+{
+  "name": "AIAgents4Pharma",
+  "slug": "aiagents4pharma",
+  "category": "agents",
+  "subcategory": "drug-discovery",
+  "type": "agent",
+  "description": "Open-source suite of AI agents that help pharma researchers query and reason over biomedical data across drug discovery workflows.",
+  "longDescription": "AIAgents4Pharma (Team VPE, Virtual Patient Engine) is an open-source project bringing together AI agents that let researchers and pharma companies interact with complex biomedical data. It packages LLM-driven agents and tools spanning literature, chemistry, and omics for end-to-end drug discovery support. It is one of the most complete dedicated open-source agent frameworks for pharma workflows.",
+  "url": "https://github.com/VirtualPatientEngine/AIAgents4Pharma",
+  "github": "https://github.com/VirtualPatientEngine/AIAgents4Pharma",
+  "tags": [
+    "agent",
+    "drug-discovery",
+    "llm",
+    "biomedical-data",
+    "open-source"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Virtual Patient Engine (VPE)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-04"
+}

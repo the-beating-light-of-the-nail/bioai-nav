@@ -1,0 +1,29 @@
+{
+  "name": "GTEx Portal",
+  "slug": "gtex",
+  "category": "datasets",
+  "subcategory": "genomics",
+  "type": "dataset",
+  "description": "NIH Common Fund resource for tissue-specific gene expression and genetic regulation, with eQTLs across 50+ tissues from ~1,000 donors.",
+  "longDescription": "The Genotype-Tissue Expression (GTEx) Portal is a comprehensive public resource for studying tissue- and cell-specific gene expression and genetic regulation across roughly 1,000 donors and 50+ tissue types. It provides bulk and single-cell RNA-seq together with eQTL analyses that link genetic variants to expression changes. GTEx eQTLs are a standard ingredient in functional genomics and AI target-prioritization pipelines.",
+  "url": "https://gtexportal.org/home/",
+  "github": null,
+  "tags": [
+    "genomics",
+    "eqtl",
+    "gene-expression",
+    "database",
+    "nih"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "NIH Common Fund",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-07"
+}

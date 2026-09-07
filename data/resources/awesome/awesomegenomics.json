@@ -1,0 +1,29 @@
+{
+  "name": "AwesomeGenomics",
+  "slug": "awesomegenomics",
+  "category": "awesome",
+  "subcategory": "genomics",
+  "type": "awesome-list",
+  "description": "Broad Institute's curated list of genomics resources: databases, software, libraries, toolboxes, pipelines, books, courses, and tutorials.",
+  "longDescription": "broadinstitute/AwesomeGenomics is the Broad Institute's awesome list for genomics, spanning bioinformatics databases, software, libraries, toolboxes, pipelines, and learning material. Institutional maintenance gives it unusually good coverage of production-grade genomics infrastructure. A genomics-focused counterpart to Awesome-Bioinformatics.",
+  "url": "https://github.com/broadinstitute/AwesomeGenomics",
+  "github": "https://github.com/broadinstitute/AwesomeGenomics",
+  "tags": [
+    "curated-list",
+    "genomics",
+    "bioinformatics",
+    "institutional",
+    "pipelines"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Broad Institute",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-06"
+}

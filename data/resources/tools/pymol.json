@@ -1,0 +1,29 @@
+{
+  "name": "PyMOL",
+  "slug": "pymol",
+  "category": "tools",
+  "subcategory": "structural-biology",
+  "type": "tool",
+  "description": "User-sponsored molecular visualization system on an open-source foundation, maintained and distributed by Schrödinger.",
+  "longDescription": "PyMOL, created by Warren DeLano and now maintained by Schrödinger, is a comprehensive tool for rendering and animating 3D molecular structures. It ships with an open-source foundation on GitHub plus free educational builds and commercial incentive versions, with the current release being PyMOL 3.1. Its scriptability has made it a long-standing favorite for publication-quality molecular figures.",
+  "url": "https://www.pymol.org/",
+  "github": "https://github.com/schrodinger/pymol-open-source",
+  "tags": [
+    "visualization",
+    "structural-biology",
+    "molecular-graphics",
+    "scripting",
+    "publication-figures"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Schrödinger",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-04"
+}

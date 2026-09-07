@@ -1,0 +1,29 @@
+{
+  "name": "ROSALIND",
+  "slug": "rosalind",
+  "category": "learning",
+  "subcategory": "tutorials",
+  "type": "tutorial",
+  "description": "Platform for learning bioinformatics through automatically graded coding problems, from Python basics to genome assembly algorithms.",
+  "longDescription": "ROSALIND is a platform for learning bioinformatics through problem solving, effectively Project Euler for biology. Problems are organized into tracks like Python Village, the Bioinformatics Textbook Track, and algorithmic sections, with automated grading of submitted answers. It is the standard way beginners turn biology knowledge into working code.",
+  "url": "https://rosalind.info/",
+  "github": null,
+  "tags": [
+    "problems",
+    "bioinformatics",
+    "python",
+    "practice",
+    "algorithms"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "ROSALIND Team",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-30"
+}

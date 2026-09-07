@@ -1,0 +1,29 @@
+{
+  "name": "awesome-ai-for-science",
+  "slug": "awesome-ai-for-science",
+  "category": "awesome",
+  "subcategory": "ai4science",
+  "type": "awesome-list",
+  "description": "Curated list of AI tools, libraries, papers, datasets, and frameworks accelerating scientific discovery across physics, chemistry, and biology.",
+  "longDescription": "ai-boost/awesome-ai-for-science (backed by the ai4s-research org) organizes AI-for-science resources by domain — biology, chemistry, physics, and beyond — covering tools, papers, datasets, and frameworks, including agent skill packs like GDM science-skills. It has trended on TrendShift and is widely shared as a way to keep up with fast-moving AI-for-science developments. The umbrella list under which BioAI sits.",
+  "url": "https://github.com/ai-boost/awesome-ai-for-science",
+  "github": "https://github.com/ai-boost/awesome-ai-for-science",
+  "tags": [
+    "curated-list",
+    "ai4science",
+    "tools",
+    "papers",
+    "datasets"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "ai-boost / ai4s-research",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-04"
+}

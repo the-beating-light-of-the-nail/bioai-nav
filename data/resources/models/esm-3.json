@@ -1,0 +1,28 @@
+{
+  "name": "ESM-3",
+  "slug": "esm-3",
+  "category": "models",
+  "subcategory": "protein-language",
+  "type": "model",
+  "description": "98B-parameter generative protein language model that reasons jointly over sequence, structure and function to design proteins beyond nature.",
+  "longDescription": "ESM-3 was trained on 2.8 billion protein sequences and generated a novel fluorescent protein unlike anything in nature, published in Science in 2025. It was the debut model of EvolutionaryScale, the startup spun out of Meta FAIR's protein team. Access runs through the company's Forge platform and API, with a smaller open-weight variant available.",
+  "url": "https://www.evolutionaryscale.ai/",
+  "github": null,
+  "tags": [
+    "protein-language-model",
+    "protein-design",
+    "generative-model",
+    "evolutionaryscale"
+  ],
+  "openSource": false,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "EvolutionaryScale",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-04"
+}

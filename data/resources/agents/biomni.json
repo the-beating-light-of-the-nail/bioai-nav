@@ -1,0 +1,30 @@
+{
+  "name": "Biomni",
+  "slug": "biomni",
+  "category": "agents",
+  "subcategory": "bioinformatics",
+  "type": "agent",
+  "description": "Open-source general-purpose biomedical AI agent from Stanford that autonomously executes research tasks using 150+ tools and 59 databases.",
+  "longDescription": "Biomni is Stanford SNAP Lab's general-purpose biomedical AI agent, published in Science in 2025, built to autonomously execute research tasks across diverse biomedical subfields. It integrates LLM-powered agents with 150 specialized tools, 59 databases, and 105 software packages, and is also exposed via Amazon Bedrock integrations. It is currently the most complete open-source foundation for agentic biomedical data work.",
+  "url": "https://biomni.stanford.edu/",
+  "github": "https://github.com/snap-stanford/biomni",
+  "tags": [
+    "agent",
+    "biomedical",
+    "llm",
+    "bioinformatics",
+    "autonomous-research",
+    "stanford"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": true,
+  "status": "active",
+  "publisher": "Stanford University (SNAP Lab)",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-27"
+}

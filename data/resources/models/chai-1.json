@@ -1,0 +1,29 @@
+{
+  "name": "Chai-1",
+  "slug": "chai-1",
+  "category": "models",
+  "subcategory": "structure-prediction",
+  "type": "model",
+  "description": "Open-weight model from Chai Discovery for predicting protein, ligand and nucleic-acid complex structures, Apache-2.0 licensed.",
+  "longDescription": "Chai-1 shipped runnable weights and code that matched AlphaFold 3-class performance on many complex-prediction benchmarks. The chai-lab repo is Apache-2.0 licensed and pairs with Chai Discovery's commercial computer-aided molecular design suite used by Novartis, Pfizer and others. Newer antibody-design models have since been announced on the company site.",
+  "url": "https://github.com/chaidiscovery/chai-lab",
+  "github": "https://github.com/chaidiscovery/chai-lab",
+  "tags": [
+    "structure-prediction",
+    "protein-complexes",
+    "chai-discovery",
+    "drug-discovery",
+    "open-weights"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Chai Discovery",
+  "language": "Python",
+  "stars": null,
+  "license": "Apache-2.0",
+  "addedAt": "2026-09-05"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Recursion",
+  "slug": "recursion",
+  "category": "platforms",
+  "subcategory": "drug-discovery",
+  "type": "platform",
+  "description": "TechBio company industrializing drug discovery with the Recursion OS platform, robotic wet labs and massive multimodal biological datasets.",
+  "longDescription": "Recursion maps cellular phenotypes at massive scale by pairing automated experiments with multimodal AI. The Recursion OS platform spans target identification through clinical-trial enrollment, and its merger with Exscientia consolidated two of the largest AI-drug-discovery organizations. Its research engine Valence Labs advances the underlying ML.",
+  "url": "https://www.recursion.com/",
+  "github": null,
+  "tags": [
+    "drug-discovery",
+    "techbio",
+    "recursion-os",
+    "automation",
+    "phenomics"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Recursion Pharmaceuticals",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-01"
+}

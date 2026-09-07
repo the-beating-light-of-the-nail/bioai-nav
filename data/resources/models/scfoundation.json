@@ -1,0 +1,29 @@
+{
+  "name": "scFoundation",
+  "slug": "scfoundation",
+  "category": "models",
+  "subcategory": "single-cell",
+  "type": "model",
+  "description": "BioMap's ~100M-parameter single-cell model trained on 50M+ human transcriptomes, modeling ~19,264 genes at full context.",
+  "longDescription": "scFoundation is built on the xTrimoGene architecture and trained on over 50 million human single-cell transcriptomic profiles. It captures scale-free gene-network structure and powers tasks like cell typing and drug-response prediction. Weights are mirrored on Hugging Face and it is routinely benchmarked against scGPT and Geneformer.",
+  "url": "https://github.com/biomap-research/scFoundation",
+  "github": "https://github.com/biomap-research/scFoundation",
+  "tags": [
+    "single-cell",
+    "transcriptomics",
+    "foundation-model",
+    "biomap",
+    "xtrimogene"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "BioMap Research",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-26"
+}

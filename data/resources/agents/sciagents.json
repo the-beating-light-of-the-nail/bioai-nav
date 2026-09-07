@@ -1,0 +1,30 @@
+{
+  "name": "SciAgents",
+  "slug": "sciagents",
+  "category": "agents",
+  "subcategory": "scientific",
+  "type": "agent",
+  "description": "MIT multi-agent system combining ontological knowledge graphs with LLM agents to autonomously generate and validate scientific hypotheses.",
+  "longDescription": "SciAgents (Buehler Lab, MIT LAMM; arXiv 2409.05556, published in Advanced Materials) automates scientific discovery by coupling large-scale ontological knowledge graphs with multi-agent LLM reasoning. It autonomously generates, critiques, and refines research hypotheses, demonstrated on materials and biomaterials discovery. It showcases how knowledge-graph grounding improves agent-driven hypothesis generation.",
+  "url": "https://github.com/lamm-mit/SciAgentsDiscovery",
+  "github": "https://github.com/lamm-mit/SciAgentsDiscovery",
+  "tags": [
+    "agent",
+    "llm",
+    "knowledge-graph",
+    "hypothesis-generation",
+    "multi-agent",
+    "mit"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "MIT (LAMM / Buehler Lab)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-06"
+}

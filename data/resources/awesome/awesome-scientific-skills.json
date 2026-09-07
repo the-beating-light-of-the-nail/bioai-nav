@@ -1,0 +1,29 @@
+{
+  "name": "Awesome-Scientific-Skills",
+  "slug": "awesome-scientific-skills",
+  "category": "awesome",
+  "subcategory": "ai4science",
+  "type": "awesome-list",
+  "description": "Open curated list of agent skills for science, including wet-lab, life-science, and bioinformatics skills.",
+  "longDescription": "InternScience/Awesome-Scientific-Skills curates agent skills across scientific domains, including wet-lab protocols, life sciences, and bioinformatics. It complements GoekeLab's genomics-focused list with broader coverage of experimental science skills. Part of the fast-forming scientific skills ecosystem around SKILL.md.",
+  "url": "https://github.com/InternScience/Awesome-Scientific-Skills",
+  "github": "https://github.com/InternScience/Awesome-Scientific-Skills",
+  "tags": [
+    "curated-list",
+    "skills",
+    "ai4science",
+    "wet-lab",
+    "bioinformatics"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "InternScience",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-26"
+}

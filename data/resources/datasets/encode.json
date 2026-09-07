@@ -1,0 +1,29 @@
+{
+  "name": "ENCODE Project",
+  "slug": "encode",
+  "category": "datasets",
+  "subcategory": "genomics",
+  "type": "dataset",
+  "description": "NHGRI program building a comprehensive map of functional elements in the human and mouse genomes, served through a rich data portal.",
+  "longDescription": "ENCODE (encyclopedia of DNA elements), launched in 2003 by NHGRI, aims to build a comprehensive parts list of functional elements in the human and mouse genomes. Its portal provides thousands of datasets including ChIP-seq matrices, body maps, and single-cell experiments. ENCODE regulatory annotations are core training data for genomic deep-learning models.",
+  "url": "https://www.encodeproject.org/",
+  "github": null,
+  "tags": [
+    "genomics",
+    "functional-genomics",
+    "chip-seq",
+    "database",
+    "nhgri"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "ENCODE Project (NHGRI)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-07"
+}

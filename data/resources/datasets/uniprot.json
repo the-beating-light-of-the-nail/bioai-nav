@@ -1,0 +1,29 @@
+{
+  "name": "UniProt",
+  "slug": "uniprot",
+  "category": "datasets",
+  "subcategory": "protein",
+  "type": "dataset",
+  "description": "The world's most comprehensive, freely accessible resource for protein sequences and functional annotation, curated since 2002.",
+  "longDescription": "UniProt is the world's leading high-quality, comprehensive, and freely accessible resource for protein sequence and functional information, documented in its 2025 NAR paper. The UniProtKB knowledgebase combines expertly curated Swiss-Prot entries with automatically annotated TrEMBL entries, plus BLAST and proteome services. It is the canonical source of protein function data feeding models and knowledge graphs across biomedicine.",
+  "url": "https://www.uniprot.org/",
+  "github": null,
+  "tags": [
+    "protein",
+    "annotation",
+    "database",
+    "proteomics",
+    "sequence"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "UniProt Consortium (EMBL-EBI, SIB, PIR)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-31"
+}

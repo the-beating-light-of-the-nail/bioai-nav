@@ -1,0 +1,29 @@
+{
+  "name": "Seurat",
+  "slug": "seurat",
+  "category": "tools",
+  "subcategory": "single-cell",
+  "type": "tool",
+  "description": "R toolkit from the Satija Lab for quality control, analysis, and interactive exploration of single-cell RNA-seq data.",
+  "longDescription": "Seurat is the R-based single-cell RNA-seq analysis toolkit from the Satija Lab and the counterpart of Scanpy in the Python world. It supports QC, normalization, dimensionality reduction, clustering, and cell-type annotation, with an extensive set of vignettes that double as tutorials. A peer-reviewed comparison notes both packages offer wide analysis options and active communities.",
+  "url": "https://github.com/satijalab/seurat",
+  "github": "https://github.com/satijalab/seurat",
+  "tags": [
+    "single-cell",
+    "r",
+    "scrna-seq",
+    "clustering",
+    "bioinformatics"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Satija Lab",
+  "language": "R",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-05"
+}

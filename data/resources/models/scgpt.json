@@ -1,0 +1,29 @@
+{
+  "name": "scGPT",
+  "slug": "scgpt",
+  "category": "models",
+  "subcategory": "single-cell",
+  "type": "model",
+  "description": "Generative pretrained transformer for single-cell multi-omics, pretrained on 33 million cells for cell typing, integration and perturbation.",
+  "longDescription": "scGPT was among the first single-cell foundation models built by generative pretraining across 33 million cells. It supports cell annotation, multi-omic integration, batch correction and gene-network inference, with extensive tutorials in the repo. It is a standard baseline in single-cell foundation-model benchmarks.",
+  "url": "https://github.com/bowang-lab/scgpt",
+  "github": "https://github.com/bowang-lab/scgpt",
+  "tags": [
+    "single-cell",
+    "transcriptomics",
+    "foundation-model",
+    "multi-omics",
+    "transfer-learning"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Bo Wang Lab",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-25"
+}

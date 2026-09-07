@@ -1,0 +1,29 @@
+{
+  "name": "Therapeutics Data Commons",
+  "slug": "therapeutics-data-commons",
+  "category": "datasets",
+  "subcategory": "drug-discovery",
+  "type": "dataset",
+  "description": "Platform of AI-ready datasets, ML tasks, and public leaderboards spanning the full therapeutics pipeline from targets to clinical outcomes.",
+  "longDescription": "Therapeutics Data Commons (NeurIPS 2021 Datasets & Benchmarks; Nature Communications) is the first unifying platform to systematically access and evaluate machine learning across the entire therapeutics pipeline. Every dataset ships with a defined ML task, train/validation/test splits, evaluation metrics, and public leaderboards, plus reference implementations. It is maintained by Harvard's Zitnik Lab and also distributes datasets via Hugging Face.",
+  "url": "https://tdcommons.ai/",
+  "github": "https://github.com/mims-harvard/TDC",
+  "tags": [
+    "benchmark",
+    "drug-discovery",
+    "leaderboards",
+    "machine-learning",
+    "harvard"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": true,
+  "status": "active",
+  "publisher": "Harvard University (Zitnik Lab)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-02"
+}

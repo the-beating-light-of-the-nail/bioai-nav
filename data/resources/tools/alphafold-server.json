@@ -1,0 +1,30 @@
+{
+  "name": "AlphaFold Server",
+  "slug": "alphafold-server",
+  "category": "tools",
+  "subcategory": "structural-biology",
+  "type": "tool",
+  "description": "Free web tool from Google DeepMind and Isomorphic Labs predicting how proteins interact with DNA, RNA, ligands, and ions using AlphaFold 3.",
+  "longDescription": "AlphaFold Server (alphafoldserver.com) provides free web access to AlphaFold 3, described by Google as the most accurate tool for predicting protein interactions with DNA, RNA, ligands, and other molecules. It extends AlphaFold 2's protein-only predictions to full biomolecular complexes through a simple form-based interface. Together with the 200M-structure AlphaFold Database it underpins much of modern AI-driven structural biology.",
+  "url": "https://alphafoldserver.com/",
+  "github": null,
+  "tags": [
+    "protein-structure",
+    "alphafold",
+    "deep-learning",
+    "docking",
+    "web-tool",
+    "google-deepmind"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Google DeepMind / Isomorphic Labs",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-31"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Biotech Today",
+  "slug": "biotech-today",
+  "category": "directories",
+  "subcategory": null,
+  "type": "directory",
+  "description": "Scientific intelligence platform for AI in drug discovery, tracking ~90 AI tools across structure prediction, docking, antibody design, and ADMET.",
+  "longDescription": "Operated by Avanthus Sàrl, Biotech Today blends editorial deep dives on AI in drug discovery with tool intelligence: benchmarks, maturity scores, and adoption data across categories like protein structure prediction, de novo design, molecular docking, antibody design, and ADMET. It also publishes tool comparisons such as AlphaFold2 vs Boltz-1 vs Chai-1. Part directory, part analyst brief for the TechBio tooling landscape.",
+  "url": "https://www.biotech.today/",
+  "github": null,
+  "tags": [
+    "directory",
+    "drug-discovery",
+    "intelligence",
+    "benchmarks",
+    "protein-design"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Avanthus Sàrl",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-25"
+}

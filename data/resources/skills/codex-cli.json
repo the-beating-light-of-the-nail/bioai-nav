@@ -1,0 +1,29 @@
+{
+  "name": "Codex CLI",
+  "slug": "codex-cli",
+  "category": "skills",
+  "subcategory": "codex",
+  "type": "framework",
+  "description": "OpenAI's open-source coding agent with experimental Agent Skills support, documented in the openai/codex repo and OpenAI API docs.",
+  "longDescription": "Codex is OpenAI's CLI/cloud coding agent; its repo openai/codex documents SKILL.md-based skills (rolled out as experimental support) alongside AGENTS.md conventions for steering agents. The official OpenAI docs guide covers packaging instructions, resources, and optional scripts as skills that extend ChatGPT and Codex. A second target runtime for the same cross-compatible skill files used in the Claude ecosystem.",
+  "url": "https://developers.openai.com/api/docs/guides/tools-skills",
+  "github": "https://github.com/openai/codex",
+  "tags": [
+    "cli",
+    "agent",
+    "skills",
+    "openai",
+    "coding-agent"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "OpenAI",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-01"
+}

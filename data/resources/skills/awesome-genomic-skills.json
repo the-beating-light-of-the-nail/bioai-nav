@@ -1,0 +1,30 @@
+{
+  "name": "awesome-genomic-skills",
+  "slug": "awesome-genomic-skills",
+  "category": "skills",
+  "subcategory": "general",
+  "type": "skill-collection",
+  "description": "Curated index of agent skills and MCP servers for genomics and bioinformatics from DeepMind, OpenAI, Anthropic, AWS, and community projects.",
+  "longDescription": "GoekeLab's awesome-genomic-skills is the map of the bio agent-skills ecosystem: skill libraries (Google DeepMind science-skills, OpenAI life-science-research, Anthropic life-sciences, AWS Kiro bundle, ClawBio, SciAgent-skills), life-science MCP servers (biomcp, gget-mcp, Seqera, plant-genomics-mcp), and agent benchmarks like BixBench and LAB-Bench. CC0-licensed and maintained by a genomics research lab, it cleanly distinguishes skills from MCP servers. The best single entry point for this whole category.",
+  "url": "https://github.com/GoekeLab/awesome-genomic-skills",
+  "github": "https://github.com/GoekeLab/awesome-genomic-skills",
+  "tags": [
+    "curated-list",
+    "skills",
+    "mcp",
+    "genomics",
+    "bioinformatics",
+    "agents"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": true,
+  "status": "active",
+  "publisher": "GoekeLab",
+  "language": null,
+  "stars": 97,
+  "license": "CC0-1.0",
+  "addedAt": "2026-08-29"
+}

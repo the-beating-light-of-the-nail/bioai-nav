@@ -1,0 +1,29 @@
+{
+  "name": "Tempus",
+  "slug": "tempus",
+  "category": "platforms",
+  "subcategory": "research-ai",
+  "type": "platform",
+  "description": "AI-enabled precision medicine company with the world's largest clinical and molecular data library, genomic testing and Tempus OS.",
+  "longDescription": "Tempus connects real-world clinical and molecular data to power oncology decision support, genomic testing and biopharma research. Tempus OS packages that data infrastructure with generative AI at scale for providers and researchers. The publicly traded company collaborates with academic medical centers to accelerate research and patient care.",
+  "url": "https://www.tempus.com/",
+  "github": null,
+  "tags": [
+    "precision-medicine",
+    "clinical-ai",
+    "genomic-testing",
+    "oncology",
+    "real-world-data"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Tempus AI",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-03"
+}

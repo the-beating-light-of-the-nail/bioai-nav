@@ -1,0 +1,29 @@
+{
+  "name": "Boltz",
+  "slug": "boltz",
+  "category": "models",
+  "subcategory": "structure-prediction",
+  "type": "model",
+  "description": "Open-source biomolecular interaction models; Boltz-2 adds binding-affinity prediction to AlphaFold 3-level structure prediction.",
+  "longDescription": "Boltz-1 (2024) was the first fully open-source model to approach AlphaFold 3 accuracy for biomolecular complexes. Boltz-2 (2025) jointly predicts structure and binding affinity, with affinity calculations far faster than physics-based methods, enabling virtual screening. Code and weights are available on GitHub with documentation for local and service deployment.",
+  "url": "https://boltz.bio/boltz2",
+  "github": "https://github.com/jwohlwend/boltz",
+  "tags": [
+    "structure-prediction",
+    "binding-affinity",
+    "diffusion-model",
+    "open-source",
+    "drug-discovery"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Boltz team (MIT)",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-07"
+}

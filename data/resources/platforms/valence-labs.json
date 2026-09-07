@@ -1,0 +1,29 @@
+{
+  "name": "Valence Labs",
+  "slug": "valence-labs",
+  "category": "platforms",
+  "subcategory": "research-ai",
+  "type": "platform",
+  "description": "Recursion's AI research engine building virtual-cell, molecular ML and LLM-orchestrated workflow tools for drug discovery.",
+  "longDescription": "Valence Labs began as Valence Discovery and became Recursion's machine-learning research engine after the 2023 acquisition. It builds virtual-cell models for rapid hypothesis loops and low-data molecular ML methods. Its LOWE project is an LLM-orchestrated workflow engine that hands state-of-the-art AI tools to every discovery scientist.",
+  "url": "https://www.valencelabs.com/",
+  "github": null,
+  "tags": [
+    "ai-research",
+    "drug-discovery",
+    "virtual-cells",
+    "molecular-ml",
+    "recursion"
+  ],
+  "openSource": false,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Valence Labs (Recursion)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-29"
+}

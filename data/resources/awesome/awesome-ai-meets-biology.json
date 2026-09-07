@@ -1,0 +1,29 @@
+{
+  "name": "Awesome-AI-Meets-Biology",
+  "slug": "awesome-ai-meets-biology",
+  "category": "awesome",
+  "subcategory": "bioai",
+  "type": "awesome-list",
+  "description": "Collection of state-of-the-art and novel LLMs and agents across biomedical and bioinformatics fields.",
+  "longDescription": "Webioinfo01/Awesome-AI-Meets-Biology gathers notable LLMs and agents for biomedical and bioinformatics applications. The same organization maintains spin-off lists such as Awesome-LLMs-meet-genomes and Awesome-Virtual-Cell. A compact snapshot of the BioAI model and agent landscape rather than a tools catalog.",
+  "url": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
+  "github": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
+  "tags": [
+    "curated-list",
+    "bioai",
+    "llm",
+    "agents",
+    "biomedical"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Webioinfo01",
+  "language": null,
+  "stars": 36,
+  "license": null,
+  "addedAt": "2026-09-03"
+}

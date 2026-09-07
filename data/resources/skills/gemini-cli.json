@@ -1,0 +1,29 @@
+{
+  "name": "Gemini CLI",
+  "slug": "gemini-cli",
+  "category": "skills",
+  "subcategory": "gemini-cli",
+  "type": "framework",
+  "description": "Google's open-source terminal AI agent that added Agent Skills, hooks, and TOML-frontmatter custom commands from v0.26.",
+  "longDescription": "Gemini CLI is an open-source AI agent that brings Gemini models into the terminal, with custom slash commands defined as Markdown files in .gemini/commands. Since v0.26.0 it supports Agent Skills that package specialized expertise, procedural workflows, and task-specific resources, mirroring the SKILL.md ecosystem. Another runtime where community bio skill packs can be installed.",
+  "url": "https://github.com/google-gemini/gemini-cli",
+  "github": "https://github.com/google-gemini/gemini-cli",
+  "tags": [
+    "cli",
+    "agent",
+    "skills",
+    "google",
+    "gemini"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Google",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-31"
+}

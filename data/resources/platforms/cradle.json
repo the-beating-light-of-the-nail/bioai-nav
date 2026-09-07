@@ -1,0 +1,29 @@
+{
+  "name": "Cradle",
+  "slug": "cradle",
+  "category": "platforms",
+  "subcategory": "lab-informatics",
+  "type": "platform",
+  "description": "Web-based AI protein engineering platform that generates and optimizes candidates for stability, activity and expression from your data.",
+  "longDescription": "Cradle's SaaS lets protein engineers train on their own experimental data so the AI suggests better candidates in fewer experiments. It reports adoption by six of the top 25 pharma companies following a $73M Series B. The ML stack runs on Google Cloud with the open-source Flyte workflow orchestrator.",
+  "url": "https://www.cradle.bio/",
+  "github": null,
+  "tags": [
+    "protein-engineering",
+    "saas",
+    "protein-design",
+    "wet-lab-data",
+    "optimization"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Cradle",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-30"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ClawBio",
+  "slug": "clawbio",
+  "category": "skills",
+  "subcategory": "openclaw",
+  "type": "skill-library",
+  "description": "The first bioinformatics-native AI agent skill library: standalone SKILL.md pipeline skills with executable scripts, demo data, and tests.",
+  "longDescription": "ClawBio packages real bioinformatics workflows — genomics, GWAS, phylogenetics, proteomics, pharmacogenomics, single-cell — as runnable agent skills, each with a SKILL.md contract, executable Python script, demo data, and tests. It is built on OpenClaw/open-agent conventions, local-first and privacy-focused, and every skill also runs standalone via clawbio.run_skill(). The skill count has grown quickly, from 8 at launch to dozens (up to ~96 in recent snapshots) with a growing contributor base.",
+  "url": "https://github.com/ClawBio/ClawBio",
+  "github": "https://github.com/ClawBio/ClawBio",
+  "tags": [
+    "skills",
+    "bioinformatics",
+    "openclaw",
+    "genomics",
+    "single-cell",
+    "gwas",
+    "python"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": true,
+  "featured": true,
+  "status": "active",
+  "publisher": "ClawBio",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-02"
+}

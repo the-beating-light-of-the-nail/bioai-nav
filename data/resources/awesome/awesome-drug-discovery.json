@@ -1,0 +1,29 @@
+{
+  "name": "awesome-drug-discovery",
+  "slug": "awesome-drug-discovery",
+  "category": "awesome",
+  "subcategory": "drug-discovery",
+  "type": "awesome-list",
+  "description": "Meticulously curated resource list on computational drug discovery: compound databases, docking, QSAR, retrosynthesis, AI/ML frameworks, and MD.",
+  "longDescription": "yboulaamane/awesome-drug-discovery focuses on computational methods for drug discovery — compound databases, docking tools, QSAR, retrosynthesis, AI/ML frameworks, and molecular dynamics. Shared and discussed on r/comp_chem, it has become the most prominent current awesome list under this name. An older repo, xnuohz/awesome-drug-discovery, archives the earlier deep-learning papers generation.",
+  "url": "https://github.com/yboulaamane/awesome-drug-discovery",
+  "github": "https://github.com/yboulaamane/awesome-drug-discovery",
+  "tags": [
+    "curated-list",
+    "drug-discovery",
+    "computational-chemistry",
+    "ai",
+    "docking"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "yboulaamane",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-30"
+}

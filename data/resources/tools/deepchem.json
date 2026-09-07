@@ -1,0 +1,29 @@
+{
+  "name": "DeepChem",
+  "slug": "deepchem",
+  "category": "tools",
+  "subcategory": "drug-discovery",
+  "type": "tool",
+  "description": "Python library democratizing deep learning for drug discovery, quantum chemistry, materials science, and the wider life sciences.",
+  "longDescription": "DeepChem aims to provide a high-quality open-source toolchain that democratizes deep learning in drug discovery, materials science, quantum chemistry, and the life sciences. It offers model implementations, featurizers, and the MoleculeNet datasets, with extensive tutorials collectively known as The DeepChem Book. Its MIT-licensed ecosystem supports both academic research and commercial use.",
+  "url": "https://deepchem.io/",
+  "github": "https://github.com/deepchem/deepchem",
+  "tags": [
+    "deep-learning",
+    "python",
+    "drug-discovery",
+    "chemistry",
+    "machine-learning"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "DeepChem community",
+  "language": "Python",
+  "stars": null,
+  "license": "MIT",
+  "addedAt": "2026-08-27"
+}

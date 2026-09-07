@@ -1,0 +1,29 @@
+{
+  "name": "Evo 2",
+  "slug": "evo-2",
+  "category": "models",
+  "subcategory": "genomics",
+  "type": "model",
+  "description": "Genomic foundation model trained on 9 trillion DNA base pairs from 100k+ species for genome-scale prediction, interpretation and design.",
+  "longDescription": "Evo 2 from the Arc Institute models DNA at single-nucleotide resolution across all domains of life, and is now published in Nature. It predicts pathogenicity of human genetic variants and generates functional genome-scale sequences. Code is open on GitHub, weights are on Hugging Face, and the Evo Designer tool exposes design workflows.",
+  "url": "https://arcinstitute.org/tools/evo",
+  "github": "https://github.com/arcinstitute/evo2",
+  "tags": [
+    "genomics",
+    "dna-language-model",
+    "variant-effect",
+    "arc-institute",
+    "foundation-model"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Arc Institute",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-03"
+}

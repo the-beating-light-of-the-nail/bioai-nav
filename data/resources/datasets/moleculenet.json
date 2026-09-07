@@ -1,0 +1,29 @@
+{
+  "name": "MoleculeNet",
+  "slug": "moleculenet",
+  "category": "datasets",
+  "subcategory": "molecular",
+  "type": "dataset",
+  "description": "Classic benchmark suite of 17 molecular machine learning datasets spanning quantum mechanics, physical chemistry, biophysics, and physiology.",
+  "longDescription": "MoleculeNet (arXiv 1703.00564; published with over 700,000 curated compounds) organizes 17 datasets into quantum mechanics, physical chemistry, biophysics, and physiology categories. All datasets load directly as DeepChem dc.data.Dataset objects, making it the long-standing standard for comparing molecular ML models. Benchmarks like Tox21, ESOL, and HIV from this suite remain ubiquitous in papers and tutorials.",
+  "url": "https://deepchem.readthedocs.io/en/latest/api_reference/moleculenet.html",
+  "github": null,
+  "tags": [
+    "benchmark",
+    "molecules",
+    "machine-learning",
+    "datasets",
+    "deepchem"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "DeepChem",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-01"
+}

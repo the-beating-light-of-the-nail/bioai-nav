@@ -1,0 +1,30 @@
+{
+  "name": "Virtual Lab",
+  "slug": "virtual-lab",
+  "category": "agents",
+  "subcategory": "scientific",
+  "type": "agent",
+  "description": "Stanford framework where a team of LLM AI scientists led by a PI agent collaborates with a human researcher to plan and run scientific projects.",
+  "longDescription": "The Virtual Lab (Zou Group, Stanford) is an AI-human collaboration in which an LLM principal investigator agent guides AI scientists with different backgrounds who hold their own group meetings. Its flagship result was the design of nanobody binders for SARS-CoV-2 variants, covered by Stanford Medicine and CZ Biohub in 2025. It is a reference architecture for multi-agent virtual research labs.",
+  "url": "https://github.com/zou-group/virtual-lab",
+  "github": "https://github.com/zou-group/virtual-lab",
+  "tags": [
+    "agent",
+    "llm",
+    "multi-agent",
+    "nanobody",
+    "virtual-lab",
+    "protein-design"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Stanford University (Zou Group)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-28"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Awesome Bioinformatics",
+  "slug": "awesome-bioinformatics",
+  "category": "awesome",
+  "subcategory": "bioinformatics",
+  "type": "awesome-list",
+  "description": "The classic curated list of bioinformatics libraries and software, organized by sequence analysis, assembly, variant calling, and more.",
+  "longDescription": "danielecook/Awesome-Bioinformatics is the long-standing community awesome list for bioinformatics software, covering sequence analysis, genome assembly, variant calling, data formats, and tooling. It shows recent activity (commits as recent as April 2026) and is widely cited as the starting point for bioinformatics software discovery. Pairs well with bio.tools for structured metadata.",
+  "url": "https://github.com/danielecook/Awesome-Bioinformatics",
+  "github": "https://github.com/danielecook/Awesome-Bioinformatics",
+  "tags": [
+    "curated-list",
+    "bioinformatics",
+    "software",
+    "genomics"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": true,
+  "status": "active",
+  "publisher": "danielecook",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-07"
+}

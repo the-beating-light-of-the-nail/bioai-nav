@@ -1,0 +1,29 @@
+{
+  "name": "Galaxy Project",
+  "slug": "galaxy-project",
+  "category": "tools",
+  "subcategory": "bioinformatics",
+  "type": "tool",
+  "description": "Open-source, web-based platform for data-intensive biomedical research letting anyone run thousands of analysis tools without writing code.",
+  "longDescription": "Galaxy is an open-source, community-driven, web-based platform for accessible, reproducible, and transparent computational research (NAR 2024 platform paper). Its public servers expose thousands of interoperable third-party analysis tools through a point-and-click interface, requiring no user-supplied code. It is one of the longest-running and most widely used platforms in biomedical data analysis.",
+  "url": "https://galaxyproject.org/",
+  "github": null,
+  "tags": [
+    "workflow",
+    "bioinformatics",
+    "web-platform",
+    "reproducibility",
+    "genomics"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Galaxy Project",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-02"
+}

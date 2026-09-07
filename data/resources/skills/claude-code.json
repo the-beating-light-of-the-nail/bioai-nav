@@ -1,0 +1,29 @@
+{
+  "name": "Claude Code",
+  "slug": "claude-code",
+  "category": "skills",
+  "subcategory": "claude-code",
+  "type": "framework",
+  "description": "Anthropic's agentic terminal coding tool with filesystem-based Agent Skills; the reference runtime for SKILL.md bio skill libraries.",
+  "longDescription": "Claude Code is Anthropic's agentic CLI for coding and automation, and the flagship consumer of the Agent Skills format: folders with a SKILL.md that teach the agent specialized procedures. Skills are filesystem-based and managed separately from claude.ai/API skills, and Anthropic ships a dedicated life-sciences marketplace on top of it. Most bioinformatics skill libraries in this hub are written to run here first.",
+  "url": "https://code.claude.com/docs/en/skills",
+  "github": null,
+  "tags": [
+    "cli",
+    "agent",
+    "skills",
+    "claude",
+    "anthropic"
+  ],
+  "openSource": false,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Anthropic",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-03"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "RoseTTAFold",
+  "slug": "rosettafold",
+  "category": "models",
+  "subcategory": "structure-prediction",
+  "type": "model",
+  "description": "Baker lab's three-track neural network for accurate protein structure and protein-complex prediction, part of the Rosetta ecosystem.",
+  "longDescription": "RoseTTAFold was one of the two celebrated 2021 methods that solved single-chain structure prediction, running in minutes on a single GPU. Its All-Atom successor extends prediction to assemblies containing nucleic acids, ligands and covalent modifications. It remains a foundation of the Rosetta protein-design software ecosystem.",
+  "url": "https://github.com/RosettaCommons/RoseTTAFold",
+  "github": "https://github.com/RosettaCommons/RoseTTAFold",
+  "tags": [
+    "structure-prediction",
+    "protein-folding",
+    "baker-lab",
+    "rosetta",
+    "deep-learning"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Baker Laboratory / RosettaCommons",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-28"
+}

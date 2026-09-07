@@ -1,0 +1,30 @@
+{
+  "name": "NVIDIA BioNeMo",
+  "slug": "nvidia-bionemo",
+  "category": "platforms",
+  "subcategory": "drug-discovery",
+  "type": "platform",
+  "description": "NVIDIA's platform for AI-driven biology and drug discovery: open models, libraries, datasets and deployable NIM microservices.",
+  "longDescription": "BioNeMo packages domain models for protein structure, molecular generation and genomics as customizable NIM microservices and cloud services. It lets biotech and pharma teams build and scale generative-AI drug-discovery pipelines on NVIDIA GPUs. Partners use it for workflows from target discovery to virtual screening.",
+  "url": "https://www.nvidia.com/en-us/industries/healthcare-life-sciences/",
+  "github": null,
+  "tags": [
+    "drug-discovery",
+    "nvidia",
+    "microservices",
+    "molecular",
+    "protein-structure",
+    "gpu"
+  ],
+  "openSource": false,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": true,
+  "status": "active",
+  "publisher": "NVIDIA",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-26"
+}

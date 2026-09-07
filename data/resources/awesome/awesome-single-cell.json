@@ -1,0 +1,29 @@
+{
+  "name": "awesome-single-cell",
+  "slug": "awesome-single-cell",
+  "category": "awesome",
+  "subcategory": "single-cell",
+  "type": "awesome-list",
+  "description": "Community-curated list of software packages, data resources, researchers, and publications for single-cell analysis.",
+  "longDescription": "seandavi/awesome-single-cell is the community-curated canon for single-cell genomics: software packages and data resources for RNA-seq, ATAC-seq, and related assays, plus researcher and publication indexes. It is cited in peer-reviewed surveys of the scRNA-seq tool landscape (Zappia et al. 2021, which analyzed 1000+ tools). Still the first link shared with newcomers to single-cell analysis.",
+  "url": "https://github.com/seandavi/awesome-single-cell",
+  "github": "https://github.com/seandavi/awesome-single-cell",
+  "tags": [
+    "curated-list",
+    "single-cell",
+    "scrna-seq",
+    "genomics",
+    "transcriptomics"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "seandavi (Sean Davis)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-25"
+}

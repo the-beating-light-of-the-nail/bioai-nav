@@ -1,0 +1,29 @@
+{
+  "name": "Anthropic Agent Skills",
+  "slug": "anthropic-agent-skills",
+  "category": "skills",
+  "subcategory": "general",
+  "type": "skill-library",
+  "description": "Anthropic's official public repository of example Agent Skills — the reference implementation of the open SKILL.md skill format.",
+  "longDescription": "anthropics/skills is the canonical public repository demonstrating Claude's skills system, from creative applications to practical document handling. The SKILL.md format it popularized is now supported by Claude Code, GitHub Copilot, and community collections, making it the de facto packaging standard for agent skills. Start here to learn the format before writing or auditing bio skills.",
+  "url": "https://github.com/anthropics/skills",
+  "github": "https://github.com/anthropics/skills",
+  "tags": [
+    "skills",
+    "anthropic",
+    "claude",
+    "skill-format",
+    "reference"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Anthropic",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-29"
+}

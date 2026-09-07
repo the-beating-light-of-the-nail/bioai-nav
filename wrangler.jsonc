@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bioai-nav",
+  "compatibility_date": "2026-09-07",
+  "main": "worker/index.js",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "./.output/public/",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "html_handling": "drop-trailing-slash",
+    "run_worker_first": ["/api/*"]
+  },
+  "routes": [{ "pattern": "bioainav.aiworkagent.org", "custom_domain": true }]
+}

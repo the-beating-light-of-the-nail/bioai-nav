@@ -1,0 +1,29 @@
+{
+  "name": "GATK (Genome Analysis Toolkit)",
+  "slug": "gatk",
+  "category": "tools",
+  "subcategory": "genomics",
+  "type": "tool",
+  "description": "Broad Institute's open-source industry-standard toolkit for SNP and indel variant discovery in germline DNA and RNA-seq data.",
+  "longDescription": "The Genome Analysis Toolkit from the Broad Institute is the industry standard for identifying SNPs and indels in germline DNA and RNA-seq data. GATK 4 is a collection of command-line tools for analyzing high-throughput sequencing data, focused on variant discovery, and is fully open source. Its Best Practices pipelines anchor most production genomics variant-calling workflows worldwide.",
+  "url": "https://gatk.broadinstitute.org/hc/en-us",
+  "github": "https://github.com/broadinstitute/gatk",
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "sequencing",
+    "bioinformatics",
+    "broad-institute"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Broad Institute",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-01"
+}

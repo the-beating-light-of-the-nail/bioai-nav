@@ -1,0 +1,29 @@
+{
+  "name": "CZ CELLxGENE Discover",
+  "slug": "cellxgene",
+  "category": "datasets",
+  "subcategory": "single-cell",
+  "type": "dataset",
+  "description": "Chan Zuckerberg Initiative platform to find, download, and visually explore curated and standardized single-cell biology datasets.",
+  "longDescription": "CZ CELLxGENE Discover (NAR 2025) lets researchers find, download, and visually explore curated and standardized single-cell datasets, with an Explorer for interactive analysis of individual datasets. CELLxGENE Census provides API-based access to the full corpus for large-scale computation, and the underlying Explorer software is open source. It has become a primary hub for cross-tissue single-cell data and models.",
+  "url": "https://cellxgene.cziscience.com/",
+  "github": "https://github.com/chanzuckerberg/cellxgene",
+  "tags": [
+    "single-cell",
+    "data-platform",
+    "visualization",
+    "database",
+    "czi"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Chan Zuckerberg Initiative",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-29"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Deep Learning for the Life Sciences (O'Reilly)",
+  "slug": "deep-learning-life-sciences-book",
+  "category": "learning",
+  "subcategory": "books",
+  "type": "book",
+  "description": "O'Reilly book by the DeepChem team on applying deep learning to genomics, chemistry, microscopy, and drug discovery problems.",
+  "longDescription": "Written by Bharath Ramsundar, Peter Eastman, Patrick Walters, and Vijay Pande (O'Reilly, 2019), this practical book teaches developers and scientists to apply deep learning to genomics, chemistry, biophysics, microscopy, and drug discovery. It is built around the DeepChem library, with runnable examples for molecular property prediction and protein tasks. It remains the canonical bridge between ML engineering and life-science data.",
+  "url": "https://www.oreilly.com/library/view/deep-learning-for/9781492039822/",
+  "github": null,
+  "tags": [
+    "book",
+    "deep-learning",
+    "deepchem",
+    "drug-discovery",
+    "genomics"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "O'Reilly Media",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-28"
+}

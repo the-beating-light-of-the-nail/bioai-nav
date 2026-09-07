@@ -1,0 +1,29 @@
+{
+  "name": "UW Institute for Protein Design",
+  "slug": "uw-institute-protein-design",
+  "category": "learning",
+  "subcategory": "documentation",
+  "type": "docs",
+  "description": "Hub for de novo protein design research, software, and publications from Nobel laureate David Baker's Institute for Protein Design at UW.",
+  "longDescription": "The UW Institute for Protein Design (ipd.uw.edu) is the home of computational protein design pioneered by 2024 Chemistry Nobel laureate David Baker. Its site publishes research across deep learning, enzymes, peptides, minibinders, and drug delivery, and links to its core labs (Baker, Bhardwaj, DiMaio, King) and their software and AI tools. Following IPD publications is the fastest way to track the frontier of AI protein design.",
+  "url": "https://www.ipd.uw.edu/",
+  "github": null,
+  "tags": [
+    "protein-design",
+    "research",
+    "de-novo",
+    "baker-lab",
+    "ai"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "University of Washington",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-30"
+}

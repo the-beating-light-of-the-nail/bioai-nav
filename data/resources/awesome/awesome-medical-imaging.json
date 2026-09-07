@@ -1,0 +1,28 @@
+{
+  "name": "awesome-medical-imaging",
+  "slug": "awesome-medical-imaging",
+  "category": "awesome",
+  "subcategory": "medical-ai",
+  "type": "awesome-list",
+  "description": "Awesome list of software used for medical imaging research, from DICOM tooling to segmentation and analysis frameworks.",
+  "longDescription": "fepegar/awesome-medical-imaging collects software for medical imaging research — formats, viewers, registration, segmentation, and analysis tooling. It is recommended in the Bioconductor community blog roundup of awesome lists and remains one of the few actively maintained entries in this niche. Pairs naturally with dataset lists like AMID for imaging AI work.",
+  "url": "https://github.com/fepegar/awesome-medical-imaging",
+  "github": "https://github.com/fepegar/awesome-medical-imaging",
+  "tags": [
+    "curated-list",
+    "medical-imaging",
+    "radiology",
+    "software"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "fepegar",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-27"
+}

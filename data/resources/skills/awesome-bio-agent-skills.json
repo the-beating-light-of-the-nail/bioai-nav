@@ -1,0 +1,29 @@
+{
+  "name": "Awesome Bio Agent Skills",
+  "slug": "awesome-bio-agent-skills",
+  "category": "skills",
+  "subcategory": "general",
+  "type": "skill-collection",
+  "description": "Curated collection of 1,676 self-contained SKILL.md biomedical agent skills, deduplicated from 20 open-source repos into 15 categories.",
+  "longDescription": "BioTender-max/awesome-bio-agent-skills aggregates 1,676 SKILL.md-format agent skills for biomedical research — genomics, proteomics, single-cell analysis, clinical AI, protein design — deduplicated from 20 open-source repositories into 15 categories. Skills are compatible with OpenClaw, NanoClaw, Biomni, and other agent frameworks. The largest single shelf of ready-to-install bio skills today.",
+  "url": "https://github.com/BioTender-max/awesome-bio-agent-skills",
+  "github": "https://github.com/BioTender-max/awesome-bio-agent-skills",
+  "tags": [
+    "skills",
+    "biomedical",
+    "bioinformatics",
+    "curated-list",
+    "openclaw-compatible"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "BioTender-max",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-25"
+}

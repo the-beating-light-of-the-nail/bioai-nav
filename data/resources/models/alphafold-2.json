@@ -1,0 +1,29 @@
+{
+  "name": "AlphaFold 2",
+  "slug": "alphafold-2",
+  "category": "models",
+  "subcategory": "structure-prediction",
+  "type": "model",
+  "description": "Official open-source implementation of AlphaFold 2, the breakthrough system that predicted protein structures with near-experimental accuracy.",
+  "longDescription": "AlphaFold 2's 2020 CASP14 result and 2021 open-source release transformed structural biology. Its code, plus nearly 200 million predictions via AlphaFold DB, underpin much of modern computational biology. The repository remains the canonical reference implementation for protein structure prediction.",
+  "url": "https://github.com/google-deepmind/alphafold",
+  "github": "https://github.com/google-deepmind/alphafold",
+  "tags": [
+    "structure-prediction",
+    "deepmind",
+    "casp",
+    "protein-folding",
+    "deep-learning"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Google DeepMind",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-03"
+}

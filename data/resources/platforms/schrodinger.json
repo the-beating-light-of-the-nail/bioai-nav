@@ -1,0 +1,29 @@
+{
+  "name": "Schrödinger",
+  "slug": "schrodinger",
+  "category": "platforms",
+  "subcategory": "drug-discovery",
+  "type": "platform",
+  "description": "Physics-based computational platform with industry-standard molecular modeling and simulation software for drug discovery and materials.",
+  "longDescription": "Schrödinger's platform combines physics-based simulation with machine learning to advance small-molecule and biologics programs. Its software is used across pharma for computational chemistry, from hit finding to drug formulation. The company also runs its own internal drug-discovery pipeline.",
+  "url": "https://www.schrodinger.com/",
+  "github": null,
+  "tags": [
+    "computational-chemistry",
+    "molecular-modeling",
+    "drug-discovery",
+    "simulation",
+    "materials-science"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Schrödinger, Inc.",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-07"
+}

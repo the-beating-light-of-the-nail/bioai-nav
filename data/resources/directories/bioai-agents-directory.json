@@ -1,0 +1,30 @@
+{
+  "name": "BioAI Agents Directory",
+  "slug": "bioai-agents-directory",
+  "category": "directories",
+  "subcategory": null,
+  "type": "directory",
+  "description": "Curated directory of 238+ AI agents and platforms for drug discovery, protein design, clinical trials, genomics, and biopharma R&D.",
+  "longDescription": "BioAI Agents Directory catalogs 237+ AI agents and platforms transforming biopharma, browsable by category and use case across the R&D value chain. It includes expert comparison guides, category rankings such as protein design platforms, and a submission portal for new tools. A good first stop for surveying the commercial BioAI agent landscape.",
+  "url": "https://bioai-agents.com/en/",
+  "github": null,
+  "tags": [
+    "directory",
+    "bioai",
+    "drug-discovery",
+    "protein-design",
+    "clinical-trials",
+    "biopharma"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": true,
+  "status": "active",
+  "publisher": "bioai-agents.com",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-01"
+}

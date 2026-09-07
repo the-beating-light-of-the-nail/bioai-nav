@@ -1,0 +1,29 @@
+{
+  "name": "awesome-AIDD",
+  "slug": "awesome-aidd",
+  "category": "awesome",
+  "subcategory": "drug-discovery",
+  "type": "awesome-list",
+  "description": "Popular curated list for AI-aided drug discovery covering molecular and protein representations, structure prediction, design, and enzyme engineering.",
+  "longDescription": "daiyun02211/awesome-AIDD tracks AI-aided drug discovery research across molecular and protein representations, protein structure prediction, protein design, and enzyme engineering. It surfaces regularly alongside the BioAI agent directories in search results. A strong bridge between the deep-learning literature and practical molecular design tools.",
+  "url": "https://github.com/daiyun02211/awesome-AIDD",
+  "github": "https://github.com/daiyun02211/awesome-AIDD",
+  "tags": [
+    "curated-list",
+    "drug-discovery",
+    "protein-design",
+    "deep-learning",
+    "ai"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "daiyun02211",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-02"
+}

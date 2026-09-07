@@ -1,0 +1,30 @@
+{
+  "name": "RCSB Protein Data Bank",
+  "slug": "rcsb-pdb",
+  "category": "datasets",
+  "subcategory": "protein",
+  "type": "dataset",
+  "description": "US host of the worldwide Protein Data Bank, providing experimentally determined 3D structures of proteins and nucleic acids with analysis tools.",
+  "longDescription": "RCSB PDB (rcsb.org) curates and annotates data from the single worldwide archive of experimentally determined 3D structures of large biological macromolecules. It offers powerful search, an interactive Mol* 3D viewer, and educational resources via PDB-101, described in its NAR database issue paper. Nearly every protein AI model, from AlphaFold to diffusion designers, is trained or evaluated against PDB structures.",
+  "url": "https://www.rcsb.org/",
+  "github": null,
+  "tags": [
+    "protein",
+    "3d-structures",
+    "structural-biology",
+    "database",
+    "x-ray",
+    "cryo-em"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": true,
+  "status": "active",
+  "publisher": "RCSB PDB (US WWPDB member)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-03"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "UCSF ChimeraX",
+  "slug": "chimerax",
+  "category": "tools",
+  "subcategory": "structural-biology",
+  "type": "tool",
+  "description": "UCSF's next-generation interactive molecular visualization program for analyzing structures, density maps, and molecular trajectories.",
+  "longDescription": "ChimeraX is the next-generation molecular visualization program from UCSF's Resource for Biocomputing, Visualization, and Informatics, succeeding UCSF Chimera. It interactively visualizes and analyzes molecular structures, density maps, and trajectories, and is highly extensible for structure building and analysis workflows. It is free for academic use and standard equipment in structural biology labs.",
+  "url": "https://www.cgl.ucsf.edu/chimerax/",
+  "github": null,
+  "tags": [
+    "visualization",
+    "structural-biology",
+    "cryo-em",
+    "molecular-graphics",
+    "ucsf"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "UCSF (RBVI)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-01"
+}

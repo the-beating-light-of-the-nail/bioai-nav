@@ -1,0 +1,29 @@
+{
+  "name": "ESM-2 / ESMFold",
+  "slug": "esm-2-esmfold",
+  "category": "models",
+  "subcategory": "protein-language",
+  "type": "model",
+  "description": "Meta FAIR's protein language model family plus ESMFold, predicting atomic 3D structures from single sequences without alignments.",
+  "longDescription": "ESM-2 scaled protein language modeling to 15B parameters, and ESMFold used it to fold sequences dramatically faster than AlphaFold2. The Science 2023 paper made structure prediction from raw sequence practical on modest hardware. The repo was archived in 2024 as the team spun out to EvolutionaryScale; the active esm package now lives at Biohub/esm.",
+  "url": "https://github.com/facebookresearch/ESM",
+  "github": "https://github.com/facebookresearch/ESM",
+  "tags": [
+    "protein-language-model",
+    "structure-prediction",
+    "meta-ai",
+    "esmfold",
+    "transformer"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Meta AI (FAIR)",
+  "language": "Python",
+  "stars": null,
+  "license": "MIT",
+  "addedAt": "2026-09-05"
+}

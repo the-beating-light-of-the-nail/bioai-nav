@@ -1,0 +1,29 @@
+{
+  "name": "bio.tools",
+  "slug": "bio-tools",
+  "category": "directories",
+  "subcategory": null,
+  "type": "directory",
+  "description": "Community registry of computational tools and data resources for the life sciences, curated under the ELIXIR infrastructure.",
+  "longDescription": "bio.tools is the long-running community registry of bioinformatics software and data services, maintained within ELIXIR. Entries carry structured metadata (topics, operations, input/output types), making the catalog machine-readable and increasingly relevant for AI agents that need reliable tool discovery. One of the most complete catalogs of life-science software available.",
+  "url": "https://bio.tools/",
+  "github": null,
+  "tags": [
+    "registry",
+    "bioinformatics",
+    "life-science",
+    "database",
+    "tools"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "ELIXIR",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-02"
+}

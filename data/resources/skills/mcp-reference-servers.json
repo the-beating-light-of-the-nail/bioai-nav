@@ -1,0 +1,29 @@
+{
+  "name": "MCP Reference Servers",
+  "slug": "mcp-reference-servers",
+  "category": "skills",
+  "subcategory": "mcp",
+  "type": "mcp-server",
+  "description": "Official Model Context Protocol repository of reference server implementations and links to community-built MCP servers.",
+  "longDescription": "modelcontextprotocol/servers is the canonical collection of MCP reference implementations plus an index of community servers, maintained by the MCP project (Anthropic and partners). It defines the server patterns that bioinformatics MCP servers follow, from filesystem access to database querying. Any agent hub for biology ultimately plugs into this ecosystem.",
+  "url": "https://github.com/modelcontextprotocol/servers",
+  "github": "https://github.com/modelcontextprotocol/servers",
+  "tags": [
+    "mcp",
+    "protocol",
+    "reference",
+    "servers",
+    "agent-tools"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": true,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Model Context Protocol",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-03"
+}

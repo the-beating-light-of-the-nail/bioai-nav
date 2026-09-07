@@ -1,0 +1,29 @@
+{
+  "name": "Broad Single Cell Portal",
+  "slug": "broad-single-cell-portal",
+  "category": "datasets",
+  "subcategory": "single-cell",
+  "type": "dataset",
+  "description": "Free, open-access Broad Institute portal hosting more than 1,000 single-cell genomics studies with interactive visualization and downloads.",
+  "longDescription": "The Broad Institute's Single Cell Portal is an open-access, web-based platform for sharing and exploring single-cell genomics data, currently listing over 1,000 studies. It offers interactive visualization, exploratory differential expression, and public downloads, and hosts a curated Human Cell Atlas main collection. It is a key public home for large single-cell atlas datasets alongside CELLxGENE.",
+  "url": "https://singlecell.broadinstitute.org/",
+  "github": null,
+  "tags": [
+    "single-cell",
+    "data-portal",
+    "scrna-seq",
+    "database",
+    "broad-institute"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Broad Institute",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-06"
+}

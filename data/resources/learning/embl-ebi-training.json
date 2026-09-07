@@ -1,0 +1,29 @@
+{
+  "name": "EMBL-EBI Training",
+  "slug": "embl-ebi-training",
+  "category": "learning",
+  "subcategory": "courses",
+  "type": "course",
+  "description": "Free on-demand and live EMBL-EBI training courses covering bioinformatics resources and data-driven life sciences skills.",
+  "longDescription": "EMBL-EBI Training delivers free, world-class training in data-driven life sciences through on-demand online courses, live virtual training, and in-person courses at Hinxton. Materials cover the major EMBL-EBI resources (UniProt, ChEMBL, and more) and are openly reusable. It is the authoritative way to learn the public bio-data infrastructure underpinning most AI-bio pipelines.",
+  "url": "https://www.ebi.ac.uk/training/",
+  "github": null,
+  "tags": [
+    "training",
+    "bioinformatics",
+    "databases",
+    "free-courses",
+    "ebi"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "EMBL-EBI",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-25"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "DiffDock",
+  "slug": "diffdock",
+  "category": "tools",
+  "subcategory": "drug-discovery",
+  "type": "tool",
+  "description": "MIT diffusion generative model that recasts molecular docking as generation over non-Euclidean manifolds to predict ligand binding poses.",
+  "longDescription": "DiffDock (arXiv 2210.01776, MIT) frames molecular docking as a generative modeling problem over non-Euclidean manifolds, pairing a score model with a confidence model. It significantly improved blind docking accuracy and speed over classical methods, and is available as an NVIDIA build model card and interactive Hugging Face demo. It became the reference AI docking method that newer generative docking approaches benchmark against.",
+  "url": "https://github.com/gcorso/DiffDock",
+  "github": "https://github.com/gcorso/DiffDock",
+  "tags": [
+    "docking",
+    "diffusion-model",
+    "deep-learning",
+    "drug-discovery",
+    "generative"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "MIT",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-26"
+}

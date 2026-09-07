@@ -1,0 +1,29 @@
+{
+  "name": "AlphaFold 3",
+  "slug": "alphafold-3",
+  "category": "models",
+  "subcategory": "structure-prediction",
+  "type": "model",
+  "description": "Google DeepMind's AI system predicting 3D structures of proteins, DNA, RNA, ligands and modifications directly from sequence descriptions.",
+  "longDescription": "AlphaFold 3 extends the AlphaFold lineage to nearly all biomolecular interactions, including protein-ligand and antibody-antigen complexes. DeepMind open-sourced the inference pipeline code, with trained model parameters available separately under a non-commercial license. It set the accuracy bar that open models like Boltz and Chai-1 now chase.",
+  "url": "https://github.com/google-deepmind/alphafold3",
+  "github": "https://github.com/google-deepmind/alphafold3",
+  "tags": [
+    "structure-prediction",
+    "deepmind",
+    "protein-design",
+    "drug-discovery",
+    "deep-learning"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": true,
+  "status": "active",
+  "publisher": "Google DeepMind",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-02"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "BioContextAI MCP Server Registry",
+  "slug": "biocontextai-registry",
+  "category": "skills",
+  "subcategory": "mcp",
+  "type": "mcp-server",
+  "description": "Community registry and open-source collection of MCP servers wrapping STRING, Open Targets, Reactome, UniProt, and Human Protein Atlas.",
+  "longDescription": "BioContextAI is a community registry that connects agentic AI with biomedical resources via MCP; its proof-of-concept Knowledgebase server federates access to STRING, Open Targets, Reactome, UniProt, Human Protein Atlas, and PanglaoDb. The project is described in a bioRxiv preprint and includes a template and registry editor for submitting new servers. The closest thing to an app store for biology MCP servers.",
+  "url": "https://biocontext.ai/registry",
+  "github": "https://github.com/BioContext",
+  "tags": [
+    "mcp",
+    "registry",
+    "biomedical",
+    "databases",
+    "systems-biology"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": true,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "BioContextAI",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-31"
+}

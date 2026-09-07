@@ -1,0 +1,29 @@
+{
+  "name": "AlphaGenome",
+  "slug": "alphagenome",
+  "category": "models",
+  "subcategory": "genomics",
+  "type": "model",
+  "description": "DeepMind's 2025 unified DNA model predicting gene expression, splicing and chromatin at near single-base resolution from 1M-base inputs.",
+  "longDescription": "AlphaGenome takes DNA sequences up to one million base pairs and predicts thousands of molecular properties across 11 regulatory modalities. It targets the non-coding 'dark matter' of the genome to help interpret how mutations impact health. A Python API client and research code are available on GitHub.",
+  "url": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/",
+  "github": "https://github.com/google-deepmind/alphagenome",
+  "tags": [
+    "genomics",
+    "variant-effect",
+    "gene-regulation",
+    "deepmind",
+    "foundation-model"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Google DeepMind",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-30"
+}

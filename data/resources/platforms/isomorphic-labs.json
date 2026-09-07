@@ -1,0 +1,29 @@
+{
+  "name": "Isomorphic Labs",
+  "slug": "isomorphic-labs",
+  "category": "platforms",
+  "subcategory": "drug-discovery",
+  "type": "platform",
+  "description": "Alphabet spin-out rebuilding drug discovery around frontier AI models, scaled by a $2.1B raise and major pharma partnerships.",
+  "longDescription": "Isomorphic Labs was created from DeepMind in 2021 to reimagine drug discovery with an AI-first approach. Its AI drug design engine builds on foundation models across disease areas and partners with large pharmaceutical companies. A $2.1 billion funding round is scaling its engine and pipeline globally.",
+  "url": "https://www.isomorphiclabs.com/",
+  "github": null,
+  "tags": [
+    "drug-discovery",
+    "alphabet",
+    "deepmind",
+    "ai-drug-design",
+    "pharma"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Isomorphic Labs (Alphabet)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-04"
+}

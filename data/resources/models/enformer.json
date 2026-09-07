@@ -1,0 +1,29 @@
+{
+  "name": "Enformer",
+  "slug": "enformer",
+  "category": "models",
+  "subcategory": "genomics",
+  "type": "model",
+  "description": "DeepMind's transformer that predicts gene expression and chromatin tracks from ~200kb DNA sequences using long-range context.",
+  "longDescription": "Enformer was the first sequence model to integrate enhancer effects tens of kilobases away from promoters when predicting gene expression. It remains a workhorse for scoring regulatory effects of genetic variants. Its successor AlphaGenome (2025) extends the idea to one-million-base inputs and many more regulatory modalities.",
+  "url": "https://deepmind.google/blog/predicting-gene-expression-with-ai/",
+  "github": "https://github.com/google-deepmind/deepmind-research",
+  "tags": [
+    "genomics",
+    "gene-expression",
+    "regulatory-variants",
+    "deepmind",
+    "transformer"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Google DeepMind",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-06"
+}

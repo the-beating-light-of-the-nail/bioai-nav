@@ -1,0 +1,29 @@
+{
+  "name": "Nucleotide Transformer",
+  "slug": "nucleotide-transformer",
+  "category": "models",
+  "subcategory": "genomics",
+  "type": "model",
+  "description": "Family of DNA language models up to 2.5B parameters pretrained on 3,200+ human genomes and 850 species for genomics prediction tasks.",
+  "longDescription": "The InstaDeep Nucleotide Transformer family pretrains BERT-style models on whole genomes and was published in Nature Methods in 2024. Weights are open on Hugging Face and integrate with its transformers library. It is a standard baseline for DNA-language-model benchmarking across regulatory genomics tasks.",
+  "url": "https://github.com/instadeepai/nucleotide-transformer",
+  "github": "https://github.com/instadeepai/nucleotide-transformer",
+  "tags": [
+    "genomics",
+    "dna-language-model",
+    "instadeep",
+    "foundation-model",
+    "bert"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "InstaDeep",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-27"
+}

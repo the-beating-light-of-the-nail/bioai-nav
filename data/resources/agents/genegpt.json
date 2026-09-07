@@ -1,0 +1,30 @@
+{
+  "name": "GeneGPT",
+  "slug": "genegpt",
+  "category": "agents",
+  "subcategory": "genomics",
+  "type": "agent",
+  "description": "Tool-augmented LLM from NCBI that learns to call NCBI Web APIs, beating biomedical LLMs on the GeneTuring benchmark.",
+  "longDescription": "GeneGPT (NCBI, published in Bioinformatics 2024) teaches an LLM to use NCBI Web APIs by in-context learning, answering biomedical questions about genes, diseases, and sequences. It outperformed biomedical LLMs like BioGPT on the GeneTuring benchmark by augmenting the model with domain tools. It is an early, influential demonstration of tool-augmented agents for genomics data access.",
+  "url": "https://github.com/ncbi/GeneGPT",
+  "github": "https://github.com/ncbi/GeneGPT",
+  "tags": [
+    "agent",
+    "llm",
+    "genomics",
+    "ncbi",
+    "question-answering",
+    "tool-use"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "NCBI (National Library of Medicine, NIH)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-29"
+}

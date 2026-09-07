@@ -1,0 +1,29 @@
+{
+  "name": "Insilico Medicine",
+  "slug": "insilico-medicine",
+  "category": "platforms",
+  "subcategory": "drug-discovery",
+  "type": "platform",
+  "description": "Clinical-stage AI drug discovery company running target-to-clinic pipelines on its Pharma.AI suite (PandaOmics, Chemistry42, Medicine42).",
+  "longDescription": "Insilico's Pharma.AI spans biology (PandaOmics target discovery), chemistry (Chemistry42 generative molecular design) and clinical medicine (Medicine42 trial analytics). Its AI-designed antifibrotic candidate progressing through clinical trials is a landmark for generative-AI drug discovery. The company publishes pipeline and validation details openly.",
+  "url": "https://insilico.com/",
+  "github": null,
+  "tags": [
+    "drug-discovery",
+    "generative-ai",
+    "target-discovery",
+    "chemistry",
+    "clinical-stage"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Insilico Medicine",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-05"
+}

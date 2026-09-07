@@ -1,0 +1,29 @@
+{
+  "name": "Google DeepMind Science Skills",
+  "slug": "gdm-science-skills",
+  "category": "skills",
+  "subcategory": "general",
+  "type": "skill-library",
+  "description": "Google DeepMind's official skill pack to speed up agentic scientific workflows with better grounding and token efficiency.",
+  "longDescription": "science-skills is Google DeepMind's public collection of agent skills for scientific research, spanning genomics and life sciences alongside chemistry, materials, and physics. It was released to make agentic scientific workflows faster and more grounded, and is one of the most-starred science skill repositories (~2.7k stars per tracking lists). A direct way to give any SKILL.md-compatible agent domain competence.",
+  "url": "https://github.com/google-deepmind/science-skills",
+  "github": "https://github.com/google-deepmind/science-skills",
+  "tags": [
+    "skills",
+    "deepmind",
+    "science",
+    "genomics",
+    "life-science"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Google DeepMind",
+  "language": null,
+  "stars": 2700,
+  "license": null,
+  "addedAt": "2026-08-26"
+}

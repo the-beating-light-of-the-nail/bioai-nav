@@ -1,0 +1,29 @@
+{
+  "name": "RFdiffusion",
+  "slug": "rfdiffusion",
+  "category": "models",
+  "subcategory": "molecular",
+  "type": "model",
+  "description": "Diffusion-based generative model for de novo protein design, including binders, motif scaffolding and symmetric assemblies.",
+  "longDescription": "RFdiffusion is the de facto tool for generating new proteins from scratch or around functional motifs. Its 2023 release powered a wave of experimentally validated designed binders and scaffolds. RFdiffusion 2 and 3 (2025) extend generation to de novo biopolymers and small-molecule-binding proteins.",
+  "url": "https://github.com/RosettaCommons/RFdiffusion",
+  "github": "https://github.com/RosettaCommons/RFdiffusion",
+  "tags": [
+    "protein-design",
+    "diffusion-model",
+    "baker-lab",
+    "generative-model",
+    "binder-design"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Baker Laboratory / RosettaCommons",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-31"
+}

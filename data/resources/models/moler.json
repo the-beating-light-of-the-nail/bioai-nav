@@ -1,0 +1,29 @@
+{
+  "name": "MoLeR",
+  "slug": "moler",
+  "category": "models",
+  "subcategory": "molecular",
+  "type": "model",
+  "description": "Microsoft's graph-based molecular generative model supporting scaffold-constrained generation for lead optimization.",
+  "longDescription": "MoLeR generates molecular graphs directly and can keep a supplied scaffold fixed, so chemists explore decorations around a known lead. The microsoft/molecule-generation repo implements it in PyTorch. It is exposed for conditional small-molecule generation through model services such as OpenAD.",
+  "url": "https://github.com/microsoft/molecule-generation",
+  "github": "https://github.com/microsoft/molecule-generation",
+  "tags": [
+    "molecule-generation",
+    "drug-discovery",
+    "scaffold",
+    "graph-model",
+    "microsoft"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Microsoft Research",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-31"
+}

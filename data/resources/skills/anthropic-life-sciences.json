@@ -1,0 +1,29 @@
+{
+  "name": "Anthropic Life Sciences Marketplace",
+  "slug": "anthropic-life-sciences",
+  "category": "skills",
+  "subcategory": "claude-code",
+  "type": "mcp-server",
+  "description": "Official Anthropic marketplace of MCP servers and skills for life sciences tools, installable into Claude Code for research workflows.",
+  "longDescription": "anthropics/life-sciences is Anthropic's Life Sciences Marketplace for Claude Code: a plugin collection of MCP servers and skills exposing specialized research tools and databases. It accompanies the Claude for Life Sciences launch, which added scientific connectors and drug-discovery-oriented capabilities. The clearest signal that life-science agent tooling is now a first-party ecosystem.",
+  "url": "https://github.com/anthropics/life-sciences",
+  "github": "https://github.com/anthropics/life-sciences",
+  "tags": [
+    "skills",
+    "mcp",
+    "life-science",
+    "anthropic",
+    "claude-code"
+  ],
+  "openSource": true,
+  "agentSupport": true,
+  "mcp": true,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Anthropic",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-28"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Nextflow",
+  "slug": "nextflow",
+  "category": "tools",
+  "subcategory": "bioinformatics",
+  "type": "tool",
+  "description": "Domain-specific language and engine for building scalable, reproducible scientific workflows that portably run on any computing platform.",
+  "longDescription": "Nextflow enables scalable, reproducible, and portable scientific workflows for research and production, using a domain-specific language on top of a powerful execution engine. Workflows run unchanged across local machines, HPC clusters, and the cloud, which has made it a de facto standard in bioinformatics. The nf-core ecosystem and official training at training.nextflow.io extend its reach.",
+  "url": "https://www.nextflow.io/",
+  "github": null,
+  "tags": [
+    "workflow-engine",
+    "bioinformatics",
+    "reproducibility",
+    "hpc",
+    "cloud"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Seqera Labs / Nextflow community",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-29"
+}

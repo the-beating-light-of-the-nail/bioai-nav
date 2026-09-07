@@ -1,0 +1,29 @@
+{
+  "name": "Geneformer",
+  "slug": "geneformer",
+  "category": "models",
+  "subcategory": "single-cell",
+  "type": "model",
+  "description": "Foundation transformer pretrained on ~30 million single-cell transcriptomes for context-aware gene-network prediction and transfer learning.",
+  "longDescription": "Geneformer (Nature 2023, Theodoris et al., Broad Institute) ranks genes by network importance within a specific cell context using only expression data. It enables transfer learning for cell-type classification and in silico perturbation prediction from limited data. Weights and code ship via Hugging Face with documentation on Read the Docs.",
+  "url": "https://huggingface.co/ctheodoris/Geneformer",
+  "github": null,
+  "tags": [
+    "single-cell",
+    "transcriptomics",
+    "gene-network",
+    "foundation-model",
+    "broad-institute"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Broad Institute",
+  "language": "Python",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-30"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "nf-core",
+  "slug": "nf-core",
+  "category": "tools",
+  "subcategory": "bioinformatics",
+  "type": "tool",
+  "description": "Community-maintained collection of 156 peer-reviewed, standardized bioinformatics pipelines built on Nextflow, with shared modules and training.",
+  "longDescription": "nf-core is a community-driven collection of 156 bioinformatics pipelines written in Nextflow, each peer-reviewed and standardized with shared modules and subworkflows. Its 2025 paper in a PMC-indexed journal documents how the framework empowers bioinformatics communities with reusable, best-practice pipelines. Running nf-core pipelines on virtually any computing environment makes production-grade reproducibility practical.",
+  "url": "https://nf-co.re/",
+  "github": null,
+  "tags": [
+    "pipelines",
+    "nextflow",
+    "bioinformatics",
+    "reproducibility",
+    "community"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "nf-core community",
+  "language": "Nextflow",
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-28"
+}

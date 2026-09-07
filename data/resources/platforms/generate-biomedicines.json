@@ -1,0 +1,29 @@
+{
+  "name": "Generate:Biomedicines",
+  "slug": "generate-biomedicines",
+  "category": "platforms",
+  "subcategory": "drug-discovery",
+  "type": "platform",
+  "description": "Flagship-founded generative biology company programming novel protein therapeutics; published the Chroma protein generator in Nature.",
+  "longDescription": "Generate:Biomedicines trains generative models like Chroma to create therapeutic proteins beyond what evolution produced. Its platform spans target to molecule with integrated wet-lab validation, plus a multi-target Novartis collaboration. The company positions itself as a drug generation rather than drug discovery company.",
+  "url": "https://generatebiomedicines.com/",
+  "github": null,
+  "tags": [
+    "generative-biology",
+    "protein-design",
+    "drug-discovery",
+    "flagship",
+    "therapeutics"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "Generate:Biomedicines (Flagship Pioneering)",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-28"
+}

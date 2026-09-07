@@ -1,0 +1,29 @@
+{
+  "name": "Rosetta Documentation",
+  "slug": "rosetta-docs",
+  "category": "learning",
+  "subcategory": "documentation",
+  "type": "docs",
+  "description": "Official documentation and tutorials for the Rosetta macromolecular modeling suite covering structure prediction, docking, and protein design.",
+  "longDescription": "The official RosettaCommons documentation covers Rosetta's capabilities for structure prediction, design, and remodeling of proteins and nucleic acids, developed since 1998. It includes a Getting Started guide, tutorials, demos, and protocol captures for protein design and protein-protein docking, complemented by the Leman et al. 2020 Nature Methods paper. Rosetta remains the classical, physics-based counterpoint to modern deep-learning protein design.",
+  "url": "https://docs.rosettacommons.org/docs/latest/Home",
+  "github": "https://github.com/RosettaCommons/rosetta",
+  "tags": [
+    "documentation",
+    "tutorials",
+    "protein-design",
+    "modeling",
+    "rosetta"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "RosettaCommons",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-08-29"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "BAIO — AI × Biology Briefing",
+  "slug": "baio",
+  "category": "directories",
+  "subcategory": null,
+  "type": "directory",
+  "description": "Twice-weekly briefing tracking AI x biology news, research, deals, and tools, with a browsable public archive of past issues.",
+  "longDescription": "BAIO is a newsletter-first intelligence source covering the intersection of AI and biology: models, papers, deals, and tooling distilled into 5-minute reads, delivered twice a week. Its public archive doubles as a searchable timeline of the AI-bio field. Useful for keeping up with new BioAI tools between deeper dives.",
+  "url": "https://www.baio.technology/",
+  "github": null,
+  "tags": [
+    "newsletter",
+    "bioai",
+    "news",
+    "research",
+    "tools"
+  ],
+  "openSource": false,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "BAIO",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-05"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "awesome-ai-bio-labs",
+  "slug": "awesome-ai-bio-labs",
+  "category": "awesome",
+  "subcategory": "bioai",
+  "type": "awesome-list",
+  "description": "Curated, auditable directory of AI-first biology labs worldwide, organized lab-by-lab with provenance-tagged data.",
+  "longDescription": "BioTender-max/awesome-ai-bio-labs is a curated directory of AI-first biology labs worldwide, organized around labs and teams with provenance-tagged entries. It is also browsable as a website at biotender.online/labs. Useful for finding who is actually building BioAI, not just which tools exist.",
+  "url": "https://github.com/BioTender-max/awesome-ai-bio-labs",
+  "github": "https://github.com/BioTender-max/awesome-ai-bio-labs",
+  "tags": [
+    "curated-list",
+    "bioai",
+    "labs",
+    "directory"
+  ],
+  "openSource": true,
+  "agentSupport": false,
+  "mcp": false,
+  "openclaw": false,
+  "featured": false,
+  "status": "active",
+  "publisher": "BioTender-max",
+  "language": null,
+  "stars": null,
+  "license": null,
+  "addedAt": "2026-09-05"
+}
